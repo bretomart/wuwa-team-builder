@@ -952,10 +952,10 @@
     "outroSkill": {
       "buffType": "Dual Amplify",
       "targetAttribute": "Fusion",
-      "targetDamageType": "Resonance Skill",
+      "targetDamageType": "Resonance Liberation",
       "value": 20,
       "duration": 10,
-      "description": "Next resonator gains 20% Fusion DMG Deepen and 25% Resonance Skill DMG Deepen for 10s or until switched."
+      "description": "Next resonator gains 20% Fusion DMG Deepen and 25% Resonance Liberation DMG Deepen for 10s or until switched."
     },
     "concertoSpeed": "Fast",
     "fieldTimeNeeds": "Medium",
@@ -3993,11 +3993,12 @@
     "role": "Main DPS",
     "primaryDamageSource": "Resonance Skill",
     "outroSkill": {
-      "buffType": "Damage Amplify",
+      "buffType": "Dual Amplify",
       "targetAttribute": "Havoc",
+      "targetDamageType": "Heavy",
       "value": 20,
       "duration": 14,
-      "description": "Deals Havoc burst on exit and grants incoming resonator 20% Havoc DMG Deepen for 14s."
+      "description": "Deals Havoc burst on exit and grants incoming resonator 20% Havoc DMG Deepen and 25% Heavy Attack DMG Deepen for 14s."
     },
     "concertoSpeed": "Standard",
     "fieldTimeNeeds": "High",

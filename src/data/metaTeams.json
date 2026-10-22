@@ -75,9 +75,9 @@
     "id": "changli-quickswap",
     "name": "Changli Quickswap",
     "slots": ["changli", "encore", "verina"],
-    "description": "High-skill dual-carry quickswap team. Changli bestows 20% Fusion and 25% Resonance Skill Deepen into Encore, while both seamlessly weave animations, skill cancels, and heavy burst windows with zero downtime.",
+    "description": "High-skill dual-carry quickswap team. Changli bestows 20% Fusion and 25% Resonance Liberation Deepen into Encore, while both seamlessly weave animations, skill cancels, and heavy burst windows with zero downtime.",
     "strengths": [
-      "Changli grants +20% Fusion DMG and +25% Resonance Skill DMG to Encore",
+      "Changli grants +20% Fusion DMG and +25% Resonance Liberation DMG to Encore",
       "True dual-carry quickswap engine with negligible field-time starvation",
       "Encore can safely switch out during heavy skill animations while continuing damage",
       "Tremendous burst potential against aggressive boss encounters"
