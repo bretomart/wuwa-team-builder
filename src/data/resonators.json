@@ -150,7 +150,8 @@
           "description": "Attacks generate Momentum stacks, consuming them to increase Emerald Storm Liberation multiplier by up to 240%."
         }
       ]
-    }
+    },
+    "avatar": "resonators/jiyan.png"
   },
   {
     "id": "mortefi",
@@ -302,7 +303,8 @@
           "description": "Casting Resonance Liberation increases team-wide ATK by 20% for 20s."
         }
       ]
-    }
+    },
+    "avatar": "resonators/mortefi.png"
   },
   {
     "id": "verina",
@@ -452,7 +454,8 @@
           "description": "Heavy attacks and Forte casts unleash powerful coordinated Starflower blooms."
         }
       ]
-    }
+    },
+    "avatar": "resonators/verina.png"
   },
   {
     "id": "shorekeeper",
@@ -602,7 +605,8 @@
           "description": "Maximizes domain amplification and turns Shorekeeper into an offensive coordinated powerhouse."
         }
       ]
-    }
+    },
+    "avatar": "resonators/shorekeeper.png"
   },
   {
     "id": "camellya",
@@ -754,7 +758,8 @@
           "description": "Enables sustained maximum Budding performance windows and peak multiplier execution."
         }
       ]
-    }
+    },
+    "avatar": "resonators/camellya.png"
   },
   {
     "id": "sanhua",
@@ -906,7 +911,8 @@
           "description": "Detonating Ice Prisms grants 10% team-wide ATK for 20s, stacking up to 2 times (20% total)."
         }
       ]
-    }
+    },
+    "avatar": "resonators/sanhua.png"
   },
   {
     "id": "yinlin",
@@ -1059,7 +1065,8 @@
           "description": "Basic Attacks trigger high-scaling Furious Thunder Electro strikes for 30s post-Liberation."
         }
       ]
-    }
+    },
+    "avatar": "resonators/yinlin.png"
   },
   {
     "id": "xiangli-yao",
@@ -1211,7 +1218,8 @@
           "description": "Intuition state attacks ignore 30% enemy DEF and multiply finisher output."
         }
       ]
-    }
+    },
+    "avatar": "resonators/xiangli-yao.png"
   },
   {
     "id": "calcharo",
@@ -1364,7 +1372,8 @@
           "description": "Death Messenger summons 2 Phantoms dealing 100% ATK Electro coordinated strikes."
         }
       ]
-    }
+    },
+    "avatar": "resonators/calcharo.png"
   },
   {
     "id": "changli",
@@ -1517,7 +1526,8 @@
           "description": "Resonance Skill and Flaming Sacrifice ignore 40% enemy DEF."
         }
       ]
-    }
+    },
+    "avatar": "resonators/changli.png"
   },
   {
     "id": "encore",
@@ -1669,7 +1679,8 @@
           "description": "Cosmos Rave enhances overall stats and triggers additional wooly flares."
         }
       ]
-    }
+    },
+    "avatar": "resonators/encore.png"
   },
   {
     "id": "zhezhi",
@@ -1822,7 +1833,8 @@
           "description": "Skill casts summon Ivory Herald dealing 120% extra damage as Basic Attack DMG."
         }
       ]
-    }
+    },
+    "avatar": "resonators/zhezhi.png"
   },
   {
     "id": "jinhsi",
@@ -1974,7 +1986,8 @@
           "description": "Increases Illuminous Epiphany multiplier by 45% and Incandescence bonus by 45%."
         }
       ]
-    }
+    },
+    "avatar": "resonators/jinhsi.png"
   },
   {
     "id": "baizhi",
@@ -2124,7 +2137,8 @@
           "description": "Revives a fallen team member to 100% HP once every 10 minutes."
         }
       ]
-    }
+    },
+    "avatar": "resonators/baizhi.png"
   },
   {
     "id": "taoqi",
@@ -2275,7 +2289,8 @@
           "description": "Converts 50% of DEF into Basic and Heavy Attack damage during Rocksteady stance."
         }
       ]
-    }
+    },
+    "avatar": "resonators/taoqi.png"
   },
   {
     "id": "danjin",
@@ -2427,7 +2442,8 @@
           "description": "Heavy Attack Chaoscleave increases ATK of all team members by 20% for 20s."
         }
       ]
-    }
+    },
+    "avatar": "resonators/danjin.png"
   },
   {
     "id": "aalto",
@@ -2579,7 +2595,8 @@
           "description": "Liberation grants +8% Crit Rate and Heavy Attacks through gate gain +50% DMG."
         }
       ]
-    }
+    },
+    "avatar": "resonators/aalto.png"
   },
   {
     "id": "yangyang",
@@ -2729,7 +2746,8 @@
           "description": "Mid-air Feather Release grants +20% ATK to all team members for 20s."
         }
       ]
-    }
+    },
+    "avatar": "resonators/yangyang.png"
   },
   {
     "id": "chixia",
@@ -2881,7 +2899,8 @@
           "description": "Boom Boom increases Basic Attack DMG bonus by 25% for 15s."
         }
       ]
-    }
+    },
+    "avatar": "resonators/chixia.png"
   },
   {
     "id": "yuanwu",
@@ -3032,7 +3051,8 @@
           "description": "All team members within Thunder Wedge gain +32% DEF for 3s."
         }
       ]
-    }
+    },
+    "avatar": "resonators/yuanwu.png"
   },
   {
     "id": "rover-havoc",
@@ -3184,7 +3204,8 @@
           "description": "During Dark Surge state, Rover Crit Rate is increased by 25%."
         }
       ]
-    }
+    },
+    "avatar": "resonators/rover-havoc.png"
   },
   {
     "id": "rover-spectro",
@@ -3335,7 +3356,8 @@
           "description": "Basic attacks reduce target Spectro RES by 10% for 20s."
         }
       ]
-    }
+    },
+    "avatar": "resonators/rover-spectro.png"
   },
   {
     "id": "augusta",
@@ -3487,7 +3509,8 @@
           "description": "Crown of Wills cap raised to 4 and heavy attacks generate 2 stacks simultaneously."
         }
       ]
-    }
+    },
+    "avatar": "resonators/augusta.png"
   },
   {
     "id": "iuno",
@@ -3640,7 +3663,8 @@
           "description": "Resonance Skill Absolute Fullness multiplier +1600% and resets Lunar Cycle."
         }
       ]
-    }
+    },
+    "avatar": "resonators/iuno.png"
   },
   {
     "id": "mornye",
@@ -3792,7 +3816,8 @@
           "description": "Critical Protocol deals multiple heavy Fusion strikes and restores Max Energy."
         }
       ]
-    }
+    },
+    "avatar": "resonators/mornye.png"
   },
   {
     "id": "chisa",
@@ -3942,7 +3967,8 @@
           "description": "Grants lethal damage survival (1 HP minimum) and upgrades Unseen Snare into Finality."
         }
       ]
-    }
+    },
+    "avatar": "resonators/chisa.png"
   },
   {
     "id": "sigrika",
@@ -4094,7 +4120,8 @@
           "description": "Targets take 30% more DMG from Sigrika and grants up to 60% DMG amplification."
         }
       ]
-    }
+    },
+    "avatar": "resonators/sigrika.png"
   },
   {
     "id": "hsin",
@@ -4246,7 +4273,8 @@
           "description": "Skill deals 40% more DMG and ignores 30% enemy DEF."
         }
       ]
-    }
+    },
+    "avatar": "resonators/hsin.png"
   },
   {
     "id": "qingxiao",
@@ -4398,7 +4426,8 @@
           "description": "Targets take 40% more damage from Heavy Attacks, Liberation, and Juque Perdition."
         }
       ]
-    }
+    },
+    "avatar": "resonators/qingxiao.png"
   },
   {
     "id": "carlotta",
@@ -4550,7 +4579,8 @@
           "description": "Death Knell fires double the number of crystal shards with massive DMG."
         }
       ]
-    }
+    },
+    "avatar": "resonators/carlotta.png"
   },
   {
     "id": "roccia",
@@ -4703,7 +4733,8 @@
           "description": "Imagination consumption ignores 60% DEF and grants additional aerial plunge loops."
         }
       ]
-    }
+    },
+    "avatar": "resonators/roccia.png"
   },
   {
     "id": "phoebe",
@@ -4855,7 +4886,8 @@
           "description": "Ring of Mirrors stagnates foes for 2s, grants +10% ATK, and triggers free Starflash."
         }
       ]
-    }
+    },
+    "avatar": "resonators/phoebe.png"
   },
   {
     "id": "brant",
@@ -5008,7 +5040,8 @@
           "description": "Mid-air attacks deal 30% more DMG and Forte triggers secondary blast."
         }
       ]
-    }
+    },
+    "avatar": "resonators/brant.png"
   },
   {
     "id": "cantarella",
@@ -5161,7 +5194,8 @@
           "description": "Basic Attacks deal +80% DMG and attacks ignore 30% DEF for 10s post-Liberation."
         }
       ]
-    }
+    },
+    "avatar": "resonators/cantarella.png"
   },
   {
     "id": "zani",
@@ -5313,7 +5347,8 @@
           "description": "Empowered attacks deal 40% more DMG with built-in death protection."
         }
       ]
-    }
+    },
+    "avatar": "resonators/zani.png"
   },
   {
     "id": "ciaccona",
@@ -5465,7 +5500,8 @@
           "description": "Ensemble Sylphs execute continuous high-scaling cooperative Aero strikes."
         }
       ]
-    }
+    },
+    "avatar": "resonators/ciaccona.png"
   },
   {
     "id": "cartethyia",
@@ -5617,7 +5653,8 @@
           "description": "Unique +40% multiplier increase specifically tailored for Fleurdelys."
         }
       ]
-    }
+    },
+    "avatar": "resonators/cartethyia.png"
   },
   {
     "id": "lupa",
@@ -5770,7 +5807,8 @@
           "description": "Forte, Liberation, and Intro ignore 30% DEF and Skill restores 100 Wolflame."
         }
       ]
-    }
+    },
+    "avatar": "resonators/lupa.png"
   },
   {
     "id": "phrolova",
@@ -5923,7 +5961,8 @@
           "description": "Hecate deals +300% Basic DMG and targets take 40% more DMG in Maestro."
         }
       ]
-    }
+    },
+    "avatar": "resonators/phrolova.png"
   },
   {
     "id": "lynae",
@@ -6076,7 +6115,8 @@
           "description": "Retains Lumiflow across swaps, bypassing initial setup animations."
         }
       ]
-    }
+    },
+    "avatar": "resonators/lynae.png"
   },
   {
     "id": "aemeath",
@@ -6228,7 +6268,8 @@
           "description": "Targets take 40% more Liberation DMG and attacks gain fixed 80/275 Crit profile."
         }
       ]
-    }
+    },
+    "avatar": "resonators/aemeath.png"
   },
   {
     "id": "luuk-herssen",
@@ -6380,7 +6421,8 @@
           "description": "Tune Breaks grant up to 60% DMG amplification, turning Liberation into screen-wide nukes."
         }
       ]
-    }
+    },
+    "avatar": "resonators/luuk-herssen.png"
   },
   {
     "id": "hiyuki",
@@ -6532,7 +6574,8 @@
           "description": "Unlocks peak execution multipliers and maximizes Glacio burst output."
         }
       ]
-    }
+    },
+    "avatar": "resonators/hiyuki.png"
   },
   {
     "id": "denia",
@@ -6685,7 +6728,8 @@
           "description": "Maximizes damage loops and turns Skill into rapid-firing high-multiplier nukes."
         }
       ]
-    }
+    },
+    "avatar": "resonators/denia.png"
   },
   {
     "id": "suisui",
@@ -6835,7 +6879,8 @@
           "description": "Maximizes defensive survival shields and personal sub-DPS contributions."
         }
       ]
-    }
+    },
+    "avatar": "resonators/suisui.png"
   },
   {
     "id": "yangyang-xuanling",
@@ -6987,7 +7032,8 @@
           "description": "Inflicting Havoc Bane triggers Voice Flux granting +40% overall damage multiplier."
         }
       ]
-    }
+    },
+    "avatar": "resonators/yangyang-xuanling.png"
   },
   {
     "id": "jingran",
@@ -7139,6 +7185,7 @@
           "description": "Summon structures gain hypercarry scaling and deal devastating HP-based Fusion strikes."
         }
       ]
-    }
+    },
+    "avatar": "resonators/jingran.png"
   }
 ]
