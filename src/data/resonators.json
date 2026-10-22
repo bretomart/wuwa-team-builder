@@ -7187,5 +7187,311 @@
       ]
     },
     "avatar": "resonators/jingran.png"
+  },
+  {
+    "id": "rover-aero",
+    "name": "Rover (Aero)",
+    "rarity": 5,
+    "attribute": "Aero",
+    "weaponType": "Sword",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Liberation",
+    "outroSkill": {
+      "buffType": "Amplify",
+      "targetAttribute": "Aero",
+      "value": 14,
+      "duration": 14,
+      "description": "Next resonator gains 14% Aero DMG amplify for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "High Crit DMG and Skill bonuses."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Top-tier Basic and Heavy attack amplification."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "High ATK with Concerto acceleration."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Craftable sword boosting ATK when above 80% HP."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 3,
+          "description": "Restores HP on Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Sierra Gale (5pc)",
+      "mainEcho": "Feilian Beringal",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Aero DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Liberation DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    },
+    "sequenceInvestment": {
+      "recommendedStop": "S2 to S6 (Story Unlocks)",
+      "priorityRank": "Low Priority / Luxury",
+      "pullPath": [
+        "S1: Resonance Skill DMG Bonus +30%",
+        "S2: Quickens Forte Aero accumulation",
+        "S6: Aero RES shred on vortex hits"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Gale Resonance",
+          "tier": "Moderate",
+          "description": "Resonance Skill DMG Bonus is increased by 30%."
+        },
+        {
+          "node": 2,
+          "name": "Zephyr Flow",
+          "tier": "Core Spike",
+          "description": "Resonance Skill hits generate additional Aero Forte and reduce dodge stamina cost."
+        },
+        {
+          "node": 3,
+          "name": "Tempest Cleave",
+          "tier": "Moderate",
+          "description": "Resonance Liberation damage multiplier increased by 40%."
+        },
+        {
+          "node": 4,
+          "name": "Cyclone Horizon",
+          "tier": "Moderate",
+          "description": "Vortex suction area increased and pulls lightweight targets with greater force."
+        },
+        {
+          "node": 5,
+          "name": "Aero Reflection",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Gale Dominion",
+          "tier": "Core Spike",
+          "description": "Attacks within the Aero vortex shred target Aero RES by 10% for 20s."
+        }
+      ]
+    },
+    "avatar": "resonators/rover-aero.png"
+  },
+  {
+    "id": "rover-electro",
+    "name": "Rover (Electro)",
+    "rarity": 5,
+    "attribute": "Electro",
+    "weaponType": "Sword",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Amplify",
+      "targetAttribute": "Electro",
+      "value": 14,
+      "duration": 14,
+      "description": "Next resonator gains 14% Electro DMG amplify for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "High Crit DMG and Skill bonuses."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Top-tier Basic and Heavy attack amplification."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "High ATK with Concerto acceleration."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Craftable sword boosting ATK when above 80% HP."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 3,
+          "description": "Restores HP on Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Void Thunder (5pc)",
+      "mainEcho": "Thundering Mephis / Tempest Mephis",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Electro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Skill",
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 9,
+        "resonanceSkill": 9,
+        "resonanceLiberation": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Resonance Skill and Forte nodes to maximize lightning strike triggers."
+    },
+    "sequenceInvestment": {
+      "recommendedStop": "S2 to S6 (Story Unlocks)",
+      "priorityRank": "Low Priority / Luxury",
+      "pullPath": [
+        "S1: Resonance Skill cooldown reduction",
+        "S2: Lightning Surge bonus Crit Rate",
+        "S6: Electro RES shred on discharge"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Static Discharge",
+          "tier": "Moderate",
+          "description": "Resonance Skill cooldown reduced by 1.5s on successful hits."
+        },
+        {
+          "node": 2,
+          "name": "Thunderous Surge",
+          "tier": "Core Spike",
+          "description": "Entering Lightning Surge grants +15% Crit Rate and increases stagger potential."
+        },
+        {
+          "node": 3,
+          "name": "Fulmination Cleave",
+          "tier": "Moderate",
+          "description": "Resonance Liberation damage multiplier increased by 40%."
+        },
+        {
+          "node": 4,
+          "name": "Ionized Field",
+          "tier": "Moderate",
+          "description": "Electro coordinated attacks trigger additional lightning arcs to adjacent foes."
+        },
+        {
+          "node": 5,
+          "name": "Voltage Conduit",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Lightning Dominion",
+          "tier": "Core Spike",
+          "description": "Discharge attacks reduce target Electro RES by 10% for 20s."
+        }
+      ]
+    },
+    "avatar": "resonators/rover-electro.png"
   }
 ]
