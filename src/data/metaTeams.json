@@ -1,0 +1,140 @@
+[
+  {
+    "id": "jiyan-hypercarry",
+    "name": "Jiyan Hypercarry",
+    "slots": ["jiyan", "mortefi", "verina"],
+    "description": "Standard high-octane Aero hypercarry setup. Mortefi supplies a massive 38% Heavy Attack Deepen and coordinated strikes, while Verina delivers universal 15% All-DMG Deepen, rapid concerto build, and robust team heals.",
+    "strengths": [
+      "Mortefi +38% Heavy Attack Deepen perfectly amplifies Qingloong heavy attack mode",
+      "High AoE crowd control and vortex suction during Jiyan's Liberation",
+      "Very fast and reliable Concerto rotations from Mortefi and Verina",
+      "Full team survivability with Verina's heals and death prevention shield"
+    ],
+    "weaknesses": [
+      "Jiyan requires high field time to deplete dragon gauge",
+      "Mortefi is vulnerable during pistol combos without interruption resistance",
+      "Aero-resistant enemies noticeably slow down clear times"
+    ],
+    "rotationOrder": ["Verina", "Mortefi", "Jiyan"]
+  },
+  {
+    "id": "camellya-hypercarry",
+    "name": "Camellya Hypercarry",
+    "slots": ["camellya", "sanhua", "shorekeeper"],
+    "description": "Devastating basic-attack Havoc hypercarry team. Sanhua brings lightning-fast 5-second concerto rotations and a 38% Basic Attack amplification, coupled with Shorekeeper's domain of guaranteed crit rate, crit damage, and damage amplification.",
+    "strengths": [
+      "Sanhua provides +38% Basic Attack Deepen matching Camellya's primary damage source",
+      "Shorekeeper offers team-wide Crit Rate and Crit DMG domain amplification",
+      "Sanhua boasts the fastest concerto generation speed in Wuthering Waves",
+      "Extreme mobility and wide-sweeping Havoc AoE blossoms"
+    ],
+    "weaknesses": [
+      "Camellya can be knocked out of mid-air vine combos without proper timing",
+      "Demands precise detonation timing for Sanhua's ice spikes",
+      "No secondary shielder; relies solely on Shorekeeper's domain healing"
+    ],
+    "rotationOrder": ["Shorekeeper", "Sanhua", "Camellya"]
+  },
+  {
+    "id": "xiangli-yao-burst",
+    "name": "Xiangli Yao Electro Burst",
+    "slots": ["xiangli-yao", "yinlin", "verina"],
+    "description": "Premier Electro burst squad. Yinlin imparts 20% Electro Deepen and 25% Resonance Liberation Deepen directly into Xiangli Yao's devastating Liberation matrix activations, supported by Verina's universal damage amplify.",
+    "strengths": [
+      "Yinlin's Outro delivers an exact dual match: +20% Electro DMG and +25% Resonance Liberation DMG",
+      "Continuous off-field Electro coordinated attacks from Yinlin's Judgment Marks",
+      "Smooth quickswap windows between Yao's matrix cubes and Yinlin's puppet strikes",
+      "Verina secures consistent ATK buffs and rapid concerto cycling"
+    ],
+    "weaknesses": [
+      "Demands tight Outro execution before Xiangli Yao enters his Law of Logic state",
+      "Both Xiangli Yao and Yinlin compete for high-level Rectifier/Gauntlet echo sets",
+      "Single-target bias on Xiangli Yao's primary slam combos"
+    ],
+    "rotationOrder": ["Verina", "Yinlin", "Xiangli Yao"]
+  },
+  {
+    "id": "jinhsi-skill-nuke",
+    "name": "Jinhsi Skill Nuke",
+    "slots": ["jinhsi", "zhezhi", "shorekeeper"],
+    "description": "Highest single-instance damage ceiling in the game. Zhezhi provides off-field coordinated Glacio attacks to stack Jinhsi's Incandescence gauge while buffing Skill DMG by 25% and Glacio by 20%. Shorekeeper maximizes nuke crits.",
+    "strengths": [
+      "Zhezhi supplies +25% Resonance Skill Deepen, directly scaling Illuminous Epiphany",
+      "Multi-element off-field coordinated attacks quickly cap Jinhsi's 50 Incandescence stacks",
+      "Shorekeeper's domain virtually eliminates non-critical strike misses on the skill nuke",
+      "Outstanding aerial combat safety and elevation advantage"
+    ],
+    "weaknesses": [
+      "Substantial DPS loss if Jinhsi's Dragon breath nuke misses or fails to crit",
+      "Longer rotation window required to properly charge Zhezhi's phantasms",
+      "Heavy reliance on 5-star characters across all three slots"
+    ],
+    "rotationOrder": ["Shorekeeper", "Zhezhi", "Jinhsi"]
+  },
+  {
+    "id": "changli-quickswap",
+    "name": "Changli Quickswap",
+    "slots": ["changli", "encore", "verina"],
+    "description": "High-skill dual-carry quickswap team. Changli bestows 20% Fusion and 25% Resonance Skill Deepen into Encore, while both seamlessly weave animations, skill cancels, and heavy burst windows with zero downtime.",
+    "strengths": [
+      "Changli grants +20% Fusion DMG and +25% Resonance Skill DMG to Encore",
+      "True dual-carry quickswap engine with negligible field-time starvation",
+      "Encore can safely switch out during heavy skill animations while continuing damage",
+      "Tremendous burst potential against aggressive boss encounters"
+    ],
+    "weaknesses": [
+      "High mechanical skill required to maximize animation canceling and intro triggers",
+      "Tight dodge timings needed due to frequent character swaps in melee range",
+      "Strict rotation discipline necessary to avoid overwriting Outro buffs"
+    ],
+    "rotationOrder": ["Verina", "Changli", "Encore"]
+  },
+  {
+    "id": "hsin-electro-unison",
+    "name": "Hsin Electro Unison Core",
+    "slots": ["xiangli-yao", "hsin", "shorekeeper"],
+    "description": "Peak version 3.7 Electro synergy matrix. Sentinel Hsin consumes Unison charges to pass 20% Electro Deepen and 20% All DMG Amplification into Xiangli Yao, with Shorekeeper supplying domain crit stabilization.",
+    "strengths": [
+      "Hsin Unison Outro provides +20% Electro DMG and +20% All DMG Deepen",
+      "Hsin seamlessly triggers off-field coordinated resonance skill detonations",
+      "Shorekeeper domain buffs amplify high-scaling Liberation matrix crits"
+    ],
+    "weaknesses": [
+      "Requires management of Hsin's Unison vs Electro Flare mode charges",
+      "Strict intro timing required to preserve Unison Boon stacks"
+    ],
+    "rotationOrder": ["Shorekeeper", "Hsin", "Xiangli Yao"]
+  },
+  {
+    "id": "qingxiao-wind-orchestra",
+    "name": "Qingxiao Heart Sword Carry",
+    "slots": ["qingxiao", "ciaccona", "verina"],
+    "description": "Premier version 3.6 Aero orchestra team. Ciaccona amplifies Aero damage and Aero Erosion by 100%, feeding directly into Qingxiao's Ephemeral Transcendence and 800% multiplier Lingering Song finisher.",
+    "strengths": [
+      "Ciaccona Outro doubles Aero Erosion scaling by +100% and grants Aero deepen",
+      "Qingxiao delivers devastating 800% ATK Outro burst nukes",
+      "Verina ensures team-wide 15% All Damage Deepen and instant concerto cycling"
+    ],
+    "weaknesses": [
+      "Demands stance alternation between Drawn and Sheathed modes",
+      "Requires strict resource capping on both Qin Heart and Sword Cadence gauges"
+    ],
+    "rotationOrder": ["Verina", "Ciaccona", "Qingxiao"]
+  },
+  {
+    "id": "carlotta-frost-shatter",
+    "name": "Carlotta Frost Shatter",
+    "slots": ["carlotta", "zhezhi", "shorekeeper"],
+    "description": "Devastating Glacio Skill burst lineup. Zhezhi provides +20% Glacio and +25% Resonance Skill Deepen directly into Carlotta's transformed shotgun blasts and 794.2% Closing Remark Outro nuke.",
+    "strengths": [
+      "Zhezhi grants +20% Glacio and +25% Resonance Skill DMG matching Carlotta's core kit",
+      "Carlotta's shotgun mode delivers extreme single-target stagger",
+      "Shorekeeper guarantees consistent critical strikes on high-multiplier skill shots"
+    ],
+    "weaknesses": [
+      "Carlotta requires uninterrupted aim time during shotgun stance",
+      "Zhezhi requires a full phantasm rotation to battery concerto"
+    ],
+    "rotationOrder": ["Shorekeeper", "Zhezhi", "carlotta"]
+  }
+]

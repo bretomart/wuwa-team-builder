@@ -1,0 +1,4932 @@
+[
+  {
+    "id": "jiyan",
+    "name": "Jiyan",
+    "rarity": 5,
+    "attribute": "Aero",
+    "weaponType": "Broadblade",
+    "role": "Main DPS",
+    "primaryDamageSource": "Heavy",
+    "outroSkill": {
+      "buffType": "Coordinated Attack",
+      "targetAttribute": "Aero",
+      "value": 313.4,
+      "duration": 8,
+      "description": "When incoming character lands hits, calls Jiyan to perform a coordinated Aero lance plunge attack (up to 2 times every 1s)."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Verdant Summit",
+          "rarity": 5,
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+        },
+        {
+          "name": "Ages of Harvest",
+          "rarity": 5,
+          "description": "High Crit Rate with Resonance Skill boost."
+        },
+        {
+          "name": "Lustrous Razor",
+          "rarity": 5,
+          "description": "Standard 5★ with ATK% and Liberation DMG."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Autumntrace",
+          "rarity": 4,
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+        },
+        {
+          "name": "Helios Cleaver",
+          "rarity": 4,
+          "description": "High ATK scaling upon casting Resonance Skill."
+        },
+        {
+          "name": "Broadblade#41",
+          "rarity": 4,
+          "description": "Craftable option with Energy Recharge and self healing."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Broadblade of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Broadblade",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type I",
+          "rarity": 3,
+          "description": "Restores HP upon landing Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Sierra Gale (5pc)",
+      "mainEcho": "Feilian Beringal",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Aero DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Heavy DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jiyan's peak damage windows."
+    }
+  },
+  {
+    "id": "mortefi",
+    "name": "Mortefi",
+    "rarity": 4,
+    "attribute": "Fusion",
+    "weaponType": "Pistols",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Liberation",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetDamageType": "Heavy",
+      "value": 38,
+      "duration": 14,
+      "description": "Next resonator gains 38% Heavy Attack DMG Amplification for 14s or until switched."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Static Mist",
+          "rarity": 5,
+          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally."
+        },
+        {
+          "name": "The Legend of The White Stallion",
+          "rarity": 5,
+          "description": "Burst stat stick."
+        },
+        {
+          "name": "Ranger of the Hollow",
+          "rarity": 5,
+          "description": "Crit Rate scaling."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Cadenza",
+          "rarity": 4,
+          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Undying Flame",
+          "rarity": 4,
+          "description": "Liberation damage amplification."
+        },
+        {
+          "name": "Novaburst",
+          "rarity": 4,
+          "description": "Consistent ATK% increase."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Pistols of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Pistols of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Pistols",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Liberation DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "verina",
+    "name": "Verina",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "weaponType": "Rectifier",
+    "role": "Support",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "All Damage Deepen",
+      "value": 15,
+      "duration": 30,
+      "description": "Grants 15% All-Type Damage Deepen Amplification to all team members for 30s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "High base stats and Energy Recharge."
+        },
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Stat stick."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill boost."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "The undisputed #1 support rectifier: fast Concerto battery."
+        },
+        {
+          "name": "Comet Flare",
+          "rarity": 4,
+          "description": "Increases Healing Bonus by 12% upon hitting targets."
+        },
+        {
+          "name": "Rectifier#25",
+          "rarity": 4,
+          "description": "Craftable Energy Recharge."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Originite: Type V",
+          "rarity": 3,
+          "description": "Heals character upon landing Basic Attacks."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Energy generation."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Rejuvenating Glow (5pc)",
+      "mainEcho": "Bell-Borne Geochelone / Fallacy of No Return",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Healing Bonus% or HP%",
+        "cost3": "Energy Recharge% / Attribute DMG%",
+        "cost1": "HP% or ATK%"
+      },
+      "substatsPriority": [
+        "Energy Recharge (Target 160%+)",
+        "HP% / DEF%",
+        "ATK%",
+        "Flat HP"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 8,
+        "resonanceSkill": 6,
+        "basicAttack": 1,
+        "introSkill": 4
+      },
+      "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
+    }
+  },
+  {
+    "id": "shorekeeper",
+    "name": "Shorekeeper",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "weaponType": "Rectifier",
+    "role": "Support",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Crit & All Damage Deepen",
+      "value": 15,
+      "duration": 30,
+      "description": "Grants team Crit Rate, Crit DMG, and 15% All Damage Deepen amplification across stellar domains."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "High base stats and Energy Recharge."
+        },
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Stat stick."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill boost."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "The undisputed #1 support rectifier: fast Concerto battery."
+        },
+        {
+          "name": "Comet Flare",
+          "rarity": 4,
+          "description": "Increases Healing Bonus by 12% upon hitting targets."
+        },
+        {
+          "name": "Rectifier#25",
+          "rarity": 4,
+          "description": "Craftable Energy Recharge."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Originite: Type V",
+          "rarity": 3,
+          "description": "Heals character upon landing Basic Attacks."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Energy generation."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Rejuvenating Glow (5pc)",
+      "mainEcho": "Bell-Borne Geochelone / Fallacy of No Return",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Healing Bonus% or HP%",
+        "cost3": "Energy Recharge% / Attribute DMG%",
+        "cost1": "HP% or ATK%"
+      },
+      "substatsPriority": [
+        "Energy Recharge (Target 160%+)",
+        "HP% / DEF%",
+        "ATK%",
+        "Flat HP"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 8,
+        "resonanceSkill": 6,
+        "basicAttack": 1,
+        "introSkill": 4
+      },
+      "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
+    }
+  },
+  {
+    "id": "camellya",
+    "name": "Camellya",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "weaponType": "Sword",
+    "role": "Main DPS",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetAttribute": "Havoc",
+      "value": 479,
+      "duration": 0,
+      "description": "Deals 479% Havoc DMG on switch out to nearby enemies."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "High Crit DMG and Skill bonuses."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Top-tier Basic and Heavy attack amplification."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "High ATK with Concerto acceleration."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Craftable sword boosting ATK when above 80% HP."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 3,
+          "description": "Restores HP on Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Sun-sinking Eclipse (5pc)",
+      "mainEcho": "Crownless / Dreamless",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Havoc DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Basic DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 9,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Camellya's peak damage windows."
+    }
+  },
+  {
+    "id": "sanhua",
+    "name": "Sanhua",
+    "rarity": 4,
+    "attribute": "Glacio",
+    "weaponType": "Sword",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetDamageType": "Basic",
+      "value": 38,
+      "duration": 14,
+      "description": "Next resonator gains 38% Basic Attack DMG Amplification for 14s or until switched."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "Skill amplify and high base stat."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Stat stick."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "Concerto Energy restoration on Outro trigger."
+        },
+        {
+          "name": "Lunar Cutter",
+          "rarity": 4,
+          "description": "High burst ATK stacking on switch-in."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Consistent normal/heavy boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Sword of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon skill cast."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Glacio DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Basic DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "yinlin",
+    "name": "Yinlin",
+    "rarity": 5,
+    "attribute": "Electro",
+    "weaponType": "Rectifier",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Liberation",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Electro",
+      "targetDamageType": "Resonance Liberation",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Electro DMG Deepen and 25% Resonance Liberation DMG Deepen for 14s or until switched."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill deepen and Electro RES shred."
+        },
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "Energy Recharge sustain."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Augment",
+          "rarity": 4,
+          "description": "Crit Rate provider."
+        },
+        {
+          "name": "Jinzhou Keeper",
+          "rarity": 4,
+          "description": "ATK boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Rectifier of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage boost."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Electro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Liberation DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "xiangli-yao",
+    "name": "Xiangli Yao",
+    "rarity": 5,
+    "attribute": "Electro",
+    "weaponType": "Gauntlets",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Liberation",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Electro",
+      "value": 237.6,
+      "duration": 0,
+      "description": "Strikes target with Electro DMG scaling at 237.63%."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Abyss Surges",
+          "rarity": 5,
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+        },
+        {
+          "name": "Verity's Handle",
+          "rarity": 5,
+          "description": "Crit Rate and Liberation bonus."
+        },
+        {
+          "name": "Iron Mountain Fist",
+          "rarity": 5,
+          "description": "Heavy attack and crit damage scaling."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Stonard",
+          "rarity": 4,
+          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost."
+        },
+        {
+          "name": "Hollow Mirage",
+          "rarity": 4,
+          "description": "Stacking ATK and DEF bonus up to 24%."
+        },
+        {
+          "name": "Gauntlets#21D",
+          "rarity": 4,
+          "description": "Craftable gauntlets boosting Basic/Heavy DMG."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Gauntlets of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Gauntlets",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type IV",
+          "rarity": 3,
+          "description": "Restores HP on normal hits."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Void Thunder (5pc)",
+      "mainEcho": "Thundering Mephis / Tempest Mephis",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Electro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Liberation DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Xiangli Yao's peak damage windows."
+    }
+  },
+  {
+    "id": "calcharo",
+    "name": "Calcharo",
+    "rarity": 5,
+    "attribute": "Electro",
+    "weaponType": "Broadblade",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Liberation",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Electro",
+      "value": 195.9,
+      "duration": 0,
+      "description": "Summons phantom to slash forward dealing 195.98% Electro DMG."
+    },
+    "concertoSpeed": "Slow",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Verdant Summit",
+          "rarity": 5,
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+        },
+        {
+          "name": "Ages of Harvest",
+          "rarity": 5,
+          "description": "High Crit Rate with Resonance Skill boost."
+        },
+        {
+          "name": "Lustrous Razor",
+          "rarity": 5,
+          "description": "Standard 5★ with ATK% and Liberation DMG."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Autumntrace",
+          "rarity": 4,
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+        },
+        {
+          "name": "Helios Cleaver",
+          "rarity": 4,
+          "description": "High ATK scaling upon casting Resonance Skill."
+        },
+        {
+          "name": "Broadblade#41",
+          "rarity": 4,
+          "description": "Craftable option with Energy Recharge and self healing."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Broadblade of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Broadblade",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type I",
+          "rarity": 3,
+          "description": "Restores HP upon landing Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Void Thunder (5pc)",
+      "mainEcho": "Thundering Mephis / Tempest Mephis",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Electro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Liberation DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Calcharo's peak damage windows."
+    }
+  },
+  {
+    "id": "changli",
+    "name": "Changli",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "weaponType": "Sword",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Fusion",
+      "targetDamageType": "Resonance Skill",
+      "value": 20,
+      "duration": 10,
+      "description": "Next resonator gains 20% Fusion DMG Deepen and 25% Resonance Skill DMG Deepen for 10s or until switched."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Medium",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "Skill amplify and high base stat."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Stat stick."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "Concerto Energy restoration on Outro trigger."
+        },
+        {
+          "name": "Lunar Cutter",
+          "rarity": 4,
+          "description": "High burst ATK stacking on switch-in."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Consistent normal/heavy boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Sword of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon skill cast."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "encore",
+    "name": "Encore",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "weaponType": "Rectifier",
+    "role": "Main DPS",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Field Damage",
+      "targetAttribute": "Fusion",
+      "value": 176.7,
+      "duration": 6,
+      "description": "Generates a thermal flame zone dealing 176.76% Fusion DMG per second for 6s."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG."
+        },
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Crit Rate and team elemental DMG."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Crit Rate and massive Resonance Skill DMG."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Augment",
+          "rarity": 4,
+          "description": "Battle Pass rectifier with Crit Rate and ATK boost upon Liberation."
+        },
+        {
+          "name": "Jinzhou Keeper",
+          "rarity": 4,
+          "description": "High ATK% and HP synergy."
+        },
+        {
+          "name": "Rectifier#25",
+          "rarity": 4,
+          "description": "Craftable rectifier with Energy Recharge."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Rectifier of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type V",
+          "rarity": 3,
+          "description": "Restores HP on normal hits."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Molten Rift (5pc)",
+      "mainEcho": "Inferno Rider",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Basic DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 9,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Encore's peak damage windows."
+    }
+  },
+  {
+    "id": "zhezhi",
+    "name": "Zhezhi",
+    "rarity": 5,
+    "attribute": "Glacio",
+    "weaponType": "Rectifier",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Glacio",
+      "targetDamageType": "Resonance Skill",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Glacio DMG Deepen and 25% Resonance Skill DMG Deepen for 14s or until switched."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill deepen and Electro RES shred."
+        },
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "Energy Recharge sustain."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Augment",
+          "rarity": 4,
+          "description": "Crit Rate provider."
+        },
+        {
+          "name": "Jinzhou Keeper",
+          "rarity": 4,
+          "description": "ATK boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Rectifier of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage boost."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Glacio DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "jinhsi",
+    "name": "Jinhsi",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "weaponType": "Broadblade",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Spectro",
+      "value": 448.8,
+      "duration": 0,
+      "description": "Unleashes solar flare dealing 448.8% Spectro DMG to target."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Verdant Summit",
+          "rarity": 5,
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+        },
+        {
+          "name": "Ages of Harvest",
+          "rarity": 5,
+          "description": "High Crit Rate with Resonance Skill boost."
+        },
+        {
+          "name": "Lustrous Razor",
+          "rarity": 5,
+          "description": "Standard 5★ with ATK% and Liberation DMG."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Autumntrace",
+          "rarity": 4,
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+        },
+        {
+          "name": "Helios Cleaver",
+          "rarity": 4,
+          "description": "High ATK scaling upon casting Resonance Skill."
+        },
+        {
+          "name": "Broadblade#41",
+          "rarity": 4,
+          "description": "Craftable option with Energy Recharge and self healing."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Broadblade of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Broadblade",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type I",
+          "rarity": 3,
+          "description": "Restores HP upon landing Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Celestial Light (5pc)",
+      "mainEcho": "Jue / Mourning Aix",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Spectro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jinhsi's peak damage windows."
+    }
+  },
+  {
+    "id": "baizhi",
+    "name": "Baizhi",
+    "rarity": 4,
+    "attribute": "Glacio",
+    "weaponType": "Rectifier",
+    "role": "Support",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "All Damage Deepen",
+      "value": 15,
+      "duration": 6,
+      "description": "Heals incoming resonator and grants 15% All-Type Damage Deepen for 6s."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "High base stats and Energy Recharge."
+        },
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Stat stick."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill boost."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "The undisputed #1 support rectifier: fast Concerto battery."
+        },
+        {
+          "name": "Comet Flare",
+          "rarity": 4,
+          "description": "Increases Healing Bonus by 12% upon hitting targets."
+        },
+        {
+          "name": "Rectifier#25",
+          "rarity": 4,
+          "description": "Craftable Energy Recharge."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Originite: Type V",
+          "rarity": 3,
+          "description": "Heals character upon landing Basic Attacks."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Energy generation."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Rejuvenating Glow (5pc)",
+      "mainEcho": "Bell-Borne Geochelone / Fallacy of No Return",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Healing Bonus% or HP%",
+        "cost3": "Energy Recharge% / Attribute DMG%",
+        "cost1": "HP% or ATK%"
+      },
+      "substatsPriority": [
+        "Energy Recharge (Target 160%+)",
+        "HP% / DEF%",
+        "ATK%",
+        "Flat HP"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 8,
+        "resonanceSkill": 6,
+        "basicAttack": 1,
+        "introSkill": 4
+      },
+      "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
+    }
+  },
+  {
+    "id": "taoqi",
+    "name": "Taoqi",
+    "rarity": 4,
+    "attribute": "Havoc",
+    "weaponType": "Broadblade",
+    "role": "Support",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetDamageType": "Resonance Skill",
+      "value": 38,
+      "duration": 14,
+      "description": "Next resonator gains 38% Resonance Skill DMG Amplification for 14s or until switched."
+    },
+    "concertoSpeed": "Slow",
+    "fieldTimeNeeds": "Medium",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Lustrous Razor",
+          "rarity": 5,
+          "description": "High stat stick for team scaling."
+        },
+        {
+          "name": "Verdant Summit",
+          "rarity": 5,
+          "description": "Universal base attack."
+        },
+        {
+          "name": "Ages of Harvest",
+          "rarity": 5,
+          "description": "Crit utility."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Discord",
+          "rarity": 4,
+          "description": "Top support broadblade. Generates 16 Concerto Energy."
+        },
+        {
+          "name": "Dauntless Evernight",
+          "rarity": 4,
+          "description": "Provides DEF and team survivability scaling."
+        },
+        {
+          "name": "Broadblade#41",
+          "rarity": 4,
+          "description": "Energy Recharge sustain."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Originite: Type IV",
+          "rarity": 3,
+          "description": "Healing sustain on attack."
+        },
+        {
+          "name": "Guardian Broadblade",
+          "rarity": 3,
+          "description": "Defensive utility."
+        },
+        {
+          "name": "Broadblade of Voyager",
+          "rarity": 3,
+          "description": "Energy generation."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Rejuvenating Glow (5pc)",
+      "mainEcho": "Bell-Borne Geochelone / Fallacy of No Return",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Healing Bonus% or HP%",
+        "cost3": "Energy Recharge% / Attribute DMG%",
+        "cost1": "HP% or ATK%"
+      },
+      "substatsPriority": [
+        "Energy Recharge (Target 160%+)",
+        "HP% / DEF%",
+        "ATK%",
+        "Flat HP"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 8,
+        "resonanceSkill": 6,
+        "basicAttack": 1,
+        "introSkill": 4
+      },
+      "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
+    }
+  },
+  {
+    "id": "danjin",
+    "name": "Danjin",
+    "rarity": 4,
+    "attribute": "Havoc",
+    "weaponType": "Sword",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Heavy",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetAttribute": "Havoc",
+      "value": 23,
+      "duration": 14,
+      "description": "Next resonator gains 23% Havoc DMG Amplification for 14s or until switched."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Medium",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "Skill amplify and high base stat."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Stat stick."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "Concerto Energy restoration on Outro trigger."
+        },
+        {
+          "name": "Lunar Cutter",
+          "rarity": 4,
+          "description": "High burst ATK stacking on switch-in."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Consistent normal/heavy boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Sword of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon skill cast."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Havoc DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Heavy DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "aalto",
+    "name": "Aalto",
+    "rarity": 4,
+    "attribute": "Aero",
+    "weaponType": "Pistols",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetAttribute": "Aero",
+      "value": 23,
+      "duration": 14,
+      "description": "Next resonator gains 23% Aero DMG Deepen Amplification for 14s or until switched."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Static Mist",
+          "rarity": 5,
+          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally."
+        },
+        {
+          "name": "The Legend of The White Stallion",
+          "rarity": 5,
+          "description": "Burst stat stick."
+        },
+        {
+          "name": "Ranger of the Hollow",
+          "rarity": 5,
+          "description": "Crit Rate scaling."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Cadenza",
+          "rarity": 4,
+          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Undying Flame",
+          "rarity": 4,
+          "description": "Liberation damage amplification."
+        },
+        {
+          "name": "Novaburst",
+          "rarity": 4,
+          "description": "Consistent ATK% increase."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Pistols of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Pistols of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Pistols",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Aero DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Basic DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "yangyang",
+    "name": "Yangyang",
+    "rarity": 4,
+    "attribute": "Aero",
+    "weaponType": "Sword",
+    "role": "Support",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Energy Recharge",
+      "value": 20,
+      "duration": 5,
+      "description": "Recovers 4 Resonance Energy per second for the incoming character over 5s (total 20 Energy)."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Energy Recharge support."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "Base stat stick."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Universal stats."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "Concerto speedup."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 4,
+          "description": "Healing sustain."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Safe craftable."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Voyager",
+          "rarity": 3,
+          "description": "Energy recharge for support bursts."
+        },
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "ATK support buff."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Skill boost."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Rejuvenating Glow (5pc)",
+      "mainEcho": "Bell-Borne Geochelone / Fallacy of No Return",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Healing Bonus% or HP%",
+        "cost3": "Energy Recharge% / Attribute DMG%",
+        "cost1": "HP% or ATK%"
+      },
+      "substatsPriority": [
+        "Energy Recharge (Target 160%+)",
+        "HP% / DEF%",
+        "ATK%",
+        "Flat HP"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 8,
+        "resonanceSkill": 6,
+        "basicAttack": 1,
+        "introSkill": 4
+      },
+      "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
+    }
+  },
+  {
+    "id": "chixia",
+    "name": "Chixia",
+    "rarity": 4,
+    "attribute": "Fusion",
+    "weaponType": "Pistols",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Fusion",
+      "value": 530,
+      "duration": 0,
+      "description": "Fires high-caliber incendiary rounds dealing 530% Fusion DMG to enemies in front."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Static Mist",
+          "rarity": 5,
+          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff."
+        },
+        {
+          "name": "The Legend of The White Stallion",
+          "rarity": 5,
+          "description": "High shotgun burst amplify."
+        },
+        {
+          "name": "Ranger of the Hollow",
+          "rarity": 5,
+          "description": "High Crit DMG and basic attack multiplier."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Novaburst",
+          "rarity": 4,
+          "description": "Battle Pass pistols with dodge and sprint ATK stacking."
+        },
+        {
+          "name": "Undying Flame",
+          "rarity": 4,
+          "description": "Resonance Skill triggers 20% Liberation DMG."
+        },
+        {
+          "name": "Pistols#26",
+          "rarity": 4,
+          "description": "Craftable pistols providing ATK and DEF."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Pistols of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Pistols",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type III",
+          "rarity": 3,
+          "description": "Restores HP on normal hits."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Molten Rift (5pc)",
+      "mainEcho": "Inferno Rider",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Chixia's peak damage windows."
+    }
+  },
+  {
+    "id": "yuanwu",
+    "name": "Yuanwu",
+    "rarity": 4,
+    "attribute": "Electro",
+    "weaponType": "Gauntlets",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Vibration Break",
+      "value": 15,
+      "duration": 10,
+      "description": "Deals massive Vibration reduction to targets hit by active resonator for 10s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Abyss Surges",
+          "rarity": 5,
+          "description": "High Energy Recharge and consistent skill boosts."
+        },
+        {
+          "name": "Verity's Handle",
+          "rarity": 5,
+          "description": "Crit Rate stat stick with liberation deepen."
+        },
+        {
+          "name": "Iron Mountain Fist",
+          "rarity": 5,
+          "description": "Base stat utility."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Marcato",
+          "rarity": 4,
+          "description": "Top sub-DPS gauntlet: generates 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Stonard",
+          "rarity": 4,
+          "description": "Crit Rate consistency."
+        },
+        {
+          "name": "Hollow Mirage",
+          "rarity": 4,
+          "description": "ATK boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Gauntlets of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Gauntlets of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Gauntlets",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Electro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "rover-havoc",
+    "name": "Rover (Havoc)",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "weaponType": "Sword",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Liberation",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Havoc",
+      "value": 143.3,
+      "duration": 0,
+      "description": "Creates a dark spatial rift dealing 143.3% Havoc DMG to targets."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "High Crit DMG and Skill bonuses."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Top-tier Basic and Heavy attack amplification."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "High ATK with Concerto acceleration."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Craftable sword boosting ATK when above 80% HP."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 3,
+          "description": "Restores HP on Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Sun-sinking Eclipse (5pc)",
+      "mainEcho": "Crownless / Dreamless",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Havoc DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Liberation DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Rover (Havoc)'s peak damage windows."
+    }
+  },
+  {
+    "id": "rover-spectro",
+    "name": "Rover (Spectro)",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "weaponType": "Sword",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Stagnation Field",
+      "value": 3,
+      "duration": 3,
+      "description": "Generates a stasis zone that halts enemy actions for 3s."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "Medium",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "Skill amplify and high base stat."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Stat stick."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "Concerto Energy restoration on Outro trigger."
+        },
+        {
+          "name": "Lunar Cutter",
+          "rarity": 4,
+          "description": "High burst ATK stacking on switch-in."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Consistent normal/heavy boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Sword of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon skill cast."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Spectro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "augusta",
+    "name": "Augusta",
+    "rarity": 5,
+    "attribute": "Electro",
+    "weaponType": "Broadblade",
+    "role": "Main DPS",
+    "primaryDamageSource": "Heavy",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetAttribute": "Electro",
+      "value": 25,
+      "duration": 14,
+      "description": "Next resonator gains 25% Electro DMG Amplification for 14s."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Verdant Summit",
+          "rarity": 5,
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+        },
+        {
+          "name": "Ages of Harvest",
+          "rarity": 5,
+          "description": "High Crit Rate with Resonance Skill boost."
+        },
+        {
+          "name": "Lustrous Razor",
+          "rarity": 5,
+          "description": "Standard 5★ with ATK% and Liberation DMG."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Autumntrace",
+          "rarity": 4,
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+        },
+        {
+          "name": "Helios Cleaver",
+          "rarity": 4,
+          "description": "High ATK scaling upon casting Resonance Skill."
+        },
+        {
+          "name": "Broadblade#41",
+          "rarity": 4,
+          "description": "Craftable option with Energy Recharge and self healing."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Broadblade of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Broadblade",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type I",
+          "rarity": 3,
+          "description": "Restores HP upon landing Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Void Thunder (5pc)",
+      "mainEcho": "Thundering Mephis / Tempest Mephis",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Electro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Heavy DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Augusta's peak damage windows."
+    }
+  },
+  {
+    "id": "iuno",
+    "name": "Iuno",
+    "rarity": 5,
+    "attribute": "Aero",
+    "weaponType": "Gauntlets",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Aero",
+      "targetDamageType": "Resonance Skill",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Aero DMG Deepen and 25% Resonance Skill DMG Deepen for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Abyss Surges",
+          "rarity": 5,
+          "description": "High Energy Recharge and consistent skill boosts."
+        },
+        {
+          "name": "Verity's Handle",
+          "rarity": 5,
+          "description": "Crit Rate stat stick with liberation deepen."
+        },
+        {
+          "name": "Iron Mountain Fist",
+          "rarity": 5,
+          "description": "Base stat utility."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Marcato",
+          "rarity": 4,
+          "description": "Top sub-DPS gauntlet: generates 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Stonard",
+          "rarity": 4,
+          "description": "Crit Rate consistency."
+        },
+        {
+          "name": "Hollow Mirage",
+          "rarity": 4,
+          "description": "ATK boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Gauntlets of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Gauntlets of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Gauntlets",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Aero DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "mornye",
+    "name": "Mornye",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "weaponType": "Broadblade",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetAttribute": "Fusion",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Fusion DMG Amplification for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Ages of Harvest",
+          "rarity": 5,
+          "description": "Skill DMG and Crit Rate utility."
+        },
+        {
+          "name": "Verdant Summit",
+          "rarity": 5,
+          "description": "High base stats with heavy multiplier."
+        },
+        {
+          "name": "Lustrous Razor",
+          "rarity": 5,
+          "description": "Liberation and energy battery."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Discord",
+          "rarity": 4,
+          "description": "Fast Concerto energy generation on Resonance Skill."
+        },
+        {
+          "name": "Autumntrace",
+          "rarity": 4,
+          "description": "Crit Rate consistency."
+        },
+        {
+          "name": "Helios Cleaver",
+          "rarity": 4,
+          "description": "ATK boost on skill cast."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Broadblade of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Broadblade",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        },
+        {
+          "name": "Broadblade of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting enemies."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Basic DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "chisa",
+    "name": "Chisa",
+    "rarity": 4,
+    "attribute": "Fusion",
+    "weaponType": "Gauntlets",
+    "role": "Support",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "All Damage Deepen",
+      "value": 15,
+      "duration": 15,
+      "description": "Restores party health over time and provides 15% All Damage Deepen to incoming teammate for 15s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Abyss Surges",
+          "rarity": 5,
+          "description": "Energy Recharge for quick team burst."
+        },
+        {
+          "name": "Verity's Handle",
+          "rarity": 5,
+          "description": "Stat stick."
+        },
+        {
+          "name": "Iron Mountain Fist",
+          "rarity": 5,
+          "description": "Universal base."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Marcato",
+          "rarity": 4,
+          "description": "Essential support pick. Fast Concerto generation."
+        },
+        {
+          "name": "Amity Accord",
+          "rarity": 4,
+          "description": "DEF scaling and shield amplification."
+        },
+        {
+          "name": "Gauntlets#21D",
+          "rarity": 4,
+          "description": "Craftable option."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Originite: Type IV",
+          "rarity": 3,
+          "description": "Heals wearer on basic attacks."
+        },
+        {
+          "name": "Gauntlets of Voyager",
+          "rarity": 3,
+          "description": "Energy generation."
+        },
+        {
+          "name": "Guardian Gauntlets",
+          "rarity": 3,
+          "description": "Skill boost."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Rejuvenating Glow (5pc)",
+      "mainEcho": "Bell-Borne Geochelone / Fallacy of No Return",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Healing Bonus% or HP%",
+        "cost3": "Energy Recharge% / Attribute DMG%",
+        "cost1": "HP% or ATK%"
+      },
+      "substatsPriority": [
+        "Energy Recharge (Target 160%+)",
+        "HP% / DEF%",
+        "ATK%",
+        "Flat HP"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 8,
+        "resonanceSkill": 6,
+        "basicAttack": 1,
+        "introSkill": 4
+      },
+      "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
+    }
+  },
+  {
+    "id": "sigrika",
+    "name": "Sigrika",
+    "rarity": 5,
+    "attribute": "Aero",
+    "weaponType": "Gauntlets",
+    "role": "Main DPS",
+    "primaryDamageSource": "Heavy",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Aero",
+      "value": 360,
+      "duration": 0,
+      "description": "Deals 360% Aero DMG and triggers a radiant gale shockwave."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Abyss Surges",
+          "rarity": 5,
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+        },
+        {
+          "name": "Verity's Handle",
+          "rarity": 5,
+          "description": "Crit Rate and Liberation bonus."
+        },
+        {
+          "name": "Iron Mountain Fist",
+          "rarity": 5,
+          "description": "Heavy attack and crit damage scaling."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Stonard",
+          "rarity": 4,
+          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost."
+        },
+        {
+          "name": "Hollow Mirage",
+          "rarity": 4,
+          "description": "Stacking ATK and DEF bonus up to 24%."
+        },
+        {
+          "name": "Gauntlets#21D",
+          "rarity": 4,
+          "description": "Craftable gauntlets boosting Basic/Heavy DMG."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Gauntlets of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Gauntlets",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type IV",
+          "rarity": 3,
+          "description": "Restores HP on normal hits."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Sierra Gale (5pc)",
+      "mainEcho": "Feilian Beringal",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Aero DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Heavy DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Sigrika's peak damage windows."
+    }
+  },
+  {
+    "id": "hsin",
+    "name": "Hsin",
+    "rarity": 5,
+    "attribute": "Electro",
+    "weaponType": "Rectifier",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Electro",
+      "value": 20,
+      "duration": 20,
+      "description": "Consumes Unison stack to grant incoming resonator 20% Electro DMG Deepen and 20% All DMG Amplification for 20s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill deepen and Electro RES shred."
+        },
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "Energy Recharge sustain."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Augment",
+          "rarity": 4,
+          "description": "Crit Rate provider."
+        },
+        {
+          "name": "Jinzhou Keeper",
+          "rarity": 4,
+          "description": "ATK boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Rectifier of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage boost."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Electro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "qingxiao",
+    "name": "Qingxiao",
+    "rarity": 5,
+    "attribute": "Aero",
+    "weaponType": "Sword",
+    "role": "Main DPS",
+    "primaryDamageSource": "Heavy",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Aero",
+      "value": 800,
+      "duration": 0,
+      "description": "Plays the Lingering Song upon switching out, striking target for 800% Aero DMG."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "High Crit DMG and Skill bonuses."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Top-tier Basic and Heavy attack amplification."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "High ATK with Concerto acceleration."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Craftable sword boosting ATK when above 80% HP."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 3,
+          "description": "Restores HP on Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Sierra Gale (5pc)",
+      "mainEcho": "Feilian Beringal",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Aero DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Heavy DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Qingxiao's peak damage windows."
+    }
+  },
+  {
+    "id": "carlotta",
+    "name": "Carlotta",
+    "rarity": 5,
+    "attribute": "Glacio",
+    "weaponType": "Pistols",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Glacio",
+      "value": 794.2,
+      "duration": 0,
+      "description": "Fires Closing Remark dealing 794.2% Glacio DMG to the target upon switching out."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Static Mist",
+          "rarity": 5,
+          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff."
+        },
+        {
+          "name": "The Legend of The White Stallion",
+          "rarity": 5,
+          "description": "High shotgun burst amplify."
+        },
+        {
+          "name": "Ranger of the Hollow",
+          "rarity": 5,
+          "description": "High Crit DMG and basic attack multiplier."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Novaburst",
+          "rarity": 4,
+          "description": "Battle Pass pistols with dodge and sprint ATK stacking."
+        },
+        {
+          "name": "Undying Flame",
+          "rarity": 4,
+          "description": "Resonance Skill triggers 20% Liberation DMG."
+        },
+        {
+          "name": "Pistols#26",
+          "rarity": 4,
+          "description": "Craftable pistols providing ATK and DEF."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Pistols of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Pistols",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type III",
+          "rarity": 3,
+          "description": "Restores HP on normal hits."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Freezing Frost (5pc)",
+      "mainEcho": "Lampylumen Myriad",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Glacio DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Carlotta's peak damage windows."
+    }
+  },
+  {
+    "id": "roccia",
+    "name": "Roccia",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "weaponType": "Gauntlets",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Havoc",
+      "targetDamageType": "Basic",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Havoc DMG Deepen and 25% Basic Attack DMG Deepen for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Abyss Surges",
+          "rarity": 5,
+          "description": "High Energy Recharge and consistent skill boosts."
+        },
+        {
+          "name": "Verity's Handle",
+          "rarity": 5,
+          "description": "Crit Rate stat stick with liberation deepen."
+        },
+        {
+          "name": "Iron Mountain Fist",
+          "rarity": 5,
+          "description": "Base stat utility."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Marcato",
+          "rarity": 4,
+          "description": "Top sub-DPS gauntlet: generates 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Stonard",
+          "rarity": 4,
+          "description": "Crit Rate consistency."
+        },
+        {
+          "name": "Hollow Mirage",
+          "rarity": 4,
+          "description": "ATK boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Gauntlets of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Gauntlets of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Gauntlets",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Havoc DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Basic DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "phoebe",
+    "name": "Phoebe",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "weaponType": "Rectifier",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetAttribute": "Spectro",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Spectro DMG Deepen and accelerates Spectro Frazzle triggers."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill deepen and Electro RES shred."
+        },
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "Energy Recharge sustain."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Augment",
+          "rarity": 4,
+          "description": "Crit Rate provider."
+        },
+        {
+          "name": "Jinzhou Keeper",
+          "rarity": 4,
+          "description": "ATK boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Rectifier of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage boost."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Spectro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "brant",
+    "name": "Brant",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "weaponType": "Sword",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Fusion",
+      "targetDamageType": "Resonance Skill",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Fusion DMG Deepen and 25% Resonance Skill DMG Deepen for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "Skill amplify and high base stat."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Stat stick."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "Concerto Energy restoration on Outro trigger."
+        },
+        {
+          "name": "Lunar Cutter",
+          "rarity": 4,
+          "description": "High burst ATK stacking on switch-in."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Consistent normal/heavy boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Sword of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon skill cast."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "cantarella",
+    "name": "Cantarella",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "weaponType": "Rectifier",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Havoc",
+      "targetDamageType": "Resonance Skill",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Havoc DMG Deepen and 25% Resonance Skill DMG Deepen for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill deepen and Electro RES shred."
+        },
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "Energy Recharge sustain."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Augment",
+          "rarity": 4,
+          "description": "Crit Rate provider."
+        },
+        {
+          "name": "Jinzhou Keeper",
+          "rarity": 4,
+          "description": "ATK boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Rectifier of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage boost."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Havoc DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "zani",
+    "name": "Zani",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "weaponType": "Gauntlets",
+    "role": "Main DPS",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Spectro",
+      "value": 410,
+      "duration": 0,
+      "description": "Unleashes solar blaze dealing 410% Spectro DMG upon exit."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Abyss Surges",
+          "rarity": 5,
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+        },
+        {
+          "name": "Verity's Handle",
+          "rarity": 5,
+          "description": "Crit Rate and Liberation bonus."
+        },
+        {
+          "name": "Iron Mountain Fist",
+          "rarity": 5,
+          "description": "Heavy attack and crit damage scaling."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Stonard",
+          "rarity": 4,
+          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost."
+        },
+        {
+          "name": "Hollow Mirage",
+          "rarity": 4,
+          "description": "Stacking ATK and DEF bonus up to 24%."
+        },
+        {
+          "name": "Gauntlets#21D",
+          "rarity": 4,
+          "description": "Craftable gauntlets boosting Basic/Heavy DMG."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Gauntlets of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Gauntlets",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type IV",
+          "rarity": 3,
+          "description": "Restores HP on normal hits."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Celestial Light (5pc)",
+      "mainEcho": "Jue / Mourning Aix",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Spectro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Basic DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 9,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Zani's peak damage windows."
+    }
+  },
+  {
+    "id": "ciaccona",
+    "name": "Ciaccona",
+    "rarity": 5,
+    "attribute": "Aero",
+    "weaponType": "Pistols",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetAttribute": "Aero",
+      "value": 100,
+      "duration": 30,
+      "description": "Amplifies Aero Erosion damage by 100% and grants 20% Aero DMG Deepen for 30s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Static Mist",
+          "rarity": 5,
+          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally."
+        },
+        {
+          "name": "The Legend of The White Stallion",
+          "rarity": 5,
+          "description": "Burst stat stick."
+        },
+        {
+          "name": "Ranger of the Hollow",
+          "rarity": 5,
+          "description": "Crit Rate scaling."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Cadenza",
+          "rarity": 4,
+          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Undying Flame",
+          "rarity": 4,
+          "description": "Liberation damage amplification."
+        },
+        {
+          "name": "Novaburst",
+          "rarity": 4,
+          "description": "Consistent ATK% increase."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Pistols of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Pistols of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Pistols",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Aero DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "cartethyia",
+    "name": "Cartethyia",
+    "rarity": 5,
+    "attribute": "Aero",
+    "weaponType": "Sword",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "All Damage Deepen",
+      "targetAttribute": "Aero",
+      "value": 17.5,
+      "duration": 15,
+      "description": "Amplifies the Aero DMG dealt by other party members by 17.5% for 15s."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "High Crit DMG and Skill bonuses."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Top-tier Basic and Heavy attack amplification."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "High ATK with Concerto acceleration."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Craftable sword boosting ATK when above 80% HP."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 3,
+          "description": "Restores HP on Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Sierra Gale (5pc)",
+      "mainEcho": "Feilian Beringal",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Aero DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Cartethyia's peak damage windows."
+    }
+  },
+  {
+    "id": "lupa",
+    "name": "Lupa",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "weaponType": "Broadblade",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Fusion",
+      "targetDamageType": "Basic",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Fusion DMG Deepen and 25% Basic Attack DMG Deepen for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Ages of Harvest",
+          "rarity": 5,
+          "description": "Skill DMG and Crit Rate utility."
+        },
+        {
+          "name": "Verdant Summit",
+          "rarity": 5,
+          "description": "High base stats with heavy multiplier."
+        },
+        {
+          "name": "Lustrous Razor",
+          "rarity": 5,
+          "description": "Liberation and energy battery."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Discord",
+          "rarity": 4,
+          "description": "Fast Concerto energy generation on Resonance Skill."
+        },
+        {
+          "name": "Autumntrace",
+          "rarity": 4,
+          "description": "Crit Rate consistency."
+        },
+        {
+          "name": "Helios Cleaver",
+          "rarity": 4,
+          "description": "ATK boost on skill cast."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Broadblade of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Broadblade",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        },
+        {
+          "name": "Broadblade of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting enemies."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Basic DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "phrolova",
+    "name": "Phrolova",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "weaponType": "Rectifier",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Damage Amplify",
+      "targetAttribute": "Havoc",
+      "value": 20,
+      "duration": 14,
+      "description": "Deals Havoc burst on exit and grants incoming resonator 20% Havoc DMG Deepen for 14s."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG."
+        },
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Crit Rate and team elemental DMG."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Crit Rate and massive Resonance Skill DMG."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Augment",
+          "rarity": 4,
+          "description": "Battle Pass rectifier with Crit Rate and ATK boost upon Liberation."
+        },
+        {
+          "name": "Jinzhou Keeper",
+          "rarity": 4,
+          "description": "High ATK% and HP synergy."
+        },
+        {
+          "name": "Rectifier#25",
+          "rarity": 4,
+          "description": "Craftable rectifier with Energy Recharge."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Rectifier of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type V",
+          "rarity": 3,
+          "description": "Restores HP on normal hits."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Sun-sinking Eclipse (5pc)",
+      "mainEcho": "Crownless / Dreamless",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Havoc DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Phrolova's peak damage windows."
+    }
+  },
+  {
+    "id": "lynae",
+    "name": "Lynae",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "weaponType": "Pistols",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Spectro",
+      "targetDamageType": "Basic",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Spectro DMG Deepen and 25% Basic Attack DMG Deepen for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Static Mist",
+          "rarity": 5,
+          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally."
+        },
+        {
+          "name": "The Legend of The White Stallion",
+          "rarity": 5,
+          "description": "Burst stat stick."
+        },
+        {
+          "name": "Ranger of the Hollow",
+          "rarity": 5,
+          "description": "Crit Rate scaling."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Cadenza",
+          "rarity": 4,
+          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Undying Flame",
+          "rarity": 4,
+          "description": "Liberation damage amplification."
+        },
+        {
+          "name": "Novaburst",
+          "rarity": 4,
+          "description": "Consistent ATK% increase."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Pistols of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Pistols of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Pistols",
+          "rarity": 3,
+          "description": "Resonance Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Spectro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Basic DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "aemeath",
+    "name": "Aemeath",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "weaponType": "Sword",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Liberation",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Fusion",
+      "value": 420,
+      "duration": 0,
+      "description": "Deploys mech explosion dealing 420% Fusion DMG upon exiting."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "High Crit DMG and Skill bonuses."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Top-tier Basic and Heavy attack amplification."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "High ATK with Concerto acceleration."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Craftable sword boosting ATK when above 80% HP."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 3,
+          "description": "Restores HP on Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Molten Rift (5pc)",
+      "mainEcho": "Inferno Rider",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Liberation DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Aemeath's peak damage windows."
+    }
+  },
+  {
+    "id": "luuk-herssen",
+    "name": "Luuk Herssen",
+    "rarity": 5,
+    "attribute": "Spectro",
+    "weaponType": "Gauntlets",
+    "role": "Main DPS",
+    "primaryDamageSource": "Heavy",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Spectro",
+      "value": 380,
+      "duration": 0,
+      "description": "Unleashes radiant martial art shockwave dealing 380% Spectro DMG."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Abyss Surges",
+          "rarity": 5,
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+        },
+        {
+          "name": "Verity's Handle",
+          "rarity": 5,
+          "description": "Crit Rate and Liberation bonus."
+        },
+        {
+          "name": "Iron Mountain Fist",
+          "rarity": 5,
+          "description": "Heavy attack and crit damage scaling."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Stonard",
+          "rarity": 4,
+          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost."
+        },
+        {
+          "name": "Hollow Mirage",
+          "rarity": 4,
+          "description": "Stacking ATK and DEF bonus up to 24%."
+        },
+        {
+          "name": "Gauntlets#21D",
+          "rarity": 4,
+          "description": "Craftable gauntlets boosting Basic/Heavy DMG."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Gauntlets of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Gauntlets",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type IV",
+          "rarity": 3,
+          "description": "Restores HP on normal hits."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Celestial Light (5pc)",
+      "mainEcho": "Jue / Mourning Aix",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Spectro DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Heavy DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Luuk Herssen's peak damage windows."
+    }
+  },
+  {
+    "id": "hiyuki",
+    "name": "Hiyuki",
+    "rarity": 5,
+    "attribute": "Glacio",
+    "weaponType": "Sword",
+    "role": "Main DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Glacio",
+      "value": 450,
+      "duration": 0,
+      "description": "Strikes target with frost blade dealing 450% Glacio DMG."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "High Crit DMG and Skill bonuses."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Top-tier Basic and Heavy attack amplification."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "High ATK with Concerto acceleration."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Craftable sword boosting ATK when above 80% HP."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 3,
+          "description": "Restores HP on Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Freezing Frost (5pc)",
+      "mainEcho": "Lampylumen Myriad",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Glacio DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Hiyuki's peak damage windows."
+    }
+  },
+  {
+    "id": "denia",
+    "name": "Denia",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "weaponType": "Rectifier",
+    "role": "Sub-DPS",
+    "primaryDamageSource": "Resonance Skill",
+    "outroSkill": {
+      "buffType": "Dual Amplify",
+      "targetAttribute": "Fusion",
+      "targetDamageType": "Resonance Skill",
+      "value": 20,
+      "duration": 14,
+      "description": "Next resonator gains 20% Fusion DMG Deepen and 25% Resonance Skill DMG Deepen for 14s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill deepen and Electro RES shred."
+        },
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "Energy Recharge sustain."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+        },
+        {
+          "name": "Augment",
+          "rarity": 4,
+          "description": "Crit Rate provider."
+        },
+        {
+          "name": "Jinzhou Keeper",
+          "rarity": 4,
+          "description": "ATK boost."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Rectifier of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Restores Resonance Energy upon hitting targets."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage boost."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Moonlit Clouds (5pc)",
+      "mainEcho": "Impermanence Heron",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 7,
+        "basicAttack": 4,
+        "introSkill": 6
+      },
+      "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
+    }
+  },
+  {
+    "id": "suisui",
+    "name": "Suisui",
+    "rarity": 5,
+    "attribute": "Glacio",
+    "weaponType": "Rectifier",
+    "role": "Support",
+    "primaryDamageSource": "Basic",
+    "outroSkill": {
+      "buffType": "All Damage Deepen",
+      "value": 15,
+      "duration": 25,
+      "description": "Heals all party members and grants 15% All Damage Deepen for 25s."
+    },
+    "concertoSpeed": "Fast",
+    "fieldTimeNeeds": "Low",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Cosmic Ripples",
+          "rarity": 5,
+          "description": "High base stats and Energy Recharge."
+        },
+        {
+          "name": "Stringmaster",
+          "rarity": 5,
+          "description": "Stat stick."
+        },
+        {
+          "name": "Blooming Jadehaven",
+          "rarity": 5,
+          "description": "Skill boost."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Variation",
+          "rarity": 4,
+          "description": "The undisputed #1 support rectifier: fast Concerto battery."
+        },
+        {
+          "name": "Comet Flare",
+          "rarity": 4,
+          "description": "Increases Healing Bonus by 12% upon hitting targets."
+        },
+        {
+          "name": "Rectifier#25",
+          "rarity": 4,
+          "description": "Craftable Energy Recharge."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Originite: Type V",
+          "rarity": 3,
+          "description": "Heals character upon landing Basic Attacks."
+        },
+        {
+          "name": "Rectifier of Voyager",
+          "rarity": 3,
+          "description": "Energy generation."
+        },
+        {
+          "name": "Guardian Rectifier",
+          "rarity": 3,
+          "description": "Skill damage bonus."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Rejuvenating Glow (5pc)",
+      "mainEcho": "Bell-Borne Geochelone / Fallacy of No Return",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Healing Bonus% or HP%",
+        "cost3": "Energy Recharge% / Attribute DMG%",
+        "cost1": "HP% or ATK%"
+      },
+      "substatsPriority": [
+        "Energy Recharge (Target 160%+)",
+        "HP% / DEF%",
+        "ATK%",
+        "Flat HP"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Resonance Liberation",
+        "Forte Circuit",
+        "Resonance Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 8,
+        "resonanceLiberation": 8,
+        "resonanceSkill": 6,
+        "basicAttack": 1,
+        "introSkill": 4
+      },
+      "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
+    }
+  },
+  {
+    "id": "yangyang-xuanling",
+    "name": "Yangyang: Xuanling",
+    "rarity": 5,
+    "attribute": "Havoc",
+    "weaponType": "Sword",
+    "role": "Main DPS",
+    "primaryDamageSource": "Heavy",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Havoc",
+      "value": 490,
+      "duration": 0,
+      "description": "Strikes target with shadowy vortex dealing 490% Havoc DMG."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Emerald of Genesis",
+          "rarity": 5,
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+        },
+        {
+          "name": "Blazing Brilliance",
+          "rarity": 5,
+          "description": "High Crit DMG and Skill bonuses."
+        },
+        {
+          "name": "Red Spring",
+          "rarity": 5,
+          "description": "Top-tier Basic and Heavy attack amplification."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Commando Blade",
+          "rarity": 4,
+          "description": "High ATK with Concerto acceleration."
+        },
+        {
+          "name": "Lumingloss",
+          "rarity": 4,
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+        },
+        {
+          "name": "Sword#18",
+          "rarity": 4,
+          "description": "Craftable sword boosting ATK when above 80% HP."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Sword of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Sword",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type II",
+          "rarity": 3,
+          "description": "Restores HP on Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Sun-sinking Eclipse (5pc)",
+      "mainEcho": "Crownless / Dreamless",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Havoc DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Heavy DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Yangyang: Xuanling's peak damage windows."
+    }
+  },
+  {
+    "id": "jingran",
+    "name": "Jingran",
+    "rarity": 5,
+    "attribute": "Fusion",
+    "weaponType": "Broadblade",
+    "role": "Main DPS",
+    "primaryDamageSource": "Heavy",
+    "outroSkill": {
+      "buffType": "Direct Damage",
+      "targetAttribute": "Fusion",
+      "value": 520,
+      "duration": 0,
+      "description": "Unleashes Rising Fortune flame shockwave dealing 520% Fusion DMG."
+    },
+    "concertoSpeed": "Standard",
+    "fieldTimeNeeds": "High",
+    "optimalWeapons": {
+      "fiveStar": [
+        {
+          "name": "Verdant Summit",
+          "rarity": 5,
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+        },
+        {
+          "name": "Ages of Harvest",
+          "rarity": 5,
+          "description": "High Crit Rate with Resonance Skill boost."
+        },
+        {
+          "name": "Lustrous Razor",
+          "rarity": 5,
+          "description": "Standard 5★ with ATK% and Liberation DMG."
+        }
+      ],
+      "fourStar": [
+        {
+          "name": "Autumntrace",
+          "rarity": 4,
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+        },
+        {
+          "name": "Helios Cleaver",
+          "rarity": 4,
+          "description": "High ATK scaling upon casting Resonance Skill."
+        },
+        {
+          "name": "Broadblade#41",
+          "rarity": 4,
+          "description": "Craftable option with Energy Recharge and self healing."
+        }
+      ],
+      "threeStar": [
+        {
+          "name": "Broadblade of Night",
+          "rarity": 3,
+          "description": "Intro Skill grants +16% ATK for 10s."
+        },
+        {
+          "name": "Guardian Broadblade",
+          "rarity": 3,
+          "description": "Resonance Skill damage increased by 12%."
+        },
+        {
+          "name": "Originite: Type I",
+          "rarity": 3,
+          "description": "Restores HP upon landing Basic Attacks."
+        }
+      ]
+    },
+    "echoBuild": {
+      "sonataSet": "Molten Rift (5pc)",
+      "mainEcho": "Inferno Rider",
+      "costDistribution": "4-3-3-1-1",
+      "primaryStats": {
+        "cost4": "Crit Rate% or Crit DMG%",
+        "cost3": "Fusion DMG% (x2)",
+        "cost1": "ATK% (x2)"
+      },
+      "substatsPriority": [
+        "Crit Rate% (Target 70%+)",
+        "Crit DMG% (Target 240%+)",
+        "ATK%",
+        "Energy Recharge (120-130%)",
+        "Heavy DMG%"
+      ]
+    },
+    "skillPriority": {
+      "order": [
+        "Forte Circuit",
+        "Resonance Liberation",
+        "Resonance Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ],
+      "recommendedLevels": {
+        "forteCircuit": 10,
+        "resonanceLiberation": 9,
+        "resonanceSkill": 8,
+        "basicAttack": 6,
+        "introSkill": 6
+      },
+      "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jingran's peak damage windows."
+    }
+  }
+]
