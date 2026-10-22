@@ -31,7 +31,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -102,7 +102,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jiyan's peak damage windows."
-    }
+    },
+    "avatar": "resonators/jiyan.png"
   },
   {
     "id": "mortefi",
@@ -207,7 +208,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/mortefi.png"
   },
   {
     "id": "verina",
@@ -310,7 +312,8 @@
         "introSkill": 4
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
-    }
+    },
+    "avatar": "resonators/verina.png"
   },
   {
     "id": "shorekeeper",
@@ -413,7 +416,8 @@
         "introSkill": 4
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
-    }
+    },
+    "avatar": "resonators/shorekeeper.png"
   },
   {
     "id": "camellya",
@@ -437,7 +441,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -518,7 +522,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Camellya's peak damage windows."
-    }
+    },
+    "avatar": "resonators/camellya.png"
   },
   {
     "id": "sanhua",
@@ -623,7 +628,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/sanhua.png"
   },
   {
     "id": "yinlin",
@@ -729,7 +735,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/yinlin.png"
   },
   {
     "id": "xiangli-yao",
@@ -753,7 +760,7 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5\u2605 Gauntlets with Energy Recharge and Basic/Skill DMG."
         },
         {
           "name": "Verity's Handle",
@@ -834,7 +841,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Xiangli Yao's peak damage windows."
-    }
+    },
+    "avatar": "resonators/xiangli-yao.png"
   },
   {
     "id": "calcharo",
@@ -868,7 +876,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -939,7 +947,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Calcharo's peak damage windows."
-    }
+    },
+    "avatar": "resonators/calcharo.png"
   },
   {
     "id": "changli",
@@ -1045,7 +1054,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/changli.png"
   },
   {
     "id": "encore",
@@ -1069,7 +1079,7 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG."
+          "description": "Standard 5\u2605 Rectifier with Energy Recharge and Basic DMG."
         },
         {
           "name": "Stringmaster",
@@ -1150,7 +1160,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Encore's peak damage windows."
-    }
+    },
+    "avatar": "resonators/encore.png"
   },
   {
     "id": "zhezhi",
@@ -1256,7 +1267,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/zhezhi.png"
   },
   {
     "id": "jinhsi",
@@ -1290,7 +1302,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -1361,7 +1373,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jinhsi's peak damage windows."
-    }
+    },
+    "avatar": "resonators/jinhsi.png"
   },
   {
     "id": "baizhi",
@@ -1464,7 +1477,8 @@
         "introSkill": 4
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
-    }
+    },
+    "avatar": "resonators/baizhi.png"
   },
   {
     "id": "taoqi",
@@ -1568,7 +1582,8 @@
         "introSkill": 4
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
-    }
+    },
+    "avatar": "resonators/taoqi.png"
   },
   {
     "id": "danjin",
@@ -1673,7 +1688,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/danjin.png"
   },
   {
     "id": "aalto",
@@ -1778,7 +1794,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/aalto.png"
   },
   {
     "id": "yangyang",
@@ -1881,7 +1898,8 @@
         "introSkill": 4
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
-    }
+    },
+    "avatar": "resonators/yangyang.png"
   },
   {
     "id": "chixia",
@@ -1905,7 +1923,7 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff."
+          "description": "Premier 5\u2605 Pistols with Crit Rate and outgoing ATK buff."
         },
         {
           "name": "The Legend of The White Stallion",
@@ -1986,7 +2004,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Chixia's peak damage windows."
-    }
+    },
+    "avatar": "resonators/chixia.png"
   },
   {
     "id": "yuanwu",
@@ -2090,7 +2109,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/yuanwu.png"
   },
   {
     "id": "rover-havoc",
@@ -2114,7 +2134,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -2195,7 +2215,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Rover (Havoc)'s peak damage windows."
-    }
+    },
+    "avatar": "resonators/rover-havoc.png"
   },
   {
     "id": "rover-spectro",
@@ -2299,7 +2320,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/rover-spectro.png"
   },
   {
     "id": "augusta",
@@ -2333,7 +2355,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -2404,7 +2426,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Augusta's peak damage windows."
-    }
+    },
+    "avatar": "resonators/augusta.png"
   },
   {
     "id": "iuno",
@@ -2510,7 +2533,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/iuno.png"
   },
   {
     "id": "mornye",
@@ -2615,7 +2639,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/mornye.png"
   },
   {
     "id": "chisa",
@@ -2718,7 +2743,8 @@
         "introSkill": 4
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
-    }
+    },
+    "avatar": "resonators/chisa.png"
   },
   {
     "id": "sigrika",
@@ -2742,7 +2768,7 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5\u2605 Gauntlets with Energy Recharge and Basic/Skill DMG."
         },
         {
           "name": "Verity's Handle",
@@ -2823,7 +2849,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Sigrika's peak damage windows."
-    }
+    },
+    "avatar": "resonators/sigrika.png"
   },
   {
     "id": "hsin",
@@ -2928,7 +2955,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/hsin.png"
   },
   {
     "id": "qingxiao",
@@ -2952,7 +2980,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -3033,7 +3061,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Qingxiao's peak damage windows."
-    }
+    },
+    "avatar": "resonators/qingxiao.png"
   },
   {
     "id": "carlotta",
@@ -3057,7 +3086,7 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff."
+          "description": "Premier 5\u2605 Pistols with Crit Rate and outgoing ATK buff."
         },
         {
           "name": "The Legend of The White Stallion",
@@ -3138,7 +3167,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Carlotta's peak damage windows."
-    }
+    },
+    "avatar": "resonators/carlotta.png"
   },
   {
     "id": "roccia",
@@ -3244,7 +3274,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/roccia.png"
   },
   {
     "id": "phoebe",
@@ -3349,7 +3380,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/phoebe.png"
   },
   {
     "id": "brant",
@@ -3455,7 +3487,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/brant.png"
   },
   {
     "id": "cantarella",
@@ -3561,7 +3594,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/cantarella.png"
   },
   {
     "id": "zani",
@@ -3585,7 +3619,7 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5\u2605 Gauntlets with Energy Recharge and Basic/Skill DMG."
         },
         {
           "name": "Verity's Handle",
@@ -3666,7 +3700,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Zani's peak damage windows."
-    }
+    },
+    "avatar": "resonators/zani.png"
   },
   {
     "id": "ciaccona",
@@ -3771,7 +3806,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/ciaccona.png"
   },
   {
     "id": "cartethyia",
@@ -3795,7 +3831,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -3876,7 +3912,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Cartethyia's peak damage windows."
-    }
+    },
+    "avatar": "resonators/cartethyia.png"
   },
   {
     "id": "lupa",
@@ -3982,7 +4019,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/lupa.png"
   },
   {
     "id": "phrolova",
@@ -4007,7 +4045,7 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG."
+          "description": "Standard 5\u2605 Rectifier with Energy Recharge and Basic DMG."
         },
         {
           "name": "Stringmaster",
@@ -4088,7 +4126,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Phrolova's peak damage windows."
-    }
+    },
+    "avatar": "resonators/phrolova.png"
   },
   {
     "id": "lynae",
@@ -4194,7 +4233,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/lynae.png"
   },
   {
     "id": "aemeath",
@@ -4218,7 +4258,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -4299,7 +4339,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Aemeath's peak damage windows."
-    }
+    },
+    "avatar": "resonators/aemeath.png"
   },
   {
     "id": "luuk-herssen",
@@ -4323,7 +4364,7 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5\u2605 Gauntlets with Energy Recharge and Basic/Skill DMG."
         },
         {
           "name": "Verity's Handle",
@@ -4404,7 +4445,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Luuk Herssen's peak damage windows."
-    }
+    },
+    "avatar": "resonators/luuk-herssen.png"
   },
   {
     "id": "hiyuki",
@@ -4428,7 +4470,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -4509,7 +4551,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Hiyuki's peak damage windows."
-    }
+    },
+    "avatar": "resonators/hiyuki.png"
   },
   {
     "id": "denia",
@@ -4615,7 +4658,8 @@
         "introSkill": 6
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
-    }
+    },
+    "avatar": "resonators/denia.png"
   },
   {
     "id": "suisui",
@@ -4718,7 +4762,8 @@
         "introSkill": 4
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
-    }
+    },
+    "avatar": "resonators/suisui.png"
   },
   {
     "id": "yangyang-xuanling",
@@ -4742,7 +4787,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -4823,7 +4868,8 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Yangyang: Xuanling's peak damage windows."
-    }
+    },
+    "avatar": "resonators/yangyang-xuanling.png"
   },
   {
     "id": "jingran",
@@ -4857,7 +4903,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -4928,6 +4974,7 @@
         "introSkill": 6
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jingran's peak damage windows."
-    }
+    },
+    "avatar": "resonators/jingran.png"
   }
 ]

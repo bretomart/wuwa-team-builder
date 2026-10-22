@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { ref, computed } from 'vue';
 import type { Resonator, Attribute } from '../types/resonator';
 
 const props = defineProps<{
@@ -7,7 +7,20 @@ const props = defineProps<{
   size?: 'sm' | 'md' | 'lg';
 }>();
 
-// Generate readable two-letter resonator acronym
+const imageLoaded = ref(false);
+const imageError = ref(false);
+
+const baseUrl = import.meta.env.BASE_URL || '/';
+
+const avatarSrc = computed(() => {
+  if (!props.resonator.avatar) return '';
+  const cleanPath = props.resonator.avatar.startsWith('/')
+    ? props.resonator.avatar.slice(1)
+    : props.resonator.avatar;
+  return `${baseUrl}${cleanPath}`;
+});
+
+// Generate readable two-letter resonator acronym as fallback
 const initials = computed(() => {
   const parts = props.resonator.name.replace(/[^a-zA-Z\s]/g, '').trim().split(/\s+/);
   if (parts.length >= 2) {
@@ -111,13 +124,31 @@ const sizeBox = computed(() => {
     ]"
     :title="`${resonator.name} (${resonator.attribute} • ${resonator.role})`"
   >
-    <!-- Background element glyph watermark -->
-    <span class="absolute inset-0 flex items-center justify-center opacity-15 text-lg pointer-events-none font-sans">
+    <!-- Actual resonator portrait image -->
+    <img
+      v-if="avatarSrc && !imageError"
+      :src="avatarSrc"
+      :alt="resonator.name"
+      class="absolute inset-0 w-full h-full object-cover z-10 transition-opacity duration-200"
+      :class="imageLoaded ? 'opacity-100' : 'opacity-0'"
+      @load="imageLoaded = true"
+      @error="imageError = true"
+      loading="lazy"
+    />
+
+    <!-- Fallback background element glyph watermark -->
+    <span
+      v-if="!imageLoaded"
+      class="absolute inset-0 flex items-center justify-center opacity-15 text-lg pointer-events-none font-sans"
+    >
       {{ theme.iconSymbol }}
     </span>
 
-    <!-- Prominent Resonator Initials -->
-    <span class="relative z-10 drop-shadow-sm font-mono">
+    <!-- Fallback prominent Resonator Initials -->
+    <span
+      v-if="!imageLoaded"
+      class="relative z-1 drop-shadow-sm font-mono"
+    >
       {{ initials }}
     </span>
   </div>
