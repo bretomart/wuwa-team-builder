@@ -194,8 +194,8 @@ const currentActiveMetaTeam = computed(() => {
           </div>
 
           <!-- Members & Rotation Order -->
-          <div class="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-[#1e2638] text-xs">
-            <div class="flex items-center gap-2">
+          <div class="flex flex-col gap-2 pt-1 border-t border-[#1e2638] text-xs">
+            <div class="flex flex-wrap items-center gap-2">
               <template v-for="slotId in team.slots" :key="slotId">
                 <div v-if="getResonator(slotId)" class="flex items-center gap-1">
                   <ResonatorIcon :resonator="getResonator(slotId)!" size="sm" />
@@ -204,7 +204,7 @@ const currentActiveMetaTeam = computed(() => {
               </template>
             </div>
 
-            <div class="flex items-center gap-1 text-[11px] text-slate-400">
+            <div class="flex flex-wrap items-center gap-1 text-[11px] text-slate-400">
               <span class="font-medium text-slate-500">Rotation:</span>
               <template v-for="(charName, i) in team.rotationOrder" :key="charName">
                 <span class="text-slate-200 font-semibold">{{ charName }}</span>
