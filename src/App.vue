@@ -26,7 +26,7 @@ import { Layers } from 'lucide-vue-next';
         <div class="flex items-center gap-2 text-xs text-slate-400">
           <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#141926] border border-[#222b40]">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Version 2.0 Ready
+            Version 3.7 Phase 1 Ready
           </span>
         </div>
       </div>
