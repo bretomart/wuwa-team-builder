@@ -10,7 +10,8 @@ import {
   Zap,
   Repeat,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  Sparkles
 } from 'lucide-vue-next';
 
 const teamStore = useTeamStore();
@@ -167,6 +168,48 @@ const getViabilityBadge = (status: string) => {
             >
               <AlertTriangle class="w-3.5 h-3.5 text-rose-400 shrink-0 mt-0.5" />
               <span>{{ warn }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Sequence Node Investment Path (Who to pull dupes for) -->
+        <div
+          v-if="synergy.teamSequenceRecommendations.length > 0"
+          class="bg-[#0f1422] border border-amber-900/40 rounded-xl p-3.5 flex flex-col gap-2.5"
+        >
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 pb-2 border-b border-[#20293d]">
+            <div class="flex items-center gap-1.5 text-xs font-bold text-amber-300 uppercase tracking-wider">
+              <Sparkles class="w-4 h-4 text-amber-400" />
+              Active Team Sequence Investment Path (Dupe Priority)
+            </div>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-amber-950/80 text-amber-200 border border-amber-800 font-mono font-semibold self-start sm:self-auto">
+              Efficacy & Damage Scaling
+            </span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-1">
+            <div
+              v-for="rec in synergy.teamSequenceRecommendations"
+              :key="rec.resonatorName"
+              class="p-2.5 rounded-lg bg-[#141a29] border border-[#232c42] flex flex-col gap-1.5"
+            >
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-slate-100">{{ rec.resonatorName }}</span>
+                <span class="text-[10px] px-1.5 py-0.2 rounded bg-indigo-950/80 text-indigo-300 border border-indigo-800 font-mono">
+                  {{ rec.role }}
+                </span>
+              </div>
+
+              <div class="flex items-center justify-between text-[11px] pt-0.5">
+                <span class="text-slate-400">Target Dupe:</span>
+                <span class="font-bold text-amber-300 font-mono text-xs">
+                  {{ rec.recommendedStop }}
+                </span>
+              </div>
+
+              <div class="text-[10px] text-slate-400 leading-snug bg-[#0b0e16] p-1.5 rounded border border-[#1d2538]">
+                <strong class="text-indigo-300">Top Gain:</strong> {{ rec.topPullReason }}
+              </div>
             </div>
           </div>
         </div>

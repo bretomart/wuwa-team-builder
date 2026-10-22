@@ -51,6 +51,20 @@ export interface SkillPriority {
   notes: string;
 }
 
+export interface SequenceNode {
+  node: number; // 1 to 6
+  name: string;
+  description: string;
+  tier: 'High Value' | 'Moderate' | 'Core Spike' | 'Whale Capstone';
+}
+
+export interface SequenceInvestment {
+  recommendedStop: string; // e.g. "S2 (Core Spike)"
+  priorityRank: 'High Priority' | 'Medium Priority' | 'Low Priority / Luxury';
+  pullPath: string[]; // e.g. ["S1: Interruption immunity & Crit DMG", "S2: +120% Ephemeral burst nuke", "S6: Continuous Budding Mode"]
+  nodes: SequenceNode[];
+}
+
 export interface Resonator {
   id: string;
   name: string;
@@ -66,6 +80,15 @@ export interface Resonator {
   optimalWeapons?: OptimalWeapons;
   echoBuild?: EchoBuild;
   skillPriority?: SkillPriority;
+  sequenceInvestment?: SequenceInvestment;
+}
+
+export interface TeamSequencePriority {
+  step: number;
+  resonatorId: string;
+  targetSequence: string;
+  description: string;
+  impact: string;
 }
 
 export interface MetaTeam {
@@ -76,4 +99,5 @@ export interface MetaTeam {
   strengths: string[];
   weaknesses: string[];
   rotationOrder: string[];
+  sequencePullPath?: TeamSequencePriority[];
 }

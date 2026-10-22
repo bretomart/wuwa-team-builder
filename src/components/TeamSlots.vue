@@ -246,6 +246,25 @@ const getAttributeColor = (attr: Attribute) => {
                   4★: {{ getResonator(teamStore.selectedSlots[idx])?.optimalWeapons?.fourStar[0].name }}
                 </div>
               </div>
+
+              <!-- Sequence Investment Quick Badge -->
+              <div
+                v-if="getResonator(teamStore.selectedSlots[idx])?.sequenceInvestment"
+                class="bg-[#0b0e14] p-2 rounded border border-amber-900/40 flex flex-col gap-1"
+              >
+                <div class="text-amber-300 font-semibold flex items-center justify-between text-[11px]">
+                  <span class="flex items-center gap-1">
+                    <Sparkles class="w-3 h-3" />
+                    Target Sequence:
+                  </span>
+                  <span class="text-[10px] px-1.5 py-0.2 rounded bg-amber-950/80 text-amber-200 border border-amber-800/80 font-mono font-bold">
+                    {{ getResonator(teamStore.selectedSlots[idx])?.sequenceInvestment?.recommendedStop }}
+                  </span>
+                </div>
+                <div class="text-slate-400 text-[10px] leading-tight">
+                  Priority: <strong class="text-slate-200">{{ getResonator(teamStore.selectedSlots[idx])?.sequenceInvestment?.priorityRank }}</strong>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -605,6 +624,77 @@ const getAttributeColor = (attr: Attribute) => {
 
               <div class="text-xs text-slate-400 italic">
                 Strategy Note: {{ inspectingResonator.skillPriority?.notes }}
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 4: Sequence Node Investment (Dupes & Pull Recommendations) -->
+          <div v-if="inspectingResonator.sequenceInvestment" class="flex flex-col gap-3">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-200">
+                <Sparkles class="w-4 h-4 text-amber-400" />
+                Sequence Node Investment (Dupes & Pull Path)
+              </div>
+              <span class="text-xs px-2.5 py-0.5 rounded-full font-semibold bg-amber-950/70 text-amber-300 border border-amber-800">
+                Target: {{ inspectingResonator.sequenceInvestment.recommendedStop }}
+              </span>
+            </div>
+
+            <!-- Generalized Pull Path Stepper -->
+            <div class="bg-[#0b0e14] border border-amber-900/40 rounded-xl p-3 flex flex-col gap-2.5">
+              <div class="flex items-center justify-between text-xs font-semibold text-amber-300">
+                <span>Recommended Investment Milestones:</span>
+                <span class="text-[11px] text-slate-400 font-normal">
+                  Account Priority: <strong class="text-slate-200">{{ inspectingResonator.sequenceInvestment.priorityRank }}</strong>
+                </span>
+              </div>
+
+              <div class="flex flex-col gap-1.5 pt-1">
+                <div
+                  v-for="(step, sIdx) in inspectingResonator.sequenceInvestment.pullPath"
+                  :key="sIdx"
+                  class="flex items-center gap-2 p-2 rounded-lg bg-[#141926] border border-[#232c40] text-xs text-slate-200"
+                >
+                  <span class="w-5 h-5 rounded-full bg-amber-950 border border-amber-700 text-amber-300 flex items-center justify-center font-bold text-[10px] shrink-0 font-mono">
+                    {{ sIdx + 1 }}
+                  </span>
+                  <span class="font-medium text-slate-300">{{ step }}</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Detailed S1 to S6 Grid Breakdown -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              <div
+                v-for="node in inspectingResonator.sequenceInvestment.nodes"
+                :key="node.node"
+                class="p-2.5 rounded-xl bg-[#0b0e14] border border-[#1e273b] flex flex-col gap-1"
+              >
+                <div class="flex items-center justify-between text-xs">
+                  <div class="flex items-center gap-1.5 font-bold text-slate-200">
+                    <span class="w-5 h-5 rounded bg-indigo-950 border border-indigo-800 text-indigo-300 flex items-center justify-center text-[10px] font-mono">
+                      S{{ node.node }}
+                    </span>
+                    <span class="truncate">{{ node.name }}</span>
+                  </div>
+                  <span
+                    :class="[
+                      'text-[10px] px-1.5 py-0.2 rounded border font-semibold font-mono',
+                      node.tier === 'Core Spike'
+                        ? 'bg-amber-950/80 text-amber-300 border-amber-700'
+                        : node.tier === 'High Value'
+                          ? 'bg-indigo-950/80 text-indigo-300 border-indigo-700'
+                          : node.tier === 'Whale Capstone'
+                            ? 'bg-purple-950/80 text-purple-300 border-purple-700'
+                            : 'bg-slate-800 text-slate-400 border-slate-700'
+                    ]"
+                  >
+                    {{ node.tier }}
+                  </span>
+                </div>
+                <p class="text-[11px] text-slate-400 leading-relaxed mt-0.5">
+                  {{ node.description }}
+                </p>
               </div>
             </div>
           </div>

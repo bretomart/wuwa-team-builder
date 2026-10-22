@@ -35,6 +35,13 @@ export interface SynergyAnalysisResult {
   pros: string[];
   cons: string[];
   suggestedRotation: string[];
+  teamSequenceRecommendations: {
+    resonatorName: string;
+    role: string;
+    recommendedStop: string;
+    priorityRank: string;
+    topPullReason: string;
+  }[];
 }
 
 export const useTeamStore = defineStore('team', {
@@ -237,6 +244,18 @@ export const useTeamStore = defineStore('team', {
       if (s2) suggestedRotation.push(s2.name);
       if (s1) suggestedRotation.push(s1.name);
 
+      // Build sequence recommendations for active team members
+      const teamSequenceRecommendations = activeMembers.map((member) => {
+        const seq = member.sequenceInvestment;
+        return {
+          resonatorName: member.name,
+          role: member.role,
+          recommendedStop: seq?.recommendedStop || 'S0 (Baseline)',
+          priorityRank: seq?.priorityRank || 'Normal',
+          topPullReason: seq?.pullPath[0] || 'Standard stat scaling duplicates.'
+        };
+      });
+
       return {
         hasSustain,
         slot2Synergy: {
@@ -255,7 +274,8 @@ export const useTeamStore = defineStore('team', {
         handoffs,
         pros,
         cons,
-        suggestedRotation
+        suggestedRotation,
+        teamSequenceRecommendations
       };
     }
   },

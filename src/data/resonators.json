@@ -103,7 +103,55 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jiyan's peak damage windows."
     },
-    "avatar": "resonators/jiyan.png"
+    "avatar": "resonators/jiyan.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S3 (Core Spikes)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Second Windqueller charge & -15 Resolve cost",
+        "S2: +30 Resolve and +28% ATK upon Intro",
+        "S3: +16% Crit Rate and +32% Crit DMG during burst windows",
+        "S6: Up to +240% Emerald Storm multiplier via Momentum stacks"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Skill Re-cast & Cost Reduction",
+          "tier": "High Value",
+          "description": "Resonance Skill Windqueller gains 1 additional charge and its Resolve cost is reduced by 15."
+        },
+        {
+          "node": 2,
+          "name": "Resolve & Attack Surge",
+          "tier": "Moderate",
+          "description": "Casting Intro Skill grants 30 Resolve and raises ATK by 28% for 15s."
+        },
+        {
+          "node": 3,
+          "name": "Draconic Precision",
+          "tier": "Core Spike",
+          "description": "Casting Resonance Skill, Liberation, or Intro Skill increases Crit Rate by 16% and Crit DMG by 32% for 8s."
+        },
+        {
+          "node": 4,
+          "name": "Heavy Attack Vanguard",
+          "tier": "Moderate",
+          "description": "Casting Resonance Liberation increases Heavy Attack DMG of all team members by 25% for 30s."
+        },
+        {
+          "node": 5,
+          "name": "Discipline Empowerment",
+          "tier": "Moderate",
+          "description": "Outro Skill multiplier increases by 120%, and attacks grant up to 45% stacking ATK."
+        },
+        {
+          "node": 6,
+          "name": "Momentum Cataclysm",
+          "tier": "Whale Capstone",
+          "description": "Attacks generate Momentum stacks, consuming them to increase Emerald Storm Liberation multiplier by up to 240%."
+        }
+      ]
+    }
   },
   {
     "id": "mortefi",
@@ -209,7 +257,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/mortefi.png"
+    "avatar": "resonators/mortefi.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S4 (Mandatory) to S6",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Resonance Skill fires coordinated Marcato shots",
+        "S4: Extends Burning Rhapsody duration from 10s to 17s",
+        "S6: Grants +20% ATK to all team members upon Liberation"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Solitary Applause",
+          "tier": "High Value",
+          "description": "During Liberation, on-field skill casts trigger 2 additional Marcato coordinated attacks."
+        },
+        {
+          "node": 2,
+          "name": "Echo Energy Battery",
+          "tier": "Moderate",
+          "description": "Casting Echo Skill restores 10 Resonance Energy once every 20s."
+        },
+        {
+          "node": 3,
+          "name": "Marcato Critical Surge",
+          "tier": "Moderate",
+          "description": "Resonance Liberation Marcato Crit DMG is increased by 30%."
+        },
+        {
+          "node": 4,
+          "name": "Extended Performance",
+          "tier": "Core Spike",
+          "description": "Resonance Liberation Burning Rhapsody duration is extended by 7s (total 17s uptime)."
+        },
+        {
+          "node": 5,
+          "name": "Virtuoso Flare",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 45%."
+        },
+        {
+          "node": 6,
+          "name": "Ensemble Grandeur",
+          "tier": "Core Spike",
+          "description": "Casting Resonance Liberation increases team-wide ATK by 20% for 20s."
+        }
+      ]
+    }
   },
   {
     "id": "verina",
@@ -313,7 +408,54 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/verina.png"
+    "avatar": "resonators/verina.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (Concerto & Energy Flow)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Grants 30s continuous healing on Outro switch",
+        "S2: Grants 1 Photosynthetic Energy and 10 Concerto Energy on Skill",
+        "S6: Coordinated flower attacks and team-wide emergency save"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Sprouting Reflections",
+          "tier": "Moderate",
+          "description": "Outro Skill Blossom heals incoming resonator for 20% of Verina ATK every 5s for 30s."
+        },
+        {
+          "node": 2,
+          "name": "Photosynthetic Velocity",
+          "tier": "Core Spike",
+          "description": "Resonance Skill Botany Experiment grants 1 Photosynthetic Energy and 10 Concerto Energy."
+        },
+        {
+          "node": 3,
+          "name": "Botanical Vitality",
+          "tier": "Moderate",
+          "description": "Healing bonus increased by 12% across all restoration triggers."
+        },
+        {
+          "node": 4,
+          "name": "Blossom Resonance",
+          "tier": "Moderate",
+          "description": "Heavily increases Spectro DMG bonus by 15% for all allies after Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Floral Safeguard",
+          "tier": "Moderate",
+          "description": "Increases shield and healing efficacy on low health allies by 20%."
+        },
+        {
+          "node": 6,
+          "name": "Verdant Dominion",
+          "tier": "Whale Capstone",
+          "description": "Heavy attacks and Forte casts unleash powerful coordinated Starflower blooms."
+        }
+      ]
+    }
   },
   {
     "id": "shorekeeper",
@@ -417,7 +559,54 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/shorekeeper.png"
+    "avatar": "resonators/shorekeeper.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (Dominion 40% Team ATK)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Expands domain AoE by 150%, +10s duration, Intro does not clear realm",
+        "S2: Grants massive +40% ATK to all party members in realm",
+        "S3: Grants +20 Concerto Energy instantly on Liberation cast"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Unspoken Conjecture",
+          "tier": "High Value",
+          "description": "Increases Stellarealm radius by 150%, extends duration by 10s, and prevents Intro Skill from dispelling the realm."
+        },
+        {
+          "node": 2,
+          "name": "Night's Gift and Refusal",
+          "tier": "Core Spike",
+          "description": "Casting Resonance Liberation grants +40% ATK to all nearby team members."
+        },
+        {
+          "node": 3,
+          "name": "Infinity Awaits Me",
+          "tier": "High Value",
+          "description": "Casting Resonance Liberation End Loop immediately grants 20 Concerto Energy (once every 25s)."
+        },
+        {
+          "node": 4,
+          "name": "Overflowing Quietude",
+          "tier": "Moderate",
+          "description": "Casting Resonance Skill Chaos Theory grants an additional 70% Healing Bonus."
+        },
+        {
+          "node": 5,
+          "name": "Echoes in Silence",
+          "tier": "Moderate",
+          "description": "Increases personal sub-DPS damage scaling and utility multipliers."
+        },
+        {
+          "node": 6,
+          "name": "To the New World",
+          "tier": "Whale Capstone",
+          "description": "Maximizes domain amplification and turns Shorekeeper into an offensive coordinated powerhouse."
+        }
+      ]
+    }
   },
   {
     "id": "camellya",
@@ -523,7 +712,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Camellya's peak damage windows."
     },
-    "avatar": "resonators/camellya.png"
+    "avatar": "resonators/camellya.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Interruption & Burst)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Interruption immunity on Ephemeral and +28% Crit DMG",
+        "S2: +120% Resonance Skill Ephemeral DMG multiplier",
+        "S6: Uncapped Budding Mode duration and peak execution scaling"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Crimson Unyielding",
+          "tier": "High Value",
+          "description": "Intro grants +28% Crit DMG for 18s and complete interruption immunity during enhanced Skill Ephemeral."
+        },
+        {
+          "node": 2,
+          "name": "Ephemeral Bloom",
+          "tier": "Core Spike",
+          "description": "Resonance Skill Ephemeral damage multiplier is increased by 120%."
+        },
+        {
+          "node": 3,
+          "name": "Budding Frenzy",
+          "tier": "Moderate",
+          "description": "Liberation damage multiplier increased by 50% and grants +58% ATK in Budding Mode."
+        },
+        {
+          "node": 4,
+          "name": "Spreading Thorns",
+          "tier": "Moderate",
+          "description": "Casting Intro grants all team members +25% Basic Attack DMG for 30s."
+        },
+        {
+          "node": 5,
+          "name": "Floral Weaver",
+          "tier": "Moderate",
+          "description": "Enhances Core Passive multiplier scaling across all floral dance stages."
+        },
+        {
+          "node": 6,
+          "name": "Eternal Efflorescence",
+          "tier": "Whale Capstone",
+          "description": "Enables sustained maximum Budding performance windows and peak multiplier execution."
+        }
+      ]
+    }
   },
   {
     "id": "sanhua",
@@ -629,7 +865,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/sanhua.png"
+    "avatar": "resonators/sanhua.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S4 to S6 (Team ATK Buffer)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Basic Attack V grants +15% Crit Rate for 10s",
+        "S4: Liberation recovers 10 Energy and grants +120% Heavy Detonate DMG",
+        "S6: Detonating Ice Prisms grants up to +20% ATK to all party members"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Solitude's Embrace",
+          "tier": "Moderate",
+          "description": "Basic Attack Stage 5 increases Sanhua Crit Rate by 15% for 10s."
+        },
+        {
+          "node": 2,
+          "name": "Snowy Clarity",
+          "tier": "Moderate",
+          "description": "Heavy Detonate stamina cost reduced by 10 and Skill grants interruption resistance."
+        },
+        {
+          "node": 3,
+          "name": "Glacial Razor",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 35%."
+        },
+        {
+          "node": 4,
+          "name": "Blade Mastery",
+          "tier": "Core Spike",
+          "description": "Liberation restores 10 Energy and increases next Heavy Detonate damage by 120% within 5s."
+        },
+        {
+          "node": 5,
+          "name": "Absolute Zero",
+          "tier": "Moderate",
+          "description": "Crit DMG against targets near Ice Prisms increased by 100%."
+        },
+        {
+          "node": 6,
+          "name": "Daybreak Radiance",
+          "tier": "Core Spike",
+          "description": "Detonating Ice Prisms grants 10% team-wide ATK for 20s, stacking up to 2 times (20% total)."
+        }
+      ]
+    }
   },
   {
     "id": "yinlin",
@@ -736,7 +1019,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/yinlin.png"
+    "avatar": "resonators/yinlin.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Skill Burst & Judgement Flow)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +70% Resonance Skill damage on Magnetic Roar & Lightning Execution",
+        "S2: Skill restores 5 Judgement Points and 5 Resonance Energy",
+        "S6: Furious Thunder basic attack barrage for 30s post-Liberation"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Magnetic Surge",
+          "tier": "High Value",
+          "description": "Magnetic Roar and Lightning Execution deal 70% more damage."
+        },
+        {
+          "node": 2,
+          "name": "Electromagnetic Flow",
+          "tier": "Core Spike",
+          "description": "Skill blast recovers 5 Judgement Points and 5 Resonance Energy on hit."
+        },
+        {
+          "node": 3,
+          "name": "Judgement Amplification",
+          "tier": "Moderate",
+          "description": "Forte Circuit Judgment Strike damage multiplier increased by 55%."
+        },
+        {
+          "node": 4,
+          "name": "Sinner's Harvest",
+          "tier": "High Value",
+          "description": "When Forte Circuit Judgment Strike hits, all team members gain +20% ATK for 12s."
+        },
+        {
+          "node": 5,
+          "name": "Thundering Wrath",
+          "tier": "Moderate",
+          "description": "Resonance Liberation deals 100% extra damage against marked targets."
+        },
+        {
+          "node": 6,
+          "name": "Furious Thunder Strike",
+          "tier": "Whale Capstone",
+          "description": "Basic Attacks trigger high-scaling Furious Thunder Electro strikes for 30s post-Liberation."
+        }
+      ]
+    }
   },
   {
     "id": "xiangli-yao",
@@ -842,7 +1172,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Xiangli Yao's peak damage windows."
     },
-    "avatar": "resonators/xiangli-yao.png"
+    "avatar": "resonators/xiangli-yao.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (30% Crit DMG Spikes)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Skill launches 6 Convolution Matrices",
+        "S2: Casting Skill or Liberation grants +30% Crit DMG for 8s",
+        "S6: Tremendous Liberation matrix damage scaling"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Prodigy of Prot\u00e9g\u00e9s",
+          "tier": "Moderate",
+          "description": "Resonance Skill launches 6 Convolution Matrices dealing additional Liberation damage."
+        },
+        {
+          "node": 2,
+          "name": "Traces of Predecessors",
+          "tier": "Core Spike",
+          "description": "Casting Resonance Skill or Liberation increases Crit DMG by 30% for 8s."
+        },
+        {
+          "node": 3,
+          "name": "Ruins of Ancient",
+          "tier": "Moderate",
+          "description": "Liberation increases subsequent Resonance Skill moves by 63% for 24s."
+        },
+        {
+          "node": 4,
+          "name": "Logical Convergence",
+          "tier": "Moderate",
+          "description": "Team members gain 25% Electro DMG bonus during his Intuition burst state."
+        },
+        {
+          "node": 5,
+          "name": "Empirical Matrix",
+          "tier": "Moderate",
+          "description": "Intro and Outro skill damage multipliers increased by 50%."
+        },
+        {
+          "node": 6,
+          "name": "Ultimate Axiom",
+          "tier": "Whale Capstone",
+          "description": "Intuition state attacks ignore 30% enemy DEF and multiply finisher output."
+        }
+      ]
+    }
   },
   {
     "id": "calcharo",
@@ -948,7 +1325,55 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Calcharo's peak damage windows."
     },
-    "avatar": "resonators/calcharo.png"
+    "avatar": "resonators/calcharo.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 to S3 (Permanent Pool Spikes)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Resonance Skill restores 10 Energy",
+        "S2: +30% Skill DMG bonus for 15s post-Intro",
+        "S3: +25% Electro DMG Bonus during Deathblade Gear",
+        "S6: Death Messenger summons 2 Coordinated Phantoms"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Covert Negotiation",
+          "tier": "Moderate",
+          "description": "Resonance Skill hits recover 10 Resonance Energy once every 20s."
+        },
+        {
+          "node": 2,
+          "name": "Zero-Sum Game",
+          "tier": "Moderate",
+          "description": "Casting Intro Skill increases Resonance Skill DMG Bonus by 30% for 15s."
+        },
+        {
+          "node": 3,
+          "name": "Iron Fist Diplomacy",
+          "tier": "Core Spike",
+          "description": "Electro DMG Bonus is increased by 25% during Deathblade Gear Liberation state."
+        },
+        {
+          "node": 4,
+          "name": "Dark Alliance",
+          "tier": "Moderate",
+          "description": "Outro Skill grants all team members +20% Electro DMG for 30s."
+        },
+        {
+          "node": 5,
+          "name": "Unconventional Compact",
+          "tier": "Moderate",
+          "description": "Intro Skills deal 50% more damage."
+        },
+        {
+          "node": 6,
+          "name": "The Ultimatum",
+          "tier": "Whale Capstone",
+          "description": "Death Messenger summons 2 Phantoms dealing 100% ATK Electro coordinated strikes."
+        }
+      ]
+    }
   },
   {
     "id": "changli",
@@ -1055,7 +1480,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/changli.png"
+    "avatar": "resonators/changli.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (25% Free Crit Rate)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +10% DMG dealt on Skill and Flaming Sacrifice with interruption immunity",
+        "S2: Grants +25% Crit Rate for 8s on gaining Enflamement",
+        "S6: Heavy Attack and True Sight ignore 40% DEF"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Hidden Thoughts",
+          "tier": "High Value",
+          "description": "Tripartite Flames and Flaming Sacrifice deal 10% more DMG with increased interruption resistance."
+        },
+        {
+          "node": 2,
+          "name": "Pursuit of Desires",
+          "tier": "Core Spike",
+          "description": "Gaining Enflamement grants +25% Crit Rate for 8s."
+        },
+        {
+          "node": 3,
+          "name": "Learned Secrets",
+          "tier": "Moderate",
+          "description": "Resonance Liberation Radiance of Fealty deals 80% more damage."
+        },
+        {
+          "node": 4,
+          "name": "Polished Words",
+          "tier": "Moderate",
+          "description": "Intro Skill grants +20% ATK to the entire team for 30s."
+        },
+        {
+          "node": 5,
+          "name": "Sacrificed Gains",
+          "tier": "Moderate",
+          "description": "Flaming Sacrifice multiplier +50% and deals 50% more damage."
+        },
+        {
+          "node": 6,
+          "name": "Radiance Unbounded",
+          "tier": "Whale Capstone",
+          "description": "Resonance Skill and Flaming Sacrifice ignore 40% enemy DEF."
+        }
+      ]
+    }
   },
   {
     "id": "encore",
@@ -1161,7 +1633,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Encore's peak damage windows."
     },
-    "avatar": "resonators/encore.png"
+    "avatar": "resonators/encore.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 to S4 (Standard Pool Spikes)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Basic attacks grant up to +12% Fusion DMG",
+        "S2: Basic attacks restore 10 Resonance Energy",
+        "S4: Cosmos Rupture grants +20% Fusion DMG to all allies for 30s"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Wooly's Gift",
+          "tier": "Moderate",
+          "description": "Basic attacks grant 3% Fusion DMG stacking up to 4 times (12% total)."
+        },
+        {
+          "node": 2,
+          "name": "Wooly's Encouragement",
+          "tier": "Core Spike",
+          "description": "Basic attacks restore 10 Resonance Energy once every 10s."
+        },
+        {
+          "node": 3,
+          "name": "Cosmos Adventure",
+          "tier": "Moderate",
+          "description": "Liberation Frenzy and Rupture multipliers increased by 40%."
+        },
+        {
+          "node": 4,
+          "name": "Flaming Harmony",
+          "tier": "High Value",
+          "description": "Cosmos Rupture grants +20% Fusion DMG to all team members for 30s."
+        },
+        {
+          "node": 5,
+          "name": "Wooly's Rampage",
+          "tier": "Moderate",
+          "description": "Resonance Skill DMG bonus increased by 35%."
+        },
+        {
+          "node": 6,
+          "name": "Starry Fireworks",
+          "tier": "Whale Capstone",
+          "description": "Cosmos Rave enhances overall stats and triggers additional wooly flares."
+        }
+      ]
+    }
   },
   {
     "id": "zhezhi",
@@ -1268,7 +1787,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/zhezhi.png"
+    "avatar": "resonators/zhezhi.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Energy Battery & Spirits)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Skill restores 15 Energy and grants +10% Crit Rate for 27s",
+        "S2: Increases maximum summoned Inklit Spirits by 6",
+        "S6: Summons extra Ivory Herald dealing 120% Skill damage"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Creation's Zenith",
+          "tier": "High Value",
+          "description": "Skill restores 15 Energy and grants +10% Crit Rate for 27s."
+        },
+        {
+          "node": 2,
+          "name": "Inklit Proliferation",
+          "tier": "Core Spike",
+          "description": "Living Canvas summons 6 additional Inklit Spirits for coordinated attacks."
+        },
+        {
+          "node": 3,
+          "name": "Brushstroke Elegance",
+          "tier": "Moderate",
+          "description": "Resonance Skill and Forte multipliers increased by 30%."
+        },
+        {
+          "node": 4,
+          "name": "Calligraphy Flow",
+          "tier": "Moderate",
+          "description": "All team members gain +20% ATK for 30s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Pigment Burst",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Masterpiece Unfolding",
+          "tier": "Whale Capstone",
+          "description": "Skill casts summon Ivory Herald dealing 120% extra damage as Basic Attack DMG."
+        }
+      ]
+    }
   },
   {
     "id": "jinhsi",
@@ -1374,7 +1940,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jinhsi's peak damage windows."
     },
-    "avatar": "resonators/jinhsi.png"
+    "avatar": "resonators/jinhsi.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Incandescence & Skill Nuke)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Herald of Revival stacks give up to +80% Illuminous Epiphany DMG",
+        "S2: Restores 50 Incandescence out of combat every 4s",
+        "S6: +45% Illuminous Epiphany multiplier and +45% consumed Incandescence scaling"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Herald of Revival",
+          "tier": "High Value",
+          "description": "Attacks generate stacks increasing Illuminous Epiphany damage by up to 80%."
+        },
+        {
+          "node": 2,
+          "name": "Sunburst Accumulation",
+          "tier": "Core Spike",
+          "description": "Restores 50 Incandescence out of combat every 4s for instant rotation readiness."
+        },
+        {
+          "node": 3,
+          "name": "Solar Cleansing",
+          "tier": "Moderate",
+          "description": "Casting Intro Skill increases ATK by 25% for 20s."
+        },
+        {
+          "node": 4,
+          "name": "Divine Majesty",
+          "tier": "Moderate",
+          "description": "Liberation grants all allies +20% all-attribute damage for 20s."
+        },
+        {
+          "node": 5,
+          "name": "Radiant Decree",
+          "tier": "Moderate",
+          "description": "Liberation damage multiplier increased by 120%."
+        },
+        {
+          "node": 6,
+          "name": "Incarnation Zenith",
+          "tier": "Whale Capstone",
+          "description": "Increases Illuminous Epiphany multiplier by 45% and Incandescence bonus by 45%."
+        }
+      ]
+    }
   },
   {
     "id": "baizhi",
@@ -1478,7 +2091,54 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/baizhi.png"
+    "avatar": "resonators/baizhi.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Energy & Glacio Heal)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Consuming Concentration restores 2.5 Energy per stack",
+        "S2: 4 Concentration grants +15% Glacio DMG and +15% Healing",
+        "S6: Revives fallen team member once every 10 minutes"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Emergency Energy Plan",
+          "tier": "Core Spike",
+          "description": "Emergency Plan restores 2.5 Resonance Energy for every 1 Concentration consumed."
+        },
+        {
+          "node": 2,
+          "name": "Glacio Concentration",
+          "tier": "Core Spike",
+          "description": "Consuming 4 Concentration stacks grants +15% Glacio DMG and +15% Healing for 12s."
+        },
+        {
+          "node": 3,
+          "name": "Overflowing Frost",
+          "tier": "Moderate",
+          "description": "Intro Skill increases Baizhi Max HP by 12% for 10s."
+        },
+        {
+          "node": 4,
+          "name": "Remnant Bloom",
+          "tier": "Moderate",
+          "description": "You'tan attacks deal 20% more damage and grant continuous minor team healing."
+        },
+        {
+          "node": 5,
+          "name": "Frost Ward",
+          "tier": "Moderate",
+          "description": "All team members gain 15% Glacio resistance and minor damage mitigation."
+        },
+        {
+          "node": 6,
+          "name": "Fallen Revival",
+          "tier": "Whale Capstone",
+          "description": "Revives a fallen team member to 100% HP once every 10 minutes."
+        }
+      ]
+    }
   },
   {
     "id": "taoqi",
@@ -1583,7 +2243,54 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/taoqi.png"
+    "avatar": "resonators/taoqi.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S3 (Shield Value & 30s Uptime)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Forte Circuit shield value increased by 40%",
+        "S3: Rocksteady Shield duration extended to 30s",
+        "S4: Strategic Parry restores 25% HP and grants +50% DEF for 5s"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Power Shift Shield",
+          "tier": "Core Spike",
+          "description": "Forte Circuit Power Shift shield value is increased by 40%."
+        },
+        {
+          "node": 2,
+          "name": "Unmovable Precision",
+          "tier": "Moderate",
+          "description": "Resonance Liberation Crit Rate and Crit DMG increased by 20% each."
+        },
+        {
+          "node": 3,
+          "name": "Rocksteady Persistence",
+          "tier": "Core Spike",
+          "description": "Resonance Skill Rocksteady Shield duration is extended to 30s."
+        },
+        {
+          "node": 4,
+          "name": "Strategic Recovery",
+          "tier": "High Value",
+          "description": "Strategic Parry restores 25% HP and raises DEF by 50% for 5s."
+        },
+        {
+          "node": 5,
+          "name": "Steadfast Fortress",
+          "tier": "Moderate",
+          "description": "Outro Skill damage amplify percentages increased by 5%."
+        },
+        {
+          "node": 6,
+          "name": "Ironclad Retaliation",
+          "tier": "High Value",
+          "description": "Converts 50% of DEF into Basic and Heavy Attack damage during Rocksteady stance."
+        }
+      ]
+    }
   },
   {
     "id": "danjin",
@@ -1689,7 +2396,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/danjin.png"
+    "avatar": "resonators/danjin.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 or S6 (Team ATK Buff)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Attacks against Incinerating Will grant up to +30% ATK",
+        "S2: +20% damage dealt to targets with Incinerating Will",
+        "S6: Heavy Attack Chaoscleave grants +20% ATK to all allies for 20s"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Crimson Heart of Justice",
+          "tier": "Moderate",
+          "description": "Attacking targets with Incinerating Will grants up to +30% ATK."
+        },
+        {
+          "node": 2,
+          "name": "Dusted Mirror",
+          "tier": "Core Spike",
+          "description": "Attacking targets with Incinerating Will increases overall damage dealt by 20%."
+        },
+        {
+          "node": 3,
+          "name": "Bloody Cleave",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 40%."
+        },
+        {
+          "node": 4,
+          "name": "Crimson Bloom",
+          "tier": "Moderate",
+          "description": "Crit Rate increased by 15% when below 60% HP."
+        },
+        {
+          "node": 5,
+          "name": "Unwavering Resolve",
+          "tier": "Moderate",
+          "description": "Liberation damage multiplier increased by 50%."
+        },
+        {
+          "node": 6,
+          "name": "Chaoscleave Harmony",
+          "tier": "Core Spike",
+          "description": "Heavy Attack Chaoscleave increases ATK of all team members by 20% for 20s."
+        }
+      ]
+    }
   },
   {
     "id": "aalto",
@@ -1795,7 +2549,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/aalto.png"
+    "avatar": "resonators/aalto.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 to S6 (Rapid Cooldown & Crit)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Reduces Skill Shift Trick cooldown by 4s",
+        "S2: Mist Avatar taunt grants +15% ATK",
+        "S6: Gate of Quandary gives +8% Crit Rate and +50% Heavy DMG"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Mist Drops",
+          "tier": "Core Spike",
+          "description": "Resonance Skill Shift Trick cooldown is reduced by 4s."
+        },
+        {
+          "node": 2,
+          "name": "Avatar Mirror",
+          "tier": "Moderate",
+          "description": "Mist Avatar gains 100% more HP and attacks against taunted foes grant +15% ATK."
+        },
+        {
+          "node": 3,
+          "name": "Smoky Veil",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 40%."
+        },
+        {
+          "node": 4,
+          "name": "Phantom Mirage",
+          "tier": "Moderate",
+          "description": "Passing through Gate of Quandary grants 10% Aero DMG to all team members."
+        },
+        {
+          "node": 5,
+          "name": "Trickster's Deceit",
+          "tier": "Moderate",
+          "description": "Liberation damage multiplier increased by 50%."
+        },
+        {
+          "node": 6,
+          "name": "Quandary Apex",
+          "tier": "Core Spike",
+          "description": "Liberation grants +8% Crit Rate and Heavy Attacks through gate gain +50% DMG."
+        }
+      ]
+    }
   },
   {
     "id": "yangyang",
@@ -1899,7 +2700,54 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/yangyang.png"
+    "avatar": "resonators/yangyang.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 or S6 (Energy & 20% Team ATK)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Intro increases Aero DMG bonus by 15% for 8s",
+        "S2: Heavy Attack recovers 10 extra Resonance Energy",
+        "S6: Feather Release grants +20% ATK to all allies for 20s"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Cerulean Song",
+          "tier": "Moderate",
+          "description": "Intro Skill increases Yangyang Aero DMG Bonus by 15% for 8s."
+        },
+        {
+          "node": 2,
+          "name": "Feather Gathering",
+          "tier": "Core Spike",
+          "description": "Heavy Attack recovers 10 additional Resonance Energy."
+        },
+        {
+          "node": 3,
+          "name": "Gale Symphony",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 40%."
+        },
+        {
+          "node": 4,
+          "name": "Breeze Recovery",
+          "tier": "Moderate",
+          "description": "All team members gain 10% Energy Recharge after Yangyang casts Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Wind Domain",
+          "tier": "Moderate",
+          "description": "Outro Skill energy battery amount increased from 20 to 24 Energy."
+        },
+        {
+          "node": 6,
+          "name": "Feather Release Ensemble",
+          "tier": "Core Spike",
+          "description": "Mid-air Feather Release grants +20% ATK to all team members for 20s."
+        }
+      ]
+    }
   },
   {
     "id": "chixia",
@@ -2005,7 +2853,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Chixia's peak damage windows."
     },
-    "avatar": "resonators/chixia.png"
+    "avatar": "resonators/chixia.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S4 (Guaranteed Crits & Skill Reset)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Resonance Skill Boom Boom hits are guaranteed Critical Hits",
+        "S3: +40% Liberation DMG to targets below 50% HP",
+        "S4: Liberation grants 60 Bullets and immediately resets Skill cooldown"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Guaranteed Detonation",
+          "tier": "Core Spike",
+          "description": "Resonance Skill Boom Boom hits are guaranteed Critical Hits."
+        },
+        {
+          "node": 2,
+          "name": "Blazing Recovery",
+          "tier": "Moderate",
+          "description": "Defeating enemies with Liberation restores 5 Resonance Energy each (up to 20)."
+        },
+        {
+          "node": 3,
+          "name": "Spicy Execution",
+          "tier": "High Value",
+          "description": "Liberation deals 40% more damage to targets whose HP is below 50%."
+        },
+        {
+          "node": 4,
+          "name": "Fight Spirit Reset",
+          "tier": "Core Spike",
+          "description": "Liberation grants 60 Thermobaric Bullets and immediately resets Skill cooldown."
+        },
+        {
+          "node": 5,
+          "name": "Numbingly Spicy Surge",
+          "tier": "Moderate",
+          "description": "Inherent passive damage scaling increased by 50%."
+        },
+        {
+          "node": 6,
+          "name": "Blazing Heroism",
+          "tier": "High Value",
+          "description": "Boom Boom increases Basic Attack DMG bonus by 25% for 15s."
+        }
+      ]
+    }
   },
   {
     "id": "yuanwu",
@@ -2110,7 +3005,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/yuanwu.png"
+    "avatar": "resonators/yuanwu.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S4 or S6 (Shield & 32% Team DEF)",
+      "priorityRank": "Medium Priority",
+      "pullPath": [
+        "S1: Attack Speed increased by 20% in Lightning Infused state",
+        "S4: Casting Liberation gives on-field ally a shield equal to 200% DEF",
+        "S6: Allies within Thunder Wedge gain +32% DEF for 3s"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Steaming Cup of Justice",
+          "tier": "Moderate",
+          "description": "Lightning Infused state increases Basic and Heavy Attack Speed by 20%."
+        },
+        {
+          "node": 2,
+          "name": "Fierce Heart Serenity",
+          "tier": "Moderate",
+          "description": "Intro Skill recovers 15 additional Resonance Energy."
+        },
+        {
+          "node": 3,
+          "name": "Thunderous Knuckles",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 40%."
+        },
+        {
+          "node": 4,
+          "name": "Retributive Shield",
+          "tier": "Core Spike",
+          "description": "Casting Liberation grants on-field ally a shield equal to 200% of Yuanwu DEF for 10s."
+        },
+        {
+          "node": 5,
+          "name": "Vibration Shatter",
+          "tier": "Moderate",
+          "description": "Outro Skill vibration shred duration increased by 4s."
+        },
+        {
+          "node": 6,
+          "name": "Defender of All Realms",
+          "tier": "Core Spike",
+          "description": "All team members within Thunder Wedge gain +32% DEF for 3s."
+        }
+      ]
+    }
   },
   {
     "id": "rover-havoc",
@@ -2216,7 +3158,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Rover (Havoc)'s peak damage windows."
     },
-    "avatar": "resonators/rover-havoc.png"
+    "avatar": "resonators/rover-havoc.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 to S6 (Story Unlocks)",
+      "priorityRank": "Low Priority / Luxury",
+      "pullPath": [
+        "S1: Resonance Skill DMG Bonus +30%",
+        "S2: Reset Skill cooldown upon entering Dark Surge",
+        "S6: +25% Crit Rate during Dark Surge"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Dark Resonance",
+          "tier": "Moderate",
+          "description": "Resonance Skill DMG Bonus is increased by 30%."
+        },
+        {
+          "node": 2,
+          "name": "Dark Surge Reset",
+          "tier": "Core Spike",
+          "description": "Resets Resonance Skill cooldown when entering Dark Surge via Heavy Attack Devastation."
+        },
+        {
+          "node": 3,
+          "name": "Void Cleave",
+          "tier": "Moderate",
+          "description": "Resonance Liberation damage multiplier increased by 40%."
+        },
+        {
+          "node": 4,
+          "name": "Abyssal Pull",
+          "tier": "Moderate",
+          "description": "Dark Surge attacks reduce target Havoc RES by 10% for 20s."
+        },
+        {
+          "node": 5,
+          "name": "Shadow Reflection",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Dark Surge Precision",
+          "tier": "Core Spike",
+          "description": "During Dark Surge state, Rover Crit Rate is increased by 25%."
+        }
+      ]
+    }
   },
   {
     "id": "rover-spectro",
@@ -2321,7 +3310,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/rover-spectro.png"
+    "avatar": "resonators/rover-spectro.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 to S6 (Story Unlocks)",
+      "priorityRank": "Low Priority / Luxury",
+      "pullPath": [
+        "S1: Resonance Skill recovers 10 Energy",
+        "S2: +20% Spectro DMG bonus during Forte Circuit",
+        "S6: Basic attacks shred 10% Spectro RES"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Radiant Gathering",
+          "tier": "Moderate",
+          "description": "Resonance Skill restores 10 Resonance Energy on hit."
+        },
+        {
+          "node": 2,
+          "name": "Luminous Surge",
+          "tier": "Core Spike",
+          "description": "Spectro DMG Bonus is increased by 20% during Forte Circuit activations."
+        },
+        {
+          "node": 3,
+          "name": "Solar Cleave",
+          "tier": "Moderate",
+          "description": "Liberation damage multiplier increased by 40%."
+        },
+        {
+          "node": 4,
+          "name": "Stasis Field",
+          "tier": "Moderate",
+          "description": "Extends Stagnation field duration from Outro by 1s."
+        },
+        {
+          "node": 5,
+          "name": "Dawn Radiance",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Prismatic Cleave",
+          "tier": "Core Spike",
+          "description": "Basic attacks reduce target Spectro RES by 10% for 20s."
+        }
+      ]
+    }
   },
   {
     "id": "augusta",
@@ -2427,7 +3463,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Augusta's peak damage windows."
     },
-    "avatar": "resonators/augusta.png"
+    "avatar": "resonators/augusta.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (Crit Rate to Crit DMG Overcap)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Crown of Wills cap raised to 2, +15% Crit DMG per stack, interruption immunity",
+        "S2: +20% Crit Rate per stack, converting excess Crit Rate into up to 100% Crit DMG",
+        "S6: Crown of Wills cap raised to 4 and double-speed stack generation"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Crown of Wills",
+          "tier": "High Value",
+          "description": "Crown of Wills cap increased to 2, +15% Crit DMG per stack, and interruption immunity on skills."
+        },
+        {
+          "node": 2,
+          "name": "Critical Overcap",
+          "tier": "Core Spike",
+          "description": "+20% Crit Rate per stack, converting every 1% Crit Rate over 100% into 2% Crit DMG (up to 100%)."
+        },
+        {
+          "node": 3,
+          "name": "Thunderous Decree",
+          "tier": "Moderate",
+          "description": "Resonance Skill and Liberation damage multipliers increased by 45%."
+        },
+        {
+          "node": 4,
+          "name": "Electro Hegemony",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Electro DMG bonus during her Crown state."
+        },
+        {
+          "node": 5,
+          "name": "Sovereign Plunge",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 90%."
+        },
+        {
+          "node": 6,
+          "name": "Imperial Sovereign",
+          "tier": "Whale Capstone",
+          "description": "Crown of Wills cap raised to 4 and heavy attacks generate 2 stacks simultaneously."
+        }
+      ]
+    }
   },
   {
     "id": "iuno",
@@ -2534,7 +3617,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/iuno.png"
+    "avatar": "resonators/iuno.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (40% Team All-DMG Amplification)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +40% ATK in Lunar Cycle, 1 Energy/sec in Full Moon, interruption immunity",
+        "S2: Grants +40% All DMG Amplification to teammates with 10 Wan Light stacks",
+        "S6: +1600% Resonance Skill Absolute Fullness damage multiplier"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Lunar Cycle Awakening",
+          "tier": "High Value",
+          "description": "Grants +40% ATK in Lunar Cycle, restores 1 Energy/sec in Full Moon, and gives interruption immunity."
+        },
+        {
+          "node": 2,
+          "name": "Wan Light Amplification",
+          "tier": "Core Spike",
+          "description": "Teammates with 10 Wan Light stacks gain +40% All DMG Amplification."
+        },
+        {
+          "node": 3,
+          "name": "Arc Mastery",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 50%."
+        },
+        {
+          "node": 4,
+          "name": "Full Moon Veil",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Aero DMG bonus for 25s inside Full Moon Domain."
+        },
+        {
+          "node": 5,
+          "name": "Crescent Echo",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 85%."
+        },
+        {
+          "node": 6,
+          "name": "Absolute Fullness Nuke",
+          "tier": "Whale Capstone",
+          "description": "Resonance Skill Absolute Fullness multiplier +1600% and resets Lunar Cycle."
+        }
+      ]
+    }
   },
   {
     "id": "mornye",
@@ -2640,7 +3770,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/mornye.png"
+    "avatar": "resonators/mornye.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Flexible Markers & ER Scaling)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Observation automatically applies Interfered Marker with interruption immunity",
+        "S2: Converts Energy Regen into up to +32% Crit DMG for the entire team",
+        "S6: Heavy extra Fusion DMG instances and skill cooldown resets"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "The Silent Observer",
+          "tier": "Core Spike",
+          "description": "Basic Attacks gain interruption immunity, extends marker duration by 150%, and auto-inflicts Interfered Marker."
+        },
+        {
+          "node": 2,
+          "name": "Morning Star Entropy",
+          "tier": "High Value",
+          "description": "Converts Energy Regen over 100% into up to 32% team Crit DMG against marked foes."
+        },
+        {
+          "node": 3,
+          "name": "Syntony Calibration",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 45%."
+        },
+        {
+          "node": 4,
+          "name": "Thermal Vanguard",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Fusion DMG bonus for 25s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Observation Horizon",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Till Last of Stars",
+          "tier": "Whale Capstone",
+          "description": "Critical Protocol deals multiple heavy Fusion strikes and restores Max Energy."
+        }
+      ]
+    }
   },
   {
     "id": "chisa",
@@ -2744,7 +3921,54 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/chisa.png"
+    "avatar": "resonators/chisa.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (50% All-Attribute Team Buff)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Interruption immunity on chainsaw combos and +30% ATK on snare",
+        "S2: Ignores 10% Havoc RES and grants teammates +50% All-Attribute DMG",
+        "S6: Death prevention survival shield and Unseen Snare Finality"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Desolate Corridors",
+          "tier": "Moderate",
+          "description": "Grants complete interruption immunity during chainsaw moves and +30% ATK on snare."
+        },
+        {
+          "node": 2,
+          "name": "Endless Bonds Web",
+          "tier": "Core Spike",
+          "description": "Ignores 10% Havoc RES and grants nearby teammates +50% All-Attribute DMG Bonus."
+        },
+        {
+          "node": 3,
+          "name": "Chainsaw Blitz",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 45%."
+        },
+        {
+          "node": 4,
+          "name": "Thread of Bane",
+          "tier": "Moderate",
+          "description": "Reduces target ATK by 15% and increases party healing by 25%."
+        },
+        {
+          "node": 5,
+          "name": "Sorrow's Lullaby",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Rekindled Hope",
+          "tier": "Whale Capstone",
+          "description": "Grants lethal damage survival (1 HP minimum) and upgrades Unseen Snare into Finality."
+        }
+      ]
+    }
   },
   {
     "id": "sigrika",
@@ -2850,7 +4074,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Sigrika's peak damage windows."
     },
-    "avatar": "resonators/sigrika.png"
+    "avatar": "resonators/sigrika.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (120% Forte Finisher)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +70% Basic and Skill multipliers with interruption immunity",
+        "S2: +120% Forte Circuit finisher damage and auto-Divergent out of combat",
+        "S6: Targets take +30% DMG and up to +60% Runic amplification"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "First Threshold",
+          "tier": "High Value",
+          "description": "Enhanced Basic and Skill multipliers +70% with full interruption immunity."
+        },
+        {
+          "node": 2,
+          "name": "True Name Awakening",
+          "tier": "Core Spike",
+          "description": "Forte Circuit finisher deals +120% DMG and grants Divergent state out of combat."
+        },
+        {
+          "node": 3,
+          "name": "Persistent Runes",
+          "tier": "High Value",
+          "description": "Innate Gift stacks up to 4 times and no longer clears after Forte casts."
+        },
+        {
+          "node": 4,
+          "name": "Runic Shockwave",
+          "tier": "Moderate",
+          "description": "Echo Skill casts grant all team members +20% Aero DMG for 20s."
+        },
+        {
+          "node": 5,
+          "name": "Soliskin Blessing",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 85%."
+        },
+        {
+          "node": 6,
+          "name": "Apex Runic Mastery",
+          "tier": "Whale Capstone",
+          "description": "Targets take 30% more DMG from Sigrika and grants up to 60% DMG amplification."
+        }
+      ]
+    }
   },
   {
     "id": "hsin",
@@ -2956,7 +4227,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/hsin.png"
+    "avatar": "resonators/hsin.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (60% Finishing Multiplier)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Interruption immunity, damage reduction, and mode starter stacks",
+        "S2: +60% DMG on heavy finishes and ability cooldown resets",
+        "S6: Adds 40% Skill DMG and DEF Ignore mechanics"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Rising Tide Ward",
+          "tier": "Moderate",
+          "description": "Formshift grants interruption immunity, 60% DMG reduction, and mode boosts."
+        },
+        {
+          "node": 2,
+          "name": "Mortal World Quelling",
+          "tier": "Core Spike",
+          "description": "Enhanced heavy finishing attacks gain +60% DMG and reset transition cooldowns."
+        },
+        {
+          "node": 3,
+          "name": "Resonance Breakthrough",
+          "tier": "Moderate",
+          "description": "Resonance Liberation damage multiplier increased by 70%."
+        },
+        {
+          "node": 4,
+          "name": "Thunderous Harmony",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Electro DMG bonus during Unison states."
+        },
+        {
+          "node": 5,
+          "name": "Universal Domain",
+          "tier": "Moderate",
+          "description": "Outro amplify percentages increased by 5%."
+        },
+        {
+          "node": 6,
+          "name": "Cosmic Sovereign",
+          "tier": "Whale Capstone",
+          "description": "Skill deals 40% more DMG and ignores 30% enemy DEF."
+        }
+      ]
+    }
   },
   {
     "id": "qingxiao",
@@ -3062,7 +4380,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Qingxiao's peak damage windows."
     },
-    "avatar": "resonators/qingxiao.png"
+    "avatar": "resonators/qingxiao.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (16% Crit & 40% Stringblade)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +16% Crit Rate, 25 Exorcising Seals, and Juque Perdition",
+        "S2: +40% Heavy Stringblade DMG and 25 Mindlock cap",
+        "S6: Targets take +40% DMG from Heavy Attacks and Juque Perdition"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Meeting Clouds",
+          "tier": "High Value",
+          "description": "Crit Rate +16%, grants 25 Exorcising Seals, and triggers Juque Perdition strikes."
+        },
+        {
+          "node": 2,
+          "name": "Falling Petals",
+          "tier": "Core Spike",
+          "description": "Heavy Attack Stringblade damage +40% and expands Mindlock stack cap to 25."
+        },
+        {
+          "node": 3,
+          "name": "Dreams and Swords",
+          "tier": "High Value",
+          "description": "Grants +100% Liberation Crit DMG and extra Tune Strain stacks."
+        },
+        {
+          "node": 4,
+          "name": "Side by Side",
+          "tier": "Moderate",
+          "description": "Inflicting Tune Strain grants temporary team-wide ATK buff."
+        },
+        {
+          "node": 5,
+          "name": "Cold Steel Warmth",
+          "tier": "Moderate",
+          "description": "Severing Note Judgement damage multiplier increased by 100%."
+        },
+        {
+          "node": 6,
+          "name": "Tarnished Age Cleansed",
+          "tier": "Whale Capstone",
+          "description": "Targets take 40% more damage from Heavy Attacks, Liberation, and Juque Perdition."
+        }
+      ]
+    }
   },
   {
     "id": "carlotta",
@@ -3168,7 +4533,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Carlotta's peak damage windows."
     },
-    "avatar": "resonators/carlotta.png"
+    "avatar": "resonators/carlotta.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (126% Liberation Burst)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +12.5% Crit Rate on Deconstruction and restores 30 Substance",
+        "S2: +126% Fatal Finale Liberation DMG multiplier",
+        "S6: Doubles crystal shards fired on Death Knell"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Chromatic Splendor",
+          "tier": "High Value",
+          "description": "Attacking Deconstructed targets grants +12.5% Crit Rate and restores 30 Substance."
+        },
+        {
+          "node": 2,
+          "name": "Fatal Finale Surge",
+          "tier": "Core Spike",
+          "description": "Resonance Liberation Fatal Finale damage multiplier increased by 126%."
+        },
+        {
+          "node": 3,
+          "name": "Glacial Precision",
+          "tier": "Moderate",
+          "description": "Substance consumption grants +40% Skill DMG for 15s."
+        },
+        {
+          "node": 4,
+          "name": "Frost Array",
+          "tier": "Moderate",
+          "description": "Team members gain 20% Glacio DMG bonus after Carlotta casts Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Closing Remark",
+          "tier": "Moderate",
+          "description": "Outro Skill multiplier increased by 90%."
+        },
+        {
+          "node": 6,
+          "name": "Crystalline Oblivion",
+          "tier": "Whale Capstone",
+          "description": "Death Knell fires double the number of crystal shards with massive DMG."
+        }
+      ]
+    }
   },
   {
     "id": "roccia",
@@ -3275,7 +4687,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/roccia.png"
+    "avatar": "resonators/roccia.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Concerto & 30% Team Havoc)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Skill grants +100 Imagination, +10 Concerto, and interruption immunity",
+        "S2: Real Fantasy bounces grant up to +30% Havoc DMG to all allies",
+        "S6: Attacks ignore 60% enemy DEF and grants continuous bounce loops"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Shadows Engulfing Hull",
+          "tier": "High Value",
+          "description": "Skill grants 100 Imagination, 10 Concerto Energy, and interruption immunity during Real Fantasy."
+        },
+        {
+          "node": 2,
+          "name": "Luceanite Gleam",
+          "tier": "Core Spike",
+          "description": "Real Fantasy grants 10% Havoc DMG to all team members, stacking up to 30% for 30s."
+        },
+        {
+          "node": 3,
+          "name": "Acrobatic Momentum",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 50%."
+        },
+        {
+          "node": 4,
+          "name": "Stage Spotlight",
+          "tier": "Moderate",
+          "description": "All team members gain 15% Basic Attack DMG bonus during theatrical performance."
+        },
+        {
+          "node": 5,
+          "name": "Curtain Call",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 85%."
+        },
+        {
+          "node": 6,
+          "name": "The Grand Illusion",
+          "tier": "Whale Capstone",
+          "description": "Imagination consumption ignores 60% DEF and grants additional aerial plunge loops."
+        }
+      ]
+    }
   },
   {
     "id": "phoebe",
@@ -3381,7 +4840,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/phoebe.png"
+    "avatar": "resonators/phoebe.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (120% Frazzle Deepen)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Instant max Spectro Frazzle in Confession and 480% Liberation multiplier",
+        "S2: +120% DMG Amplification for Spectro Frazzle and Outro attacks",
+        "S6: 2s Stagnation on Mirror Ring and free automatic Starflash hits"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Warm Light Wishes",
+          "tier": "High Value",
+          "description": "In Confession, Liberation instantly maxes Spectro Frazzle stacks and raises multiplier to 480%."
+        },
+        {
+          "node": 2,
+          "name": "Boat Adrift in Tears",
+          "tier": "Core Spike",
+          "description": "Outro attacks and Silent Prayer amplify Spectro Frazzle damage by 120%."
+        },
+        {
+          "node": 3,
+          "name": "Daisy Wreaths",
+          "tier": "Moderate",
+          "description": "Heavy Attack Starflash damage multiplier increased by 249% in Confession."
+        },
+        {
+          "node": 4,
+          "name": "Ringing Bells",
+          "tier": "Moderate",
+          "description": "Basic attacks and dodge counters reduce enemy Spectro RES by 10%."
+        },
+        {
+          "node": 5,
+          "name": "Distant Light Prayer",
+          "tier": "Moderate",
+          "description": "Intro Skill grants +25% Spectro DMG bonus for 15s."
+        },
+        {
+          "node": 6,
+          "name": "Whispering Chirps",
+          "tier": "Whale Capstone",
+          "description": "Ring of Mirrors stagnates foes for 2s, grants +10% ATK, and triggers free Starflash."
+        }
+      ]
+    }
   },
   {
     "id": "brant",
@@ -3488,7 +4994,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/brant.png"
+    "avatar": "resonators/brant.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (30% Crit Rate & Outro Procs)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Stagnation on Forte and up to +60% DMG on flips",
+        "S2: Permanent +30% Crit Rate and 440% ATK off-field Outro explosions",
+        "S6: Mid-air Attack +30% and secondary blast deals 30% extra DMG"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Currents and Winds",
+          "tier": "High Value",
+          "description": "Forte applies enemy Stagnation and flip attacks grant up to 60% DMG bonus."
+        },
+        {
+          "node": 2,
+          "name": "Smiles and Cheers",
+          "tier": "Core Spike",
+          "description": "Permanent +30% Crit Rate and Outro procs 440% ATK off-field explosions."
+        },
+        {
+          "node": 3,
+          "name": "Gale Momentum",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 45%."
+        },
+        {
+          "node": 4,
+          "name": "Fiery Compass",
+          "tier": "Moderate",
+          "description": "Casting Liberation grants +20% Fusion DMG to all team members for 25s."
+        },
+        {
+          "node": 5,
+          "name": "Voyager Resolve",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Ashen Phoenix",
+          "tier": "Whale Capstone",
+          "description": "Mid-air attacks deal 30% more DMG and Forte triggers secondary blast."
+        }
+      ]
+    }
   },
   {
     "id": "cantarella",
@@ -3595,7 +5148,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/cantarella.png"
+    "avatar": "resonators/cantarella.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Trance Flow & 245% Jolt)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +50% Skill and Forte multipliers with interruption immunity",
+        "S2: Liberation triggers Hazy Dream and multiplies Jolt damage by +245%",
+        "S6: Basic attacks deal +80% DMG and attacks ignore 30% enemy DEF"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Endless Waves",
+          "tier": "High Value",
+          "description": "Skill recovers 1 Trance, boosts Skill/Forte DMG by 50%, and gives interruption immunity."
+        },
+        {
+          "node": 2,
+          "name": "Illusive Reverie",
+          "tier": "Core Spike",
+          "description": "Liberation applies Hazy Dream and Jolt damage multiplier is increased by 245%."
+        },
+        {
+          "node": 3,
+          "name": "Perception Surge",
+          "tier": "Moderate",
+          "description": "Perception Drain damage multiplier increased by 60%."
+        },
+        {
+          "node": 4,
+          "name": "Depth Chorus",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Havoc DMG bonus for 20s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Sirens Murmur",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Phantom Depths",
+          "tier": "Whale Capstone",
+          "description": "Basic Attacks deal +80% DMG and attacks ignore 30% DEF for 10s post-Liberation."
+        }
+      ]
+    }
   },
   {
     "id": "zani",
@@ -3701,7 +5301,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Zani's peak damage windows."
     },
-    "avatar": "resonators/zani.png"
+    "avatar": "resonators/zani.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (20% Permanent Crit Rate)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +50% Spectro DMG bonus for 14s with interruption immunity",
+        "S2: Permanent +20% Crit Rate and +80% Riposte multiplier",
+        "S6: +40% primary multipliers and death-protection utility"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Alarm Clock Ringing",
+          "tier": "High Value",
+          "description": "Targeted Action or Forcible Riposte grants +50% Spectro DMG for 14s with interruption immunity."
+        },
+        {
+          "node": 2,
+          "name": "Energy Drink Surge",
+          "tier": "Core Spike",
+          "description": "Permanently increases Crit Rate by 20% and Riposte multipliers by 80%."
+        },
+        {
+          "node": 3,
+          "name": "Parry Precision",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 50%."
+        },
+        {
+          "node": 4,
+          "name": "Solar Array",
+          "tier": "Moderate",
+          "description": "All team members gain +20% Spectro DMG bonus for 20s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Inferno Charge",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 85%."
+        },
+        {
+          "node": 6,
+          "name": "Unbreakable Dawn",
+          "tier": "Whale Capstone",
+          "description": "Empowered attacks deal 40% more DMG with built-in death protection."
+        }
+      ]
+    }
   },
   {
     "id": "ciaccona",
@@ -3807,7 +5454,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/ciaccona.png"
+    "avatar": "resonators/ciaccona.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (40% Team Aero Bonus)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Skill gives interruption immunity and +35% ATK",
+        "S2: Grants +40% Aero DMG bonus to all team members during Liberation",
+        "S6: Massive cooperative Aero DMG scaling on Ensemble Sylphs"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Harmonic Allegro",
+          "tier": "High Value",
+          "description": "Skill grants interruption immunity for 3s and Basic Attack grants +35% ATK for 10s."
+        },
+        {
+          "node": 2,
+          "name": "Cadenza of the Winds",
+          "tier": "Core Spike",
+          "description": "During Liberation, all team members gain a 40% Aero DMG Bonus."
+        },
+        {
+          "node": 3,
+          "name": "Aero Erosion Melisma",
+          "tier": "Moderate",
+          "description": "Aero Erosion application rate increased by 50%."
+        },
+        {
+          "node": 4,
+          "name": "Ensemble Melody",
+          "tier": "Moderate",
+          "description": "Increases team-wide Energy Recharge by 15%."
+        },
+        {
+          "node": 5,
+          "name": "Soloist Bravura",
+          "tier": "Moderate",
+          "description": "Outro Skill multiplier increased by 100%."
+        },
+        {
+          "node": 6,
+          "name": "Symphony of the Tempest",
+          "tier": "Whale Capstone",
+          "description": "Ensemble Sylphs execute continuous high-scaling cooperative Aero strikes."
+        }
+      ]
+    }
   },
   {
     "id": "cartethyia",
@@ -3913,7 +5607,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Cartethyia's peak damage windows."
     },
-    "avatar": "resonators/cartethyia.png"
+    "avatar": "resonators/cartethyia.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (Massive Damage Doubler)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Zeal state maxes Aero Erosion stacks upon defeating targets",
+        "S2: Aero Erosion cap expanded and Mid-air Attack DMG increased by ~200%",
+        "S6: +40% unique multiplicative scaling for Fleurdelys"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Zeal of Conviction",
+          "tier": "High Value",
+          "description": "Defeating targets instantly maxes Aero Erosion stacks and grants stacking Crit DMG."
+        },
+        {
+          "node": 2,
+          "name": "Aero Erosion Expansion",
+          "tier": "Core Spike",
+          "description": "Expands Aero Erosion capacity and multiplies Mid-air Attack damage by ~200%."
+        },
+        {
+          "node": 3,
+          "name": "Fleurdelys Awakening",
+          "tier": "Moderate",
+          "description": "Resonance Liberation damage multiplier increased by 55%."
+        },
+        {
+          "node": 4,
+          "name": "Grace of Tempest",
+          "tier": "Moderate",
+          "description": "Team members gain +20% Aero DMG for 20s after Cartethyia casts Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Sword Cadence",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 90%."
+        },
+        {
+          "node": 6,
+          "name": "Divine Sovereignty",
+          "tier": "Whale Capstone",
+          "description": "Unique +40% multiplier increase specifically tailored for Fleurdelys."
+        }
+      ]
+    }
   },
   {
     "id": "lupa",
@@ -4020,7 +5761,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/lupa.png"
+    "avatar": "resonators/lupa.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (40% Team Fusion Bonus)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Liberation restores 10 Concerto Energy and grants +20% Crit Rate",
+        "S2: Core attacks grant up to +40% Fusion DMG to the entire team",
+        "S6: Core attacks ignore 30% enemy DEF and Wolflame gauge auto-refills"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Fire-Kissed Glory",
+          "tier": "High Value",
+          "description": "Liberation restores 10 Concerto Energy and grants +20% Crit Rate with interruption immunity."
+        },
+        {
+          "node": 2,
+          "name": "Pack Alpha Blessing",
+          "tier": "Core Spike",
+          "description": "Key attacks grant 20% Fusion DMG to all team members, stacking up to 40% for 30s."
+        },
+        {
+          "node": 3,
+          "name": "Feral Resilience",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 50%."
+        },
+        {
+          "node": 4,
+          "name": "Hunting Howl",
+          "tier": "Moderate",
+          "description": "Team members gain 15% Basic Attack DMG bonus during Pack Hunt."
+        },
+        {
+          "node": 5,
+          "name": "Wolflame Fury",
+          "tier": "Moderate",
+          "description": "Outro Skill multiplier increased by 90%."
+        },
+        {
+          "node": 6,
+          "name": "Apex Predator",
+          "tier": "Whale Capstone",
+          "description": "Forte, Liberation, and Intro ignore 30% DEF and Skill restores 100 Wolflame."
+        }
+      ]
+    }
   },
   {
     "id": "phrolova",
@@ -4127,7 +5915,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Phrolova's peak damage windows."
     },
-    "avatar": "resonators/phrolova.png"
+    "avatar": "resonators/phrolova.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (Instant 14 Aftersound)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +80% Skill multipliers and out of combat Cadenza generation",
+        "S2: +75% Scarlet Coda DMG and grants 14 instant Aftersound stacks",
+        "S6: Hecate Basic ATK +300% and targets take +40% DMG in Maestro"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Netherworld Secrets",
+          "tier": "High Value",
+          "description": "Movement of Fate and Finality deals +80% DMG and generates 2 Cadenza notes out of combat."
+        },
+        {
+          "node": 2,
+          "name": "Life Beyond Tether",
+          "tier": "Core Spike",
+          "description": "Scarlet Coda deals +75% DMG and instantly grants 14 stacks of Aftersound."
+        },
+        {
+          "node": 3,
+          "name": "Clean Obsessions",
+          "tier": "Moderate",
+          "description": "Scarlet Coda converts stored notes into Cadenza notes."
+        },
+        {
+          "node": 4,
+          "name": "Illuminating Torch",
+          "tier": "Moderate",
+          "description": "Casting Echo Skill grants +20% team-wide DMG bonus for 30s."
+        },
+        {
+          "node": 5,
+          "name": "Fate's Heartland",
+          "tier": "Moderate",
+          "description": "Unlocks Stagnation field and damage-taken reduction utility."
+        },
+        {
+          "node": 6,
+          "name": "Night of Eternal Rest",
+          "tier": "Whale Capstone",
+          "description": "Hecate deals +300% Basic DMG and targets take 40% more DMG in Maestro."
+        }
+      ]
+    }
   },
   {
     "id": "lynae",
@@ -4234,7 +6069,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/lynae.png"
+    "avatar": "resonators/lynae.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Polychrome Multiplier)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +120% Polychrome Leap DMG, pulls enemies, and interruption immunity",
+        "S2: +18% personal DPS increase and team damage deepen utilities",
+        "S6: Retains Lumiflow state on Outro, skipping startup animations"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Painted Canvas",
+          "tier": "High Value",
+          "description": "Basic Attack Polychrome Leap deals +120% DMG, Spray Paint pulls enemies, and grants interruption immunity."
+        },
+        {
+          "node": 2,
+          "name": "Vanishing Point",
+          "tier": "Core Spike",
+          "description": "Provides +18% overall personal damage increase and team damage amplify."
+        },
+        {
+          "node": 3,
+          "name": "Kaleidoscopic Flash",
+          "tier": "Moderate",
+          "description": "Resonance Skill damage multiplier increased by 45%."
+        },
+        {
+          "node": 4,
+          "name": "Chromatic Symphony",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Spectro DMG bonus for 25s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Spray Bloom",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "True Color Ascension",
+          "tier": "Whale Capstone",
+          "description": "Retains Lumiflow across swaps, bypassing initial setup animations."
+        }
+      ]
+    }
   },
   {
     "id": "aemeath",
@@ -4340,7 +6222,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Aemeath's peak damage windows."
     },
-    "avatar": "resonators/aemeath.png"
+    "avatar": "resonators/aemeath.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Crit DMG & Skill Double)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +300% Crit DMG on Heavy Attacks and enemy suction pull",
+        "S2: Doubles Seraphic Duet Skill multipliers (+100%)",
+        "S6: Targets take +40% Liberation DMG with fixed 80/275 Crit stats"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Gilded First Dawn",
+          "tier": "High Value",
+          "description": "Heavy Attacks gain +300% Crit DMG, pull in nearby targets, and carry over stack counts."
+        },
+        {
+          "node": 2,
+          "name": "Downy Snowfluff",
+          "tier": "Core Spike",
+          "description": "Seraphic Duet Skill multipliers doubled (+100%) and boosts mode damage instances."
+        },
+        {
+          "node": 3,
+          "name": "Synchronization Apex",
+          "tier": "High Value",
+          "description": "Forte Circuit damage multiplier increased by 65%."
+        },
+        {
+          "node": 4,
+          "name": "Ignited Harmony",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Fusion DMG bonus for 25s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Mechanical Symphony",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 90%."
+        },
+        {
+          "node": 6,
+          "name": "Zephyr-Kissed Journey",
+          "tier": "Whale Capstone",
+          "description": "Targets take 40% more Liberation DMG and attacks gain fixed 80/275 Crit profile."
+        }
+      ]
+    }
   },
   {
     "id": "luuk-herssen",
@@ -4446,7 +6375,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Luuk Herssen's peak damage windows."
     },
-    "avatar": "resonators/luuk-herssen.png"
+    "avatar": "resonators/luuk-herssen.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (60% Liberation Multiplier)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Mid-air Attack DMG +150% and Dawnlit Keep stack limit raised",
+        "S2: +60% Resonance Liberation DMG multiplier",
+        "S6: Team Tune Breaks grant up to +60% damage amplification"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Dawnlit Keep Expansion",
+          "tier": "High Value",
+          "description": "Mid-air Attack DMG increased by 150% and increases Dawnlit Keep stack limit by 1."
+        },
+        {
+          "node": 2,
+          "name": "Liberation Resonance Surge",
+          "tier": "Core Spike",
+          "description": "Resonance Liberation damage multiplier increased by 60%."
+        },
+        {
+          "node": 3,
+          "name": "Academy Martial Flow",
+          "tier": "Moderate",
+          "description": "Forte Circuit gauntlet strikes deal 50% more damage."
+        },
+        {
+          "node": 4,
+          "name": "Radiant Formation",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Spectro DMG bonus for 25s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Startorch Strike",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 85%."
+        },
+        {
+          "node": 6,
+          "name": "Uncaused Diagnosis",
+          "tier": "Whale Capstone",
+          "description": "Tune Breaks grant up to 60% DMG amplification, turning Liberation into screen-wide nukes."
+        }
+      ]
+    }
   },
   {
     "id": "hiyuki",
@@ -4552,7 +6528,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Hiyuki's peak damage windows."
     },
-    "avatar": "resonators/hiyuki.png"
+    "avatar": "resonators/hiyuki.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S1 or S2 (Foreclaimed Multiplier & Prep)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: +120% Foreclaimed Self multipliers, enemy pull, and Glacio Chafe",
+        "S2: Auto-generates resources and resets skill charges out of combat",
+        "S6: Maximum hypercarry execution scaling and final multipliers"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Springless Stance",
+          "tier": "High Value",
+          "description": "Foreclaimed Self attacks deal +120% DMG, pull in targets, and inflict Glacio Chafe."
+        },
+        {
+          "node": 2,
+          "name": "Cold Silence Burn",
+          "tier": "Core Spike",
+          "description": "Restores Snowforged Blade, resets skill charges, and grants Frostheart out of combat."
+        },
+        {
+          "node": 3,
+          "name": "Frostharden Flow",
+          "tier": "Moderate",
+          "description": "Forte Circuit Iai slash damage multiplier increased by 55%."
+        },
+        {
+          "node": 4,
+          "name": "Glacial Domain",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Glacio DMG bonus for 25s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Jade Cleave",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 90%."
+        },
+        {
+          "node": 6,
+          "name": "Night Without End",
+          "tier": "Whale Capstone",
+          "description": "Unlocks peak execution multipliers and maximizes Glacio burst output."
+        }
+      ]
+    }
   },
   {
     "id": "denia",
@@ -4659,7 +6682,54 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/denia.png"
+    "avatar": "resonators/denia.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 or S3 (Fusion Enabler to Main DPS)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Interruption immunity on skill and +20% Crit Rate",
+        "S2: Major milestone for Fusion team utility and elemental amplification",
+        "S3: Transforms personal multipliers for primary carry viability"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Spark of Ignition",
+          "tier": "Moderate",
+          "description": "Skill grants interruption immunity and raises Crit Rate by 20% for 12s."
+        },
+        {
+          "node": 2,
+          "name": "Thermal Enabler",
+          "tier": "Core Spike",
+          "description": "Key attacks grant team-wide Fusion DMG amplify and accelerate energy cycling."
+        },
+        {
+          "node": 3,
+          "name": "Blazing Carry Matrix",
+          "tier": "Core Spike",
+          "description": "Substantially increases personal damage multipliers, unlocking primary carry viability."
+        },
+        {
+          "node": 4,
+          "name": "Thermal Resonance",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Skill DMG bonus for 20s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Incendiary Cadence",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Supernova Ascension",
+          "tier": "Whale Capstone",
+          "description": "Maximizes damage loops and turns Skill into rapid-firing high-multiplier nukes."
+        }
+      ]
+    }
   },
   {
     "id": "suisui",
@@ -4763,7 +6833,54 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/suisui.png"
+    "avatar": "resonators/suisui.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (50% Team Crit DMG)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Interruption immunity and extended status field duration",
+        "S2: Grants +50% Crit DMG to all allies inside Ceaseless Landscape",
+        "S6: Final personal multiplier and defensive utility enhancements"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Landscape Serenity",
+          "tier": "Moderate",
+          "description": "Grants interruption immunity in key stances and extends field duration by 5s."
+        },
+        {
+          "node": 2,
+          "name": "Ceaseless Landscape",
+          "tier": "Core Spike",
+          "description": "All team members inside Ceaseless Landscape gain +50% Crit DMG upon status triggers."
+        },
+        {
+          "node": 3,
+          "name": "Glacio Harmony",
+          "tier": "Moderate",
+          "description": "Team healing efficacy increased by 20%."
+        },
+        {
+          "node": 4,
+          "name": "Negative Status Resonator",
+          "tier": "Moderate",
+          "description": "Increases negative status application frequency across all enemies."
+        },
+        {
+          "node": 5,
+          "name": "Still Waters",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 80%."
+        },
+        {
+          "node": 6,
+          "name": "Glacial Canvas",
+          "tier": "Whale Capstone",
+          "description": "Maximizes defensive survival shields and personal sub-DPS contributions."
+        }
+      ]
+    }
   },
   {
     "id": "yangyang-xuanling",
@@ -4869,7 +6986,54 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Yangyang: Xuanling's peak damage windows."
     },
-    "avatar": "resonators/yangyang-xuanling.png"
+    "avatar": "resonators/yangyang-xuanling.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (100% Heavy & Counter DMG)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Summons shadow dealing 337.98% ATK and gives interruption immunity",
+        "S2: +100% DMG on Heavy, Mid-air, and Havoc in Bloom counters",
+        "S6: Voice Flux grants +40% multipliers upon inflicting Havoc Bane"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Sword Stance Flow",
+          "tier": "High Value",
+          "description": "Stances summon shadows dealing 337.98% Havoc DMG, stagnating foes with interruption immunity."
+        },
+        {
+          "node": 2,
+          "name": "Havoc Bloom Doubler",
+          "tier": "Core Spike",
+          "description": "Heavy Attacks, Mid-air Attacks, and Havoc in Bloom counters deal +100% DMG."
+        },
+        {
+          "node": 3,
+          "name": "Dark Feather Surge",
+          "tier": "Moderate",
+          "description": "Liberation damage multiplier increased by 65%."
+        },
+        {
+          "node": 4,
+          "name": "Shadow Ward",
+          "tier": "Moderate",
+          "description": "All team members gain 20% Havoc DMG bonus for 25s upon casting Liberation."
+        },
+        {
+          "node": 5,
+          "name": "Echoing Blade",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 90%."
+        },
+        {
+          "node": 6,
+          "name": "Voice Flux Transcendence",
+          "tier": "Whale Capstone",
+          "description": "Inflicting Havoc Bane triggers Voice Flux granting +40% overall damage multiplier."
+        }
+      ]
+    }
   },
   {
     "id": "jingran",
@@ -4975,6 +7139,53 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jingran's peak damage windows."
     },
-    "avatar": "resonators/jingran.png"
+    "avatar": "resonators/jingran.png",
+    "sequenceInvestment": {
+      "recommendedStop": "S2 (Shield & Dual State Scaling)",
+      "priorityRank": "High Priority",
+      "pullPath": [
+        "S1: Enhanced Skill and Heavy DMG with interruption resistance",
+        "S2: Increases shield-based scaling and smooths dual-state cycling",
+        "S6: Chimei Wangliang structures scale up into hypercarry status"
+      ],
+      "nodes": [
+        {
+          "node": 1,
+          "name": "Yin-Yang Alignment",
+          "tier": "High Value",
+          "description": "Skill and Heavy Attacks deal +35% DMG with interruption resistance during state shifts."
+        },
+        {
+          "node": 2,
+          "name": "Vessel Font Harmony",
+          "tier": "Core Spike",
+          "description": "Shield conversion ratio increased by 40% and accelerates dual-state cycling."
+        },
+        {
+          "node": 3,
+          "name": "Fortified Retaliation",
+          "tier": "Moderate",
+          "description": "Receiving shields grants +25% Fusion DMG bonus for 15s."
+        },
+        {
+          "node": 4,
+          "name": "Thermal Vanguard",
+          "tier": "Moderate",
+          "description": "Team members gain 20% ATK when protected by Jingran's shields."
+        },
+        {
+          "node": 5,
+          "name": "Fortune Ascendant",
+          "tier": "Moderate",
+          "description": "Outro Skill damage multiplier increased by 90%."
+        },
+        {
+          "node": 6,
+          "name": "Chimei Wangliang Apex",
+          "tier": "Whale Capstone",
+          "description": "Summon structures gain hypercarry scaling and deal devastating HP-based Fusion strikes."
+        }
+      ]
+    }
   }
 ]
