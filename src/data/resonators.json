@@ -31,7 +31,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -103,7 +103,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jiyan's peak damage windows."
     },
-    "avatar": "resonators/jiyan.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S3 (Core Spikes)",
       "priorityRank": "High Priority",
@@ -257,7 +256,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/mortefi.png",
     "sequenceInvestment": {
       "recommendedStop": "S4 (Mandatory) to S6",
       "priorityRank": "High Priority",
@@ -408,7 +406,6 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/verina.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (Concerto & Energy Flow)",
       "priorityRank": "Medium Priority",
@@ -559,7 +556,6 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/shorekeeper.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (Dominion 40% Team ATK)",
       "priorityRank": "High Priority",
@@ -630,7 +626,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -712,7 +708,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Camellya's peak damage windows."
     },
-    "avatar": "resonators/camellya.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Interruption & Burst)",
       "priorityRank": "High Priority",
@@ -865,7 +860,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/sanhua.png",
     "sequenceInvestment": {
       "recommendedStop": "S4 to S6 (Team ATK Buffer)",
       "priorityRank": "High Priority",
@@ -1019,7 +1013,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/yinlin.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Skill Burst & Judgement Flow)",
       "priorityRank": "High Priority",
@@ -1090,7 +1083,7 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5\u2605 Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
         },
         {
           "name": "Verity's Handle",
@@ -1172,7 +1165,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Xiangli Yao's peak damage windows."
     },
-    "avatar": "resonators/xiangli-yao.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (30% Crit DMG Spikes)",
       "priorityRank": "High Priority",
@@ -1184,7 +1176,7 @@
       "nodes": [
         {
           "node": 1,
-          "name": "Prodigy of Prot\u00e9g\u00e9s",
+          "name": "Prodigy of Protégés",
           "tier": "Moderate",
           "description": "Resonance Skill launches 6 Convolution Matrices dealing additional Liberation damage."
         },
@@ -1253,7 +1245,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -1325,7 +1317,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Calcharo's peak damage windows."
     },
-    "avatar": "resonators/calcharo.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 to S3 (Permanent Pool Spikes)",
       "priorityRank": "Medium Priority",
@@ -1480,7 +1471,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/changli.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (25% Free Crit Rate)",
       "priorityRank": "High Priority",
@@ -1551,7 +1541,7 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Standard 5\u2605 Rectifier with Energy Recharge and Basic DMG."
+          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG."
         },
         {
           "name": "Stringmaster",
@@ -1633,7 +1623,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Encore's peak damage windows."
     },
-    "avatar": "resonators/encore.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 to S4 (Standard Pool Spikes)",
       "priorityRank": "Medium Priority",
@@ -1787,7 +1776,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/zhezhi.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Energy Battery & Spirits)",
       "priorityRank": "High Priority",
@@ -1868,7 +1856,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -1940,7 +1928,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jinhsi's peak damage windows."
     },
-    "avatar": "resonators/jinhsi.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Incandescence & Skill Nuke)",
       "priorityRank": "High Priority",
@@ -2091,7 +2078,6 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/baizhi.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Energy & Glacio Heal)",
       "priorityRank": "Medium Priority",
@@ -2243,7 +2229,6 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/taoqi.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S3 (Shield Value & 30s Uptime)",
       "priorityRank": "Medium Priority",
@@ -2396,7 +2381,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/danjin.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 or S6 (Team ATK Buff)",
       "priorityRank": "Medium Priority",
@@ -2549,7 +2533,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/aalto.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 to S6 (Rapid Cooldown & Crit)",
       "priorityRank": "Medium Priority",
@@ -2700,7 +2683,6 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/yangyang.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 or S6 (Energy & 20% Team ATK)",
       "priorityRank": "Medium Priority",
@@ -2771,7 +2753,7 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "Premier 5\u2605 Pistols with Crit Rate and outgoing ATK buff."
+          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff."
         },
         {
           "name": "The Legend of The White Stallion",
@@ -2853,7 +2835,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Chixia's peak damage windows."
     },
-    "avatar": "resonators/chixia.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S4 (Guaranteed Crits & Skill Reset)",
       "priorityRank": "Medium Priority",
@@ -3005,7 +2986,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/yuanwu.png",
     "sequenceInvestment": {
       "recommendedStop": "S4 or S6 (Shield & 32% Team DEF)",
       "priorityRank": "Medium Priority",
@@ -3076,7 +3056,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -3158,7 +3138,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Rover (Havoc)'s peak damage windows."
     },
-    "avatar": "resonators/rover-havoc.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 to S6 (Story Unlocks)",
       "priorityRank": "Low Priority / Luxury",
@@ -3310,7 +3289,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/rover-spectro.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 to S6 (Story Unlocks)",
       "priorityRank": "Low Priority / Luxury",
@@ -3391,7 +3369,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -3463,7 +3441,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Augusta's peak damage windows."
     },
-    "avatar": "resonators/augusta.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (Crit Rate to Crit DMG Overcap)",
       "priorityRank": "High Priority",
@@ -3617,7 +3594,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/iuno.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (40% Team All-DMG Amplification)",
       "priorityRank": "High Priority",
@@ -3770,7 +3746,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/mornye.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Flexible Markers & ER Scaling)",
       "priorityRank": "High Priority",
@@ -3921,7 +3896,6 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/chisa.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (50% All-Attribute Team Buff)",
       "priorityRank": "High Priority",
@@ -3992,7 +3966,7 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5\u2605 Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
         },
         {
           "name": "Verity's Handle",
@@ -4074,7 +4048,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Sigrika's peak damage windows."
     },
-    "avatar": "resonators/sigrika.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (120% Forte Finisher)",
       "priorityRank": "High Priority",
@@ -4227,7 +4200,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/hsin.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (60% Finishing Multiplier)",
       "priorityRank": "High Priority",
@@ -4298,7 +4270,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -4380,7 +4352,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Qingxiao's peak damage windows."
     },
-    "avatar": "resonators/qingxiao.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (16% Crit & 40% Stringblade)",
       "priorityRank": "High Priority",
@@ -4451,7 +4422,7 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "Premier 5\u2605 Pistols with Crit Rate and outgoing ATK buff."
+          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff."
         },
         {
           "name": "The Legend of The White Stallion",
@@ -4533,7 +4504,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Carlotta's peak damage windows."
     },
-    "avatar": "resonators/carlotta.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (126% Liberation Burst)",
       "priorityRank": "High Priority",
@@ -4687,7 +4657,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/roccia.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Concerto & 30% Team Havoc)",
       "priorityRank": "High Priority",
@@ -4840,7 +4809,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/phoebe.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (120% Frazzle Deepen)",
       "priorityRank": "High Priority",
@@ -4994,7 +4962,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/brant.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (30% Crit Rate & Outro Procs)",
       "priorityRank": "High Priority",
@@ -5148,7 +5115,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/cantarella.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Trance Flow & 245% Jolt)",
       "priorityRank": "High Priority",
@@ -5219,7 +5185,7 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5\u2605 Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
         },
         {
           "name": "Verity's Handle",
@@ -5301,7 +5267,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Zani's peak damage windows."
     },
-    "avatar": "resonators/zani.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (20% Permanent Crit Rate)",
       "priorityRank": "High Priority",
@@ -5454,7 +5419,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/ciaccona.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (40% Team Aero Bonus)",
       "priorityRank": "High Priority",
@@ -5525,7 +5489,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -5607,7 +5571,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Cartethyia's peak damage windows."
     },
-    "avatar": "resonators/cartethyia.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (Massive Damage Doubler)",
       "priorityRank": "High Priority",
@@ -5761,7 +5724,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/lupa.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (40% Team Fusion Bonus)",
       "priorityRank": "High Priority",
@@ -5833,7 +5795,7 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Standard 5\u2605 Rectifier with Energy Recharge and Basic DMG."
+          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG."
         },
         {
           "name": "Stringmaster",
@@ -5915,7 +5877,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Phrolova's peak damage windows."
     },
-    "avatar": "resonators/phrolova.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (Instant 14 Aftersound)",
       "priorityRank": "High Priority",
@@ -6069,7 +6030,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/lynae.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Polychrome Multiplier)",
       "priorityRank": "High Priority",
@@ -6140,7 +6100,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -6222,7 +6182,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Aemeath's peak damage windows."
     },
-    "avatar": "resonators/aemeath.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Crit DMG & Skill Double)",
       "priorityRank": "High Priority",
@@ -6293,7 +6252,7 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5\u2605 Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
         },
         {
           "name": "Verity's Handle",
@@ -6375,7 +6334,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Luuk Herssen's peak damage windows."
     },
-    "avatar": "resonators/luuk-herssen.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (60% Liberation Multiplier)",
       "priorityRank": "High Priority",
@@ -6446,7 +6404,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -6528,7 +6486,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Hiyuki's peak damage windows."
     },
-    "avatar": "resonators/hiyuki.png",
     "sequenceInvestment": {
       "recommendedStop": "S1 or S2 (Foreclaimed Multiplier & Prep)",
       "priorityRank": "High Priority",
@@ -6682,7 +6639,6 @@
       },
       "notes": "Prioritize Liberation and Outro-triggering skills to maximize off-field multiplier transfers."
     },
-    "avatar": "resonators/denia.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 or S3 (Fusion Enabler to Main DPS)",
       "priorityRank": "High Priority",
@@ -6833,7 +6789,6 @@
       },
       "notes": "Focus on Liberation and Forte nodes for team healing/shielding. Basic Attack can remain at Lv 1."
     },
-    "avatar": "resonators/suisui.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (50% Team Crit DMG)",
       "priorityRank": "High Priority",
@@ -6904,7 +6859,7 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5\u2605 with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
         },
         {
           "name": "Blazing Brilliance",
@@ -6986,7 +6941,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Yangyang: Xuanling's peak damage windows."
     },
-    "avatar": "resonators/yangyang-xuanling.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (100% Heavy & Counter DMG)",
       "priorityRank": "High Priority",
@@ -7067,7 +7021,7 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5\u2605 with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG."
         }
       ],
       "fourStar": [
@@ -7139,7 +7093,6 @@
       },
       "notes": "Max Forte Circuit to Level 10 immediately as it dictates Jingran's peak damage windows."
     },
-    "avatar": "resonators/jingran.png",
     "sequenceInvestment": {
       "recommendedStop": "S2 (Shield & Dual State Scaling)",
       "priorityRank": "High Priority",

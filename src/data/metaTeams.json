@@ -29,36 +29,36 @@
         "step": 1,
         "resonatorId": "mortefi",
         "targetSequence": "S4",
-        "description": "Secure Mortefi S4 first to extend Burning Rhapsody from 10s to 17s, guaranteeing 100% dragon uptime coverage.",
-        "impact": "+35% Team Rotation Damage"
+        "description": "Extends Burning Rhapsody to 17s for 100% dragon uptime.",
+        "impact": "+35% Team Rotation DMG"
       },
       {
         "step": 2,
         "resonatorId": "jiyan",
         "targetSequence": "S1",
-        "description": "Unlock Jiyan S1 for an extra Windqueller skill charge and -15 Resolve cost, stabilizing energy economy.",
-        "impact": "+18% Personal DPS & Energy Fluidity"
+        "description": "Extra Windqueller skill charge and -15 Resolve cost.",
+        "impact": "+18% Personal DPS"
       },
       {
         "step": 3,
         "resonatorId": "verina",
         "targetSequence": "S2",
-        "description": "Get Verina S2 to gain +1 Photosynthetic Energy and +10 Concerto Energy on skill for 5-second rotations.",
-        "impact": "-3s Total Team Rotation Cycle"
+        "description": "+1 Photosynthetic Energy and +10 Concerto on skill.",
+        "impact": "-3s Rotation Time"
       },
       {
         "step": 4,
         "resonatorId": "mortefi",
         "targetSequence": "S6",
-        "description": "Max out Mortefi S6 to grant all team members +20% ATK for 20s upon casting Liberation.",
-        "impact": "+20% Party-wide Burst Multiplier"
+        "description": "All allies gain +20% ATK on Liberation cast.",
+        "impact": "+20% Party Burst"
       },
       {
         "step": 5,
         "resonatorId": "jiyan",
         "targetSequence": "S3",
-        "description": "Push Jiyan to S3 for +16% Crit Rate and +32% Crit DMG during emerald storm windows.",
-        "impact": "+28% Jiyan Personal Nuke Multiplier"
+        "description": "+16% Crit Rate and +32% Crit DMG during dragon mode.",
+        "impact": "+28% Personal Nuke"
       }
     ]
   },
@@ -92,36 +92,36 @@
         "step": 1,
         "resonatorId": "sanhua",
         "targetSequence": "S6",
-        "description": "Secure Sanhua S6 to layer +20% team-wide ATK on top of her baseline +38% Basic Attack Outro amplification.",
-        "impact": "+20% ATK & +38% Deepen Delivery"
+        "description": "Grants +20% team ATK alongside +38% Basic Outro deepen.",
+        "impact": "+20% ATK & +38% Deepen"
       },
       {
         "step": 2,
         "resonatorId": "shorekeeper",
         "targetSequence": "S2",
-        "description": "Elevate Shorekeeper to S2 to grant an unconditional +40% ATK to all party members in her Stellarealm.",
-        "impact": "+40% Team ATK Across Entire Domain"
+        "description": "Unconditional +40% ATK to all allies within Stellarealm.",
+        "impact": "+40% Team ATK"
       },
       {
         "step": 3,
         "resonatorId": "camellya",
         "targetSequence": "S1",
-        "description": "Acquire Camellya S1 to gain interruption immunity on Ephemeral and +28% Crit DMG for 18s post-Intro.",
-        "impact": "Uninterruptible Vine Combos & +28% Crit DMG"
+        "description": "Interruption immunity on Ephemeral and +28% Crit DMG.",
+        "impact": "Poise & +28% Crit DMG"
       },
       {
         "step": 4,
         "resonatorId": "camellya",
         "targetSequence": "S2",
-        "description": "Invest into Camellya S2 for a direct +120% damage multiplier increase on Resonance Skill Ephemeral.",
-        "impact": "+120% Ephemeral Burst Spike"
+        "description": "+120% damage multiplier to Resonance Skill Ephemeral.",
+        "impact": "+120% Ephemeral Spike"
       },
       {
         "step": 5,
         "resonatorId": "shorekeeper",
         "targetSequence": "S3",
-        "description": "Unlock Shorekeeper S3 to instantly refund 20 Concerto Energy on Liberation, reducing field time to a minimum.",
-        "impact": "Instant Outro Chaining & Rotation Speed"
+        "description": "Refunds 20 Concerto Energy on Liberation for fast Outro.",
+        "impact": "Instant Outro Chaining"
       }
     ]
   },
@@ -155,36 +155,36 @@
         "step": 1,
         "resonatorId": "xiangli-yao",
         "targetSequence": "S2",
-        "description": "Secure Yao S2 to trigger an immediate +30% Crit DMG buff whenever casting Skill or Liberation.",
-        "impact": "+30% Crit DMG on Core Intuition Hits"
+        "description": "+30% Crit DMG bonus upon casting Skill or Liberation.",
+        "impact": "+30% Intuition Crit DMG"
       },
       {
         "step": 2,
         "resonatorId": "yinlin",
         "targetSequence": "S1",
-        "description": "Upgrade Yinlin to S1 to boost Magnetic Roar and Lightning Execution damage by +70%.",
-        "impact": "+70% Sub-DPS Skill Damage"
+        "description": "+70% damage to Magnetic Roar and Lightning Execution.",
+        "impact": "+70% Sub-DPS Skill DMG"
       },
       {
         "step": 3,
         "resonatorId": "verina",
         "targetSequence": "S2",
-        "description": "Obtain Verina S2 for +10 Concerto Energy on skill casts, streamlining the team intro sequence.",
-        "impact": "Instant Outro Delivery to Yinlin"
+        "description": "+10 Concerto Energy on skill for instant handoff.",
+        "impact": "Instant Outro Delivery"
       },
       {
         "step": 4,
         "resonatorId": "yinlin",
         "targetSequence": "S2",
-        "description": "Acquire Yinlin S2 to generate 5 Judgement Points and 5 Energy per skill hit, speeding up Forte cycling.",
-        "impact": "Fast Judgment Mark Application"
+        "description": "Generates 5 Judgment Points and 5 Energy per hit.",
+        "impact": "Faster Forte Cycling"
       },
       {
         "step": 5,
         "resonatorId": "xiangli-yao",
         "targetSequence": "S3",
-        "description": "Advance Yao to S3 to elevate post-Liberation skill moves by +63% for 24s.",
-        "impact": "+63% Followup Skill Multipliers"
+        "description": "+63% multiplier bonus to post-Liberation skill moves.",
+        "impact": "+63% Followup Skills"
       }
     ]
   },
@@ -218,36 +218,36 @@
         "step": 1,
         "resonatorId": "shorekeeper",
         "targetSequence": "S2",
-        "description": "Target Shorekeeper S2 first for the team-wide +40% ATK domain buff, scaling both Jinhsi and Zhezhi.",
-        "impact": "+40% Team ATK on Jinhsi Nuke Window"
+        "description": "+40% team ATK domain buff scaling both Jinhsi and Zhezhi.",
+        "impact": "+40% Team ATK"
       },
       {
         "step": 2,
         "resonatorId": "jinhsi",
         "targetSequence": "S1",
-        "description": "Unlock Jinhsi S1 to stack Herald of Revival, providing up to +80% damage to Illuminous Epiphany.",
-        "impact": "+80% Dragon Skill Multiplier"
+        "description": "Herald of Revival stacks grant up to +80% Skill DMG.",
+        "impact": "+80% Epiphany Nuke"
       },
       {
         "step": 3,
         "resonatorId": "zhezhi",
         "targetSequence": "S2",
-        "description": "Push Zhezhi to S2 to summon 6 additional Inklit Spirits, generating Incandescence stacks significantly faster.",
-        "impact": "+6 Coordinated Spirits & Rapid Incandescence"
+        "description": "Summons 6 additional Inklit Spirits for rapid Incandescence.",
+        "impact": "+6 Spirits & Fast Gauge"
       },
       {
         "step": 4,
         "resonatorId": "jinhsi",
         "targetSequence": "S2",
-        "description": "Invest in Jinhsi S2 to auto-recover 50 Incandescence out of combat every 4s, enabling instant opener nukes.",
-        "impact": "Instant 50 Incandescence Combat Openers"
+        "description": "Auto-recovers 50 Incandescence out of combat every 4s.",
+        "impact": "Instant Opener Nukes"
       },
       {
         "step": 5,
         "resonatorId": "zhezhi",
         "targetSequence": "S1",
-        "description": "Acquire Zhezhi S1 for +10% Crit Rate and 15 Energy on skill, lowering echo gear requirements.",
-        "impact": "+10% Free Crit Rate & Energy Flow"
+        "description": "+10% Crit Rate and 15 Energy on skill cast.",
+        "impact": "+10% Crit & Energy Flow"
       }
     ]
   },
@@ -281,36 +281,36 @@
         "step": 1,
         "resonatorId": "changli",
         "targetSequence": "S2",
-        "description": "Secure Changli S2 for an unconditional +25% Crit Rate whenever gaining Enflamement.",
-        "impact": "+25% Free Crit Rate across Rotations"
+        "description": "+25% Crit Rate bonus whenever gaining Enflamement.",
+        "impact": "+25% Free Crit Rate"
       },
       {
         "step": 2,
         "resonatorId": "encore",
         "targetSequence": "S2",
-        "description": "Obtain Encore S2 to recover 10 Resonance Energy on basic attacks, smoothing Liberation uptime.",
-        "impact": "Consistent Cosmos Rave Burst Cycling"
+        "description": "Recovers 10 Resonance Energy on basic attacks.",
+        "impact": "Cosmos Rave Uptime"
       },
       {
         "step": 3,
         "resonatorId": "verina",
         "targetSequence": "S2",
-        "description": "Get Verina S2 to accelerate Concerto Energy and pass universal Outro buffs instantly.",
-        "impact": "Minimal Field Time on Support Slot"
+        "description": "+10 Concerto on skill to pass Outro amplify instantly.",
+        "impact": "Minimal Support Time"
       },
       {
         "step": 4,
         "resonatorId": "changli",
         "targetSequence": "S1",
-        "description": "Unlock Changli S1 for +10% damage and interruption immunity on Tripartite Flames and Flaming Sacrifice.",
-        "impact": "Unstoppable Melee Quickswap Weaving"
+        "description": "+10% DMG and poise on Tripartite Flames and Sacrifice.",
+        "impact": "Unstoppable Melee Flow"
       },
       {
         "step": 5,
         "resonatorId": "encore",
         "targetSequence": "S4",
-        "description": "Advance Encore to S4 to grant all team members +20% Fusion DMG for 30s upon casting Cosmos Rupture.",
-        "impact": "+20% Fusion Synergy to Changli"
+        "description": "Grants all allies +20% Fusion DMG on Cosmos Rupture.",
+        "impact": "+20% Fusion Team DMG"
       }
     ]
   },
@@ -342,36 +342,36 @@
         "step": 1,
         "resonatorId": "shorekeeper",
         "targetSequence": "S2",
-        "description": "Secure Shorekeeper S2 for the +40% ATK domain buff, empowering both Xiangli Yao and Hsin.",
-        "impact": "+40% Team ATK across Entire Rotation"
+        "description": "+40% team ATK across domain for Yao and Hsin.",
+        "impact": "+40% Team ATK"
       },
       {
         "step": 2,
         "resonatorId": "hsin",
         "targetSequence": "S2",
-        "description": "Invest in Hsin S2 for a massive +60% damage multiplier on finishing attacks and cooldown resets.",
-        "impact": "+60% Heavy Finisher & Seamless Swaps"
+        "description": "+60% damage multiplier on finisher attacks and reset.",
+        "impact": "+60% Heavy Finisher"
       },
       {
         "step": 3,
         "resonatorId": "xiangli-yao",
         "targetSequence": "S2",
-        "description": "Obtain Yao S2 for +30% Crit DMG during Intuition slam sequences.",
-        "impact": "+30% Personal Crit DMG on Carry"
+        "description": "+30% Crit DMG during Intuition slam sequences.",
+        "impact": "+30% Carry Crit DMG"
       },
       {
         "step": 4,
         "resonatorId": "hsin",
         "targetSequence": "S1",
-        "description": "Unlock Hsin S1 for interruption immunity, 60% damage reduction, and 50 Heart of Thunder stacks.",
-        "impact": "Instant Electro Flare Setup & Defense"
+        "description": "Poise, 60% DMG reduction, and 50 Heart of Thunder.",
+        "impact": "Defense & Flare Setup"
       },
       {
         "step": 5,
         "resonatorId": "shorekeeper",
         "targetSequence": "S3",
-        "description": "Acquire Shorekeeper S3 for +20 Concerto Energy upon casting Liberation.",
-        "impact": "Lightning Fast Support Rotation Turnover"
+        "description": "+20 Concerto Energy upon casting Liberation.",
+        "impact": "Rapid Rotation Cycle"
       }
     ]
   },
@@ -464,36 +464,36 @@
         "step": 1,
         "resonatorId": "shorekeeper",
         "targetSequence": "S2",
-        "description": "Prioritize Shorekeeper S2 for the team-wide +40% ATK buff to maximize Carlotta shotgun nukes.",
-        "impact": "+40% Team ATK on Shotgun Stance"
+        "description": "+40% team ATK domain buff for Carlotta shotgun nukes.",
+        "impact": "+40% Team ATK"
       },
       {
         "step": 2,
         "resonatorId": "carlotta",
         "targetSequence": "S2",
-        "description": "Invest in Carlotta S2 for a massive +126% damage multiplier on Resonance Liberation Fatal Finale.",
-        "impact": "+126% Fatal Finale Multiplier Spike"
+        "description": "+126% damage multiplier on Fatal Finale Liberation.",
+        "impact": "+126% Finale Multiplier"
       },
       {
         "step": 3,
         "resonatorId": "zhezhi",
         "targetSequence": "S2",
-        "description": "Push Zhezhi to S2 to summon 6 additional Inklit Spirits for coordinated off-field damage.",
-        "impact": "+6 Coordinated Spirits & Rapid Concerto"
+        "description": "Summons 6 additional Inklit Spirits for coordinated hits.",
+        "impact": "+6 Spirits & Rapid Flow"
       },
       {
         "step": 4,
         "resonatorId": "carlotta",
         "targetSequence": "S1",
-        "description": "Unlock Carlotta S1 for +12.5% Crit Rate on Deconstructed targets and 30 Substance recovery.",
-        "impact": "+12.5% Crit Consistency & Resource Flow"
+        "description": "+12.5% Crit Rate on Deconstructed targets and 30 Substance.",
+        "impact": "+12.5% Crit Consistency"
       },
       {
         "step": 5,
         "resonatorId": "zhezhi",
         "targetSequence": "S1",
-        "description": "Obtain Zhezhi S1 for +10% Crit Rate and 15 Energy on skill cast.",
-        "impact": "+10% Free Crit Rate on Off-field Support"
+        "description": "+10% Crit Rate and 15 Energy on skill cast.",
+        "impact": "+10% Off-field Crit"
       }
     ]
   }

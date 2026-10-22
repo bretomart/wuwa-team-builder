@@ -242,24 +242,27 @@ const currentActiveMetaTeam = computed(() => {
               <div
                 v-for="item in team.sequencePullPath"
                 :key="item.step"
-                class="flex flex-col sm:flex-row sm:items-start justify-between gap-1.5 p-2 rounded bg-[#151b29] border border-[#232c40]"
+                class="flex flex-col gap-1 p-2 rounded bg-[#151b29] border border-[#232c40]"
               >
-                <div class="flex items-start gap-1.5 min-w-0 flex-1">
-                  <span class="w-4 h-4 rounded-full bg-amber-950 border border-amber-700 text-amber-300 flex items-center justify-center font-bold text-[9px] shrink-0 font-mono mt-0.5">
-                    {{ item.step }}
-                  </span>
-                  <div class="flex flex-col min-w-0 flex-1">
-                    <span class="font-bold text-indigo-300 font-mono text-xs">
+                <!-- Top Row: Step Number, Resonator + Node, and Impact Badge -->
+                <div class="flex items-center justify-between gap-2">
+                  <div class="flex items-center gap-1.5 min-w-0">
+                    <span class="w-4 h-4 rounded-full bg-amber-950 border border-amber-700 text-amber-300 flex items-center justify-center font-bold text-[9px] shrink-0 font-mono">
+                      {{ item.step }}
+                    </span>
+                    <span class="font-bold text-indigo-300 font-mono text-xs truncate">
                       {{ getResonator(item.resonatorId)?.name }} {{ item.targetSequence }}
                     </span>
-                    <span class="text-slate-300 text-[11px] leading-snug break-words mt-0.5">
-                      {{ item.description }}
-                    </span>
                   </div>
+                  <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-950/70 text-emerald-300 border border-emerald-800/80 shrink-0 font-mono font-semibold">
+                    {{ item.impact }}
+                  </span>
                 </div>
-                <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-950/70 text-emerald-300 border border-emerald-800/80 shrink-0 font-mono font-semibold self-start mt-0.5">
-                  {{ item.impact }}
-                </span>
+
+                <!-- Bottom Row: Clean wrap description -->
+                <p class="text-slate-300 text-[11px] leading-snug pl-5.5">
+                  {{ item.description }}
+                </p>
               </div>
             </div>
           </div>
