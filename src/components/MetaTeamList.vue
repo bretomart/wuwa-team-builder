@@ -231,10 +231,10 @@ const currentActiveMetaTeam = computed(() => {
             <div class="flex items-center justify-between">
               <span class="font-bold text-amber-300 flex items-center gap-1">
                 <span>✦</span>
-                Recommended Sequence Pull Path (Dupe Priority):
+                Sequence Node Pull Priority:
               </span>
               <span class="text-[10px] px-1.5 py-0.2 rounded bg-amber-950 text-amber-300 border border-amber-800 font-mono">
-                Highest Efficacy First
+                Efficacy Path
               </span>
             </div>
 
@@ -242,20 +242,22 @@ const currentActiveMetaTeam = computed(() => {
               <div
                 v-for="item in team.sequencePullPath"
                 :key="item.step"
-                class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 p-1.5 rounded bg-[#151b29] border border-[#232c40]"
+                class="flex flex-col sm:flex-row sm:items-start justify-between gap-1.5 p-2 rounded bg-[#151b29] border border-[#232c40]"
               >
-                <div class="flex items-center gap-1.5 min-w-0">
-                  <span class="w-4 h-4 rounded-full bg-amber-950 border border-amber-700 text-amber-300 flex items-center justify-center font-bold text-[9px] shrink-0 font-mono">
+                <div class="flex items-start gap-1.5 min-w-0 flex-1">
+                  <span class="w-4 h-4 rounded-full bg-amber-950 border border-amber-700 text-amber-300 flex items-center justify-center font-bold text-[9px] shrink-0 font-mono mt-0.5">
                     {{ item.step }}
                   </span>
-                  <span class="font-bold text-indigo-300 shrink-0 font-mono">
-                    {{ getResonator(item.resonatorId)?.name }} {{ item.targetSequence }}:
-                  </span>
-                  <span class="text-slate-300 text-[11px] truncate">
-                    {{ item.description }}
-                  </span>
+                  <div class="flex flex-col min-w-0 flex-1">
+                    <span class="font-bold text-indigo-300 font-mono text-xs">
+                      {{ getResonator(item.resonatorId)?.name }} {{ item.targetSequence }}
+                    </span>
+                    <span class="text-slate-300 text-[11px] leading-snug break-words mt-0.5">
+                      {{ item.description }}
+                    </span>
+                  </div>
                 </div>
-                <span class="text-[10px] px-1.5 py-0.2 rounded bg-emerald-950/70 text-emerald-300 border border-emerald-800/80 shrink-0 font-mono font-semibold self-start sm:self-auto">
+                <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-950/70 text-emerald-300 border border-emerald-800/80 shrink-0 font-mono font-semibold self-start mt-0.5">
                   {{ item.impact }}
                 </span>
               </div>
