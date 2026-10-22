@@ -47,6 +47,11 @@ describe('Component Integration', () => {
     const wrapper = mount(MetaTeamList);
 
     expect(wrapper.text()).toContain('Verified Meta Teams');
+
+    // Click the dropdown toggle to open the list of presets
+    const dropdownTrigger = wrapper.find('.cursor-pointer');
+    await dropdownTrigger.trigger('click');
+
     expect(wrapper.text()).toContain('Jiyan Hypercarry');
 
     const loadButtons = wrapper.findAll('button').filter(b => b.text().includes('Load'));
