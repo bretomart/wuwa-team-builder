@@ -92,7 +92,7 @@ const currentActiveMetaTeam = computed(() => {
           <div class="min-w-0 flex-1">
             <div class="flex items-center gap-2">
               <span class="text-sm font-bold text-slate-100 truncate block">
-                {{ currentActiveMetaTeam ? currentActiveMetaTeam.name : 'Select a Meta Team to Load...' }}
+                {{ currentActiveMetaTeam ? currentActiveMetaTeam.name : 'Browse Optimized Teams...' }}
               </span>
               <span
                 v-if="currentActiveMetaTeam"
