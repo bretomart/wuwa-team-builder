@@ -66,7 +66,7 @@ const getRoleColor = (role: string) => {
         </div>
         <div>
           <div class="flex items-center gap-2.5">
-            <h2 class="text-base sm:text-lg font-hud font-bold text-slate-100 tracking-wide">
+            <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase">
               Resonator Inventory
             </h2>
             <span class="px-2.5 py-0.5 rounded-full text-xs font-freq font-semibold bg-[#0c1424] text-cyan-300 border border-cyan-800/60 shadow-xs shadow-cyan-950">
@@ -225,7 +225,7 @@ const getRoleColor = (role: string) => {
 
           <!-- Name and Basic Info -->
           <div class="flex flex-col gap-0.5 mb-1.5 min-w-0">
-            <div class="text-xs font-hud font-bold text-slate-100 truncate block w-full group-hover:text-cyan-300 transition-colors" :title="res.name">
+            <div class="text-xs font-tactical font-bold text-slate-100 truncate block w-full group-hover:text-cyan-300 transition-colors tracking-wide" :title="res.name">
               {{ res.name }}
             </div>
             <div class="flex items-center gap-1 flex-wrap min-w-0">

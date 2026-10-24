@@ -66,7 +66,7 @@ import { Radio, Activity, Cpu, ShieldCheck } from 'lucide-vue-next';
 
           <div>
             <div class="flex items-center gap-2.5">
-              <h1 class="text-lg sm:text-xl font-hud font-bold text-slate-100 tracking-wider flex items-center gap-2">
+              <h1 class="text-lg sm:text-xl font-tactical font-bold text-slate-100 tracking-wider flex items-center gap-2">
                 WUTHERING WAVES
                 <span class="text-[10px] font-tactical uppercase tracking-widest px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/60 font-semibold shadow-xs shadow-cyan-500/20">
                   Acoustic Terminal

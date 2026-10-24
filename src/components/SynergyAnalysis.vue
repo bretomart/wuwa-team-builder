@@ -48,7 +48,7 @@ const getViabilityBadge = (status: string) => {
           <Activity class="w-4 h-4" />
         </div>
         <div>
-          <h2 class="text-base sm:text-lg font-hud font-bold text-slate-100 tracking-wide">
+          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase">
             Synergy & Rotation Analysis
           </h2>
           <p class="text-[11px] font-tactical text-slate-400 tracking-wider">
@@ -96,7 +96,7 @@ const getViabilityBadge = (status: string) => {
           <div class="flex flex-wrap items-center gap-2 pt-0.5">
             <template v-if="synergy.suggestedRotation.length > 0">
               <template v-for="(name, index) in synergy.suggestedRotation" :key="name">
-                <div class="flex items-center gap-2 px-3 py-1 rounded-lg bg-[#0d1424] border border-cyan-800/60 text-xs font-hud font-bold text-slate-200 shadow-xs shadow-cyan-950">
+                <div class="flex items-center gap-2 px-3 py-1 rounded-lg bg-[#0d1424] border border-cyan-800/60 text-xs font-tactical font-bold text-slate-200 tracking-wide shadow-xs shadow-cyan-950">
                   <span class="w-4 h-4 rounded bg-cyan-950 border border-cyan-500/80 text-cyan-300 text-[10px] flex items-center justify-center font-freq font-bold">
                     {{ index + 1 }}
                   </span>
@@ -132,9 +132,9 @@ const getViabilityBadge = (status: string) => {
             >
               <div class="flex items-center justify-between text-xs font-tactical">
                 <div class="flex items-center gap-1.5">
-                  <span class="font-bold text-slate-200 font-hud">{{ handoff.fromName }}</span>
+                  <span class="font-bold text-slate-200 font-tactical tracking-wide">{{ handoff.fromName }}</span>
                   <ArrowRight class="w-3 h-3 text-cyan-400" />
-                  <span class="font-bold text-slate-200 font-hud">{{ handoff.toName }}</span>
+                  <span class="font-bold text-slate-200 font-tactical tracking-wide">{{ handoff.toName }}</span>
                 </div>
                 <span
                   v-if="handoff.percentage"
@@ -187,7 +187,7 @@ const getViabilityBadge = (status: string) => {
           class="bg-[#090f1c] border border-amber-500/40 rounded-xl p-3.5 flex flex-col gap-2.5"
         >
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 pb-2 border-b border-[#182744]">
-            <div class="flex items-center gap-1.5 text-xs font-hud font-bold text-amber-300 uppercase tracking-wider">
+            <div class="flex items-center gap-1.5 text-xs font-tactical font-bold text-amber-300 uppercase tracking-wider">
               <Sparkles class="w-4 h-4 text-amber-400" />
               Active Team Sequence Investment Path (Dupe Priority)
             </div>
@@ -203,7 +203,7 @@ const getViabilityBadge = (status: string) => {
               class="p-2.5 rounded-lg bg-[#0d1424] border border-[#1b2b48] flex flex-col gap-1.5"
             >
               <div class="flex items-center justify-between">
-                <span class="text-xs font-hud font-bold text-slate-100">{{ rec.resonatorName }}</span>
+                <span class="text-xs font-tactical font-bold text-slate-100 tracking-wide">{{ rec.resonatorName }}</span>
                 <span class="text-[10px] px-1.5 py-0.2 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-700/70 font-freq">
                   {{ rec.role }}
                 </span>

@@ -18,7 +18,7 @@
     --text-muted: #8494ab;
     --font-orbitron: 'Orbitron', monospace;
     --font-rajdhani: 'Rajdhani', sans-serif;
-    --font-space: 'Space Grotesk', monospace;
+    --font-space: 'Space Grotesk', sans-serif;
     --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   }
 
@@ -26,6 +26,8 @@
     background-color: var(--bg-terminal);
     color: var(--text-primary);
     font-family: var(--font-body);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    line-height: 1.5;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -63,17 +65,24 @@
 
 /* Typography Utility Classes */
 .font-hud {
-  font-family: 'Orbitron', monospace;
-  letter-spacing: 0.05em;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0.04em;
+  font-weight: 700;
 }
 
 .font-tactical {
   font-family: 'Rajdhani', sans-serif;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
 }
 
 .font-freq {
-  font-family: 'Space Grotesk', monospace;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-code {
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 0.05em;
 }
 
 /* Wuthering Waves Acoustic & Holographic Visualizer Decors */

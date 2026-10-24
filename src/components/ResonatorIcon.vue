@@ -147,7 +147,7 @@ const sizeBox = computed(() => {
     <!-- Fallback prominent Resonator Initials -->
     <span
       v-if="!imageLoaded"
-      class="relative z-1 drop-shadow-md font-hud font-bold"
+      class="relative z-1 drop-shadow-md font-tactical font-bold"
     >
       {{ initials }}
     </span>

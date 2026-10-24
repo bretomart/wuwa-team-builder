@@ -58,7 +58,7 @@ const currentActiveMetaTeam = computed(() => {
           <Award class="w-4 h-4" />
         </div>
         <div>
-          <h2 class="text-base sm:text-lg font-hud font-bold text-slate-100 tracking-wide">
+          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase">
             Verified Meta Teams
           </h2>
           <p class="text-[11px] font-tactical text-slate-400 tracking-wider">
@@ -100,7 +100,7 @@ const currentActiveMetaTeam = computed(() => {
 
           <div class="min-w-0 flex-1">
             <div class="flex items-center gap-2">
-              <span class="text-sm font-hud font-bold text-slate-100 truncate block">
+              <span class="text-sm font-tactical font-bold text-slate-100 truncate block tracking-wide">
                 {{ currentActiveMetaTeam ? currentActiveMetaTeam.name : 'Browse Optimized Teams...' }}
               </span>
               <span
@@ -163,7 +163,7 @@ const currentActiveMetaTeam = computed(() => {
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <div>
               <div class="flex items-center gap-2">
-                <h3 class="text-sm font-hud font-bold text-slate-100">{{ team.name }}</h3>
+                <h3 class="text-sm font-tactical font-bold text-slate-100 tracking-wide uppercase">{{ team.name }}</h3>
                 <span
                   v-if="isTeamCompleteInRoster(team)"
                   class="px-2 py-0.2 rounded text-[10px] font-tactical font-bold bg-cyan-950/80 text-cyan-300 border border-cyan-500/60 shadow-xs shadow-cyan-500/20"
@@ -208,7 +208,7 @@ const currentActiveMetaTeam = computed(() => {
               <template v-for="slotId in team.slots" :key="slotId">
                 <div v-if="getResonator(slotId)" class="flex items-center gap-1.5">
                   <ResonatorIcon :resonator="getResonator(slotId)!" size="sm" />
-                  <span class="text-[11px] text-slate-200 font-hud">{{ getResonator(slotId)?.name }}</span>
+                  <span class="text-[11px] text-slate-200 font-tactical font-bold tracking-wide">{{ getResonator(slotId)?.name }}</span>
                 </div>
               </template>
             </div>
@@ -216,7 +216,7 @@ const currentActiveMetaTeam = computed(() => {
             <div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-400 font-tactical">
               <span class="font-bold text-cyan-400">ROTATION:</span>
               <template v-for="(charName, i) in team.rotationOrder" :key="charName">
-                <span class="text-slate-200 font-semibold font-hud text-[10px]">{{ charName }}</span>
+                <span class="text-slate-200 font-semibold font-tactical text-[11px] tracking-wide">{{ charName }}</span>
                 <ArrowRight v-if="i < team.rotationOrder.length - 1" class="w-2.5 h-2.5 text-cyan-400" />
               </template>
             </div>
@@ -238,7 +238,7 @@ const currentActiveMetaTeam = computed(() => {
             class="flex flex-col gap-1.5 text-[11px] bg-[#080d18] p-2.5 rounded-lg border border-amber-500/40"
           >
             <div class="flex items-center justify-between">
-              <span class="font-hud font-bold text-amber-300 flex items-center gap-1 text-xs">
+              <span class="font-tactical font-bold text-amber-300 flex items-center gap-1 text-xs uppercase tracking-wider">
                 <span>✦</span>
                 Sequence Node Pull Priority:
               </span>
@@ -259,7 +259,7 @@ const currentActiveMetaTeam = computed(() => {
                     <span class="w-4 h-4 rounded bg-amber-950 border border-amber-500 text-amber-300 flex items-center justify-center font-bold text-[9px] shrink-0 font-freq">
                       {{ item.step }}
                     </span>
-                    <span class="font-hud font-bold text-cyan-300 text-xs truncate">
+                    <span class="font-tactical font-bold text-cyan-300 text-xs truncate tracking-wide">
                       {{ getResonator(item.resonatorId)?.name }} {{ item.targetSequence }}
                     </span>
                   </div>

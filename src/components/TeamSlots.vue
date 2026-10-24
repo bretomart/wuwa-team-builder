@@ -107,7 +107,7 @@ const getAttributeColor = (attr: Attribute) => {
           <Swords class="w-4 h-4" />
         </div>
         <div>
-          <h2 class="text-base sm:text-lg font-hud font-bold text-slate-100 tracking-wide flex items-center gap-2">
+          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase flex items-center gap-2">
             Active Team Composition
             <span class="text-[10px] font-freq px-2 py-0.5 rounded bg-[#0f172a] text-cyan-400 border border-cyan-800/60 font-normal">
               TRI-RESONANCE LINK
@@ -147,7 +147,7 @@ const getAttributeColor = (attr: Attribute) => {
           <div>
             <div class="flex items-center gap-1.5">
               <span class="text-[10px] font-freq text-cyan-400 font-bold tracking-wider">{{ slotLabel.code }}</span>
-              <h3 class="text-sm font-hud font-bold text-slate-200">{{ slotLabel.title }}</h3>
+              <h3 class="text-sm font-tactical font-bold text-slate-200 tracking-wide uppercase">{{ slotLabel.title }}</h3>
             </div>
             <p class="text-[11px] font-tactical text-slate-400 mt-0.5 leading-snug">{{ slotLabel.desc }}</p>
           </div>
@@ -170,7 +170,7 @@ const getAttributeColor = (attr: Attribute) => {
               <ResonatorIcon :resonator="getResonator(teamStore.selectedSlots[idx])!" size="lg" />
               <div class="min-w-0 flex-1">
                 <div class="flex items-center gap-1.5 min-w-0">
-                  <span class="text-base font-hud font-bold text-slate-100 truncate block tracking-wide" :title="getResonator(teamStore.selectedSlots[idx])?.name">
+                  <span class="text-base font-tactical font-bold text-slate-100 truncate block tracking-wide" :title="getResonator(teamStore.selectedSlots[idx])?.name">
                     {{ getResonator(teamStore.selectedSlots[idx])?.name }}
                   </span>
                   <span class="flex items-center shrink-0">
@@ -305,7 +305,7 @@ const getAttributeColor = (attr: Attribute) => {
             <Plus class="w-5 h-5 transition-transform group-hover:scale-110" />
           </div>
           <div class="text-center">
-            <span class="text-xs font-hud font-bold text-slate-300 group-hover:text-cyan-300 tracking-wide block">
+            <span class="text-xs font-tactical font-bold text-slate-300 group-hover:text-cyan-300 tracking-wide block uppercase">
               Assign Resonator
             </span>
             <p class="text-[10px] font-tactical text-slate-500 tracking-wider mt-0.5">
@@ -341,7 +341,7 @@ const getAttributeColor = (attr: Attribute) => {
           <div>
             <div class="flex items-center gap-2">
               <Target class="w-4 h-4 text-cyan-400" />
-              <h3 class="text-base font-hud font-bold text-slate-100">
+              <h3 class="text-base font-tactical font-bold text-slate-100 tracking-wide uppercase">
                 Select Resonator for {{ slotLabels[activeModalSlot].title }}
               </h3>
             </div>
@@ -399,7 +399,7 @@ const getAttributeColor = (attr: Attribute) => {
               <div class="flex items-center gap-3 min-w-0 flex-1">
                 <ResonatorIcon :resonator="res" size="md" />
                 <div class="min-w-0 flex-1">
-                  <div class="text-sm font-hud font-bold text-slate-100 truncate block leading-snug group-hover:text-cyan-300 transition-colors" :title="res.name">
+                  <div class="text-sm font-tactical font-bold text-slate-100 truncate block leading-snug group-hover:text-cyan-300 transition-colors tracking-wide" :title="res.name">
                     {{ res.name }}
                   </div>
                   <div class="flex items-center gap-1.5 mt-1 min-w-0">
@@ -460,7 +460,7 @@ const getAttributeColor = (attr: Attribute) => {
             <ResonatorIcon :resonator="inspectingResonator" size="lg" />
             <div>
               <div class="flex items-center gap-2">
-                <h3 class="text-lg font-hud font-bold text-slate-100 tracking-wide">{{ inspectingResonator.name }}</h3>
+                <h3 class="text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase">{{ inspectingResonator.name }}</h3>
                 <span :class="['px-2 py-0.5 rounded text-xs font-tactical font-bold border', getAttributeColor(inspectingResonator.attribute)]">
                   {{ inspectingResonator.attribute }}
                 </span>
@@ -483,7 +483,7 @@ const getAttributeColor = (attr: Attribute) => {
         <div class="p-6 overflow-y-auto flex flex-col gap-6 text-sm bg-[#060912]">
           <!-- Section 1: Top 3 Optimal Weapons by Tier (5★, 4★, 3★ Blue) -->
           <div class="flex flex-col gap-3">
-            <div class="flex items-center gap-2 text-xs font-hud font-bold uppercase tracking-wider text-slate-200">
+            <div class="flex items-center gap-2 text-xs font-tactical font-bold uppercase tracking-wider text-slate-200">
               <Swords class="w-4 h-4 text-cyan-400" />
               Optimal Weapon Tier List (Top 3 Rankings)
             </div>
@@ -556,7 +556,7 @@ const getAttributeColor = (attr: Attribute) => {
 
           <!-- Section 2: Echo Build Matrix (Sonata, Distribution, Primary & Substats) -->
           <div class="flex flex-col gap-3">
-            <div class="flex items-center gap-2 text-xs font-hud font-bold uppercase tracking-wider text-slate-200">
+            <div class="flex items-center gap-2 text-xs font-tactical font-bold uppercase tracking-wider text-slate-200">
               <Disc class="w-4 h-4 text-amber-400" />
               Echo Optimization Matrix (Sonata & Substats)
             </div>
@@ -602,7 +602,7 @@ const getAttributeColor = (attr: Attribute) => {
 
           <!-- Section 3: Optimal Skill Priority at Specific Levels -->
           <div class="flex flex-col gap-3">
-            <div class="flex items-center gap-2 text-xs font-hud font-bold uppercase tracking-wider text-slate-200">
+            <div class="flex items-center gap-2 text-xs font-tactical font-bold uppercase tracking-wider text-slate-200">
               <Sparkles class="w-4 h-4 text-emerald-400" />
               Skill Investment Priority & Target Levels
             </div>
@@ -664,7 +664,7 @@ const getAttributeColor = (attr: Attribute) => {
           <!-- Section 4: Sequence Node Investment (Dupes & Pull Recommendations) -->
           <div v-if="inspectingResonator.sequenceInvestment" class="flex flex-col gap-3">
             <div class="flex items-center justify-between">
-              <div class="flex items-center gap-2 text-xs font-hud font-bold uppercase tracking-wider text-slate-200">
+              <div class="flex items-center gap-2 text-xs font-tactical font-bold uppercase tracking-wider text-slate-200">
                 <Radio class="w-4 h-4 text-amber-400" />
                 Sequence Node Investment (Dupes & Pull Path)
               </div>
