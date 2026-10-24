@@ -2,22 +2,34 @@
 
 @layer base {
   :root {
-    --bg-main: #0b0d13;
-    --bg-surface: #131722;
-    --bg-card: #181d2a;
-    --border-subtle: #262f43;
-    --border-accent: #3b82f6;
+    --bg-void: #04060a;
+    --bg-terminal: #06080d;
+    --bg-surface: #0b0f19;
+    --bg-surface-elevated: #0f1524;
+    --bg-surface-glass: rgba(11, 15, 25, 0.78);
+    --border-terminal: #172238;
+    --border-terminal-glow: rgba(0, 242, 254, 0.25);
+    --cyan-glow: #00f2fe;
+    --cyan-tactical: #06b6d4;
+    --violet-resonance: #8b5cf6;
+    --violet-bright: #a855f7;
+    --amber-tachyon: #f59e0b;
     --text-primary: #f1f5f9;
-    --text-secondary: #94a3b8;
+    --text-muted: #8494ab;
+    --font-orbitron: 'Orbitron', monospace;
+    --font-rajdhani: 'Rajdhani', sans-serif;
+    --font-space: 'Space Grotesk', monospace;
+    --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   }
 
   body {
-    background-color: var(--bg-main);
+    background-color: var(--bg-terminal);
     color: var(--text-primary);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: var(--font-body);
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    overflow-x: hidden;
   }
 
   #app {
@@ -25,9 +37,158 @@
     max-width: 100%;
     margin: 0;
     padding: 0;
-    border: none;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
+
+  /* Custom high-tech acoustic scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #06080d;
+    border-left: 1px solid #141b2c;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #172844;
+    border-radius: 2px;
+    border: 1px solid #00f2fe33;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00f2fe66;
+  }
+}
+
+/* Typography Utility Classes */
+.font-hud {
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 0.05em;
+}
+
+.font-tactical {
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.font-freq {
+  font-family: 'Space Grotesk', monospace;
+}
+
+/* Wuthering Waves Acoustic & Holographic Visualizer Decors */
+.bg-terminal-grid {
+  background-image: 
+    linear-gradient(to right, rgba(0, 242, 254, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 242, 254, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-scanlines {
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+}
+
+.glow-cyan-border {
+  box-shadow: 0 0 15px -3px rgba(0, 242, 254, 0.25), inset 0 0 15px -8px rgba(0, 242, 254, 0.15);
+}
+
+.glow-violet-border {
+  box-shadow: 0 0 15px -3px rgba(139, 92, 246, 0.3), inset 0 0 15px -8px rgba(139, 92, 246, 0.15);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 10px rgba(0, 242, 254, 0.6);
+}
+
+.text-glow-violet {
+  text-shadow: 0 0 10px rgba(168, 85, 247, 0.6);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+}
+
+/* Holographic HUD corner brackets */
+.hud-corner-box {
+  position: relative;
+}
+
+.hud-corner-box::before,
+.hud-corner-box::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.hud-corner-box::before {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid #00f2fe;
+  border-left: 2px solid #00f2fe;
+}
+
+.hud-corner-box::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid #00f2fe;
+  border-right: 2px solid #00f2fe;
+}
+
+/* Equalizer frequency bars animation */
+@keyframes eqBarPulse {
+  0%, 100% {
+    height: 25%;
+  }
+  50% {
+    height: 95%;
+  }
+}
+
+.animate-eq-1 {
+  animation: eqBarPulse 1.2s ease-in-out infinite alternate;
+}
+.animate-eq-2 {
+  animation: eqBarPulse 0.9s ease-in-out infinite alternate 0.2s;
+}
+.animate-eq-3 {
+  animation: eqBarPulse 1.5s ease-in-out infinite alternate 0.4s;
+}
+.animate-eq-4 {
+  animation: eqBarPulse 0.8s ease-in-out infinite alternate 0.1s;
+}
+.animate-eq-5 {
+  animation: eqBarPulse 1.3s ease-in-out infinite alternate 0.3s;
+}
+
+/* Angular corner chamfer clip path */
+.clip-chamfer {
+  clip-path: polygon(
+    0 10px,
+    10px 0,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%
+  );
+}
+
+.clip-chamfer-sm {
+  clip-path: polygon(
+    0 6px,
+    6px 0,
+    100% 0,
+    100% calc(100% - 6px),
+    calc(100% - 6px) 100%,
+    0 100%
+  );
 }

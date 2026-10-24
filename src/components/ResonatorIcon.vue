@@ -33,61 +33,61 @@ const getAttrTheme = (attr: Attribute) => {
   switch (attr) {
     case 'Glacio':
       return {
-        bg: 'bg-gradient-to-br from-cyan-600 via-sky-700 to-blue-900',
-        ring: 'ring-cyan-400/50',
-        border: 'border-cyan-400/60',
-        badge: 'bg-cyan-950 text-cyan-200 border-cyan-700',
+        bg: 'bg-gradient-to-br from-cyan-600 via-sky-800 to-[#04121d]',
+        ring: 'ring-cyan-400/60',
+        border: 'border-cyan-400/80',
+        badge: 'bg-cyan-950 text-cyan-200 border-cyan-500',
         textColor: 'text-cyan-100',
         iconSymbol: '❄'
       };
     case 'Fusion':
       return {
-        bg: 'bg-gradient-to-br from-orange-500 via-amber-600 to-red-800',
-        ring: 'ring-orange-400/50',
-        border: 'border-orange-400/60',
-        badge: 'bg-orange-950 text-orange-200 border-orange-700',
+        bg: 'bg-gradient-to-br from-orange-500 via-red-700 to-[#190807]',
+        ring: 'ring-orange-400/60',
+        border: 'border-orange-400/80',
+        badge: 'bg-orange-950 text-orange-200 border-orange-500',
         textColor: 'text-orange-100',
         iconSymbol: '🔥'
       };
     case 'Electro':
       return {
-        bg: 'bg-gradient-to-br from-violet-600 via-purple-700 to-indigo-900',
-        ring: 'ring-purple-400/50',
-        border: 'border-purple-400/60',
-        badge: 'bg-purple-950 text-purple-200 border-purple-700',
-        textColor: 'text-purple-100',
+        bg: 'bg-gradient-to-br from-violet-600 via-purple-800 to-[#12071d]',
+        ring: 'ring-violet-400/60',
+        border: 'border-violet-400/80',
+        badge: 'bg-violet-950 text-violet-200 border-violet-500',
+        textColor: 'text-violet-100',
         iconSymbol: '⚡'
       };
     case 'Aero':
       return {
-        bg: 'bg-gradient-to-br from-emerald-600 via-teal-700 to-teal-900',
-        ring: 'ring-emerald-400/50',
-        border: 'border-emerald-400/60',
-        badge: 'bg-emerald-950 text-emerald-200 border-emerald-700',
+        bg: 'bg-gradient-to-br from-emerald-500 via-teal-800 to-[#051814]',
+        ring: 'ring-emerald-400/60',
+        border: 'border-emerald-400/80',
+        badge: 'bg-emerald-950 text-emerald-200 border-emerald-500',
         textColor: 'text-emerald-100',
         iconSymbol: '🍃'
       };
     case 'Spectro':
       return {
-        bg: 'bg-gradient-to-br from-amber-400 via-yellow-500 to-amber-700',
-        ring: 'ring-amber-300/60',
-        border: 'border-amber-300/80',
-        badge: 'bg-amber-950 text-amber-200 border-amber-600',
+        bg: 'bg-gradient-to-br from-amber-400 via-yellow-600 to-[#1b1403]',
+        ring: 'ring-amber-300/70',
+        border: 'border-amber-300/90',
+        badge: 'bg-amber-950 text-amber-200 border-amber-500',
         textColor: 'text-amber-950 font-black',
         iconSymbol: '✦'
       };
     case 'Havoc':
       return {
-        bg: 'bg-gradient-to-br from-rose-700 via-red-800 to-stone-900',
-        ring: 'ring-rose-400/50',
-        border: 'border-rose-400/60',
-        badge: 'bg-rose-950 text-rose-200 border-rose-700',
+        bg: 'bg-gradient-to-br from-rose-700 via-pink-900 to-[#17050a]',
+        ring: 'ring-rose-400/60',
+        border: 'border-rose-400/80',
+        badge: 'bg-rose-950 text-rose-200 border-rose-500',
         textColor: 'text-rose-100',
         iconSymbol: '◈'
       };
     default:
       return {
-        bg: 'bg-gradient-to-br from-slate-700 to-slate-900',
+        bg: 'bg-gradient-to-br from-slate-700 to-slate-950',
         ring: 'ring-slate-500/50',
         border: 'border-slate-500',
         badge: 'bg-slate-900 text-slate-200 border-slate-700',
@@ -104,10 +104,10 @@ const sizeBox = computed(() => {
     case 'sm':
       return 'w-6 h-6 rounded-md text-[10px] ring-1';
     case 'lg':
-      return 'w-10 h-10 rounded-xl text-sm ring-2';
+      return 'w-11 h-11 rounded-xl text-sm ring-2';
     case 'md':
     default:
-      return 'w-8 h-8 rounded-lg text-xs ring-1';
+      return 'w-9 h-9 rounded-lg text-xs ring-1';
   }
 });
 </script>
@@ -115,7 +115,7 @@ const sizeBox = computed(() => {
 <template>
   <div
     :class="[
-      'relative shrink-0 flex items-center justify-center font-black tracking-wider select-none shadow-md overflow-hidden border',
+      'relative shrink-0 flex items-center justify-center font-black tracking-wider select-none shadow-lg overflow-hidden border',
       sizeBox,
       theme.bg,
       theme.border,
@@ -139,7 +139,7 @@ const sizeBox = computed(() => {
     <!-- Fallback background element glyph watermark -->
     <span
       v-if="!imageLoaded"
-      class="absolute inset-0 flex items-center justify-center opacity-15 text-lg pointer-events-none font-sans"
+      class="absolute inset-0 flex items-center justify-center opacity-25 text-lg pointer-events-none font-sans"
     >
       {{ theme.iconSymbol }}
     </span>
@@ -147,7 +147,7 @@ const sizeBox = computed(() => {
     <!-- Fallback prominent Resonator Initials -->
     <span
       v-if="!imageLoaded"
-      class="relative z-1 drop-shadow-sm font-mono"
+      class="relative z-1 drop-shadow-md font-hud font-bold"
     >
       {{ initials }}
     </span>
