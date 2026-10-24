@@ -137,11 +137,6 @@ const getAttributeColor = (attr: Attribute) => {
         :key="idx"
         class="flex flex-col bg-[#070a12] border border-[#142036] rounded-xl p-4 min-h-[225px] justify-between transition-all duration-200 hover:border-cyan-500/40 relative group"
       >
-        <!-- Top Corner Visualizer Accent -->
-        <div class="absolute top-0 right-0 w-8 h-8 pointer-events-none overflow-hidden rounded-tr-xl">
-          <div class="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-cyan-400/70"></div>
-        </div>
-
         <!-- Slot Header -->
         <div class="flex items-center justify-between gap-1 pb-2 border-b border-[#121c2f]">
           <div>
