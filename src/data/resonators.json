@@ -3521,12 +3521,11 @@
     "role": "Sub-DPS",
     "primaryDamageSource": "Resonance Skill",
     "outroSkill": {
-      "buffType": "Dual Amplify",
-      "targetAttribute": "Aero",
-      "targetDamageType": "Resonance Skill",
-      "value": 20,
+      "buffType": "Damage Amplify",
+      "targetDamageType": "Heavy",
+      "value": 50,
       "duration": 14,
-      "description": "Next resonator gains 20% Aero DMG Deepen and 25% Resonance Skill DMG Deepen for 14s."
+      "description": "Next resonator gains 50% Heavy Attack DMG Amplification for 14s."
     },
     "concertoSpeed": "Fast",
     "fieldTimeNeeds": "Low",

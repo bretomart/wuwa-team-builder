@@ -86,4 +86,18 @@ describe('Team Store & Synergy Engine', () => {
     expect(synergy.rotationWarnings.some((w) => w.includes('No healer or shielder'))).toBe(true);
     expect(synergy.rotationWarnings.some((w) => w.includes('Field time conflict'))).toBe(true);
   });
+
+  it('correctly recognizes Iuno Outro synergy for Augusta', () => {
+    const store = useTeamStore();
+    store.setSlot(0, 'augusta');
+    store.setSlot(1, 'iuno');
+    store.setSlot(2, 'shorekeeper');
+
+    const synergy = store.synergyAnalysis;
+    expect(synergy.rotationViability).toBe('Optimal');
+    expect(synergy.hasSustain).toBe(true);
+    expect(synergy.slot2Synergy.matchesDamageType).toBe(true);
+    expect(synergy.cons.some((c) => c.includes('Mismatched Outro'))).toBe(false);
+    expect(synergy.pros.some((p) => p.includes('Iuno provides +50% Heavy DMG for Augusta'))).toBe(true);
+  });
 });
