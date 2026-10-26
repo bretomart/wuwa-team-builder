@@ -58,7 +58,7 @@ const currentActiveMetaTeam = computed(() => {
           <Award class="w-4 h-4" />
         </div>
         <div>
-          <h2 class="text-base sm:text-lg font-hud font-bold text-slate-100 tracking-wide">
+          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase">
             Verified Meta Teams
           </h2>
           <p class="text-[11px] font-tactical text-slate-400 tracking-wider">
@@ -67,7 +67,7 @@ const currentActiveMetaTeam = computed(() => {
         </div>
       </div>
 
-      <span class="px-2.5 py-0.5 rounded-full text-xs font-freq font-semibold bg-[#0c1424] text-cyan-300 border border-cyan-800/60 shadow-xs shadow-cyan-950">
+      <span class="px-2.5 py-0.5 rounded-full text-xs font-freq font-semibold bg-[#0c1424] text-cyan-300 border border-cyan-800/60 shadow-xs shadow-cyan-950 whitespace-nowrap shrink-0">
         {{ availableTeams.length }} / {{ allMetaTeams.length }} Ready
       </span>
     </div>

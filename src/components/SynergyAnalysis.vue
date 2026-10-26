@@ -48,7 +48,7 @@ const getViabilityBadge = (status: string) => {
           <Activity class="w-4 h-4" />
         </div>
         <div>
-          <h2 class="text-base sm:text-lg font-hud font-bold text-slate-100 tracking-wide">
+          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase">
             Synergy & Rotation Analysis
           </h2>
           <p class="text-[11px] font-tactical text-slate-400 tracking-wider">
@@ -57,10 +57,10 @@ const getViabilityBadge = (status: string) => {
         </div>
       </div>
 
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2 shrink-0">
         <span
           :class="[
-            'px-3 py-1 rounded-full text-xs font-tactical font-semibold border flex items-center gap-1.5',
+            'px-3 py-1 rounded-full text-xs font-tactical font-semibold border flex items-center gap-1.5 whitespace-nowrap shrink-0',
             getViabilityBadge(synergy.rotationViability).class
           ]"
         >

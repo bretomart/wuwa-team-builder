@@ -65,24 +65,24 @@
 
 /* Typography Utility Classes */
 .font-hud {
-  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
-  letter-spacing: 0.02em;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0.04em;
   font-weight: 700;
 }
 
 .font-tactical {
-  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-  letter-spacing: 0.015em;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .font-freq {
-  font-family: 'JetBrains Mono', 'Space Grotesk', monospace;
+  font-family: 'Space Grotesk', sans-serif;
   letter-spacing: 0.02em;
 }
 
 .font-code {
-  font-family: 'JetBrains Mono', monospace;
-  letter-spacing: 0.03em;
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 0.05em;
 }
 
 /* Wuthering Waves Acoustic & Holographic Visualizer Decors */
