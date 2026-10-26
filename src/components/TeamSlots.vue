@@ -22,6 +22,10 @@ import {
 
 const teamStore = useTeamStore();
 
+const activeSlotCount = computed(() => {
+  return teamStore.selectedSlots.filter(Boolean).length;
+});
+
 const activeModalSlot = ref<number | null>(null);
 const modalSearchQuery = ref('');
 const modalRoleFilter = ref<string>('All');
@@ -101,27 +105,29 @@ const getAttributeColor = (attr: Attribute) => {
 <template>
   <div class="relative bg-[#070b14]/90 border border-[#16233b] rounded-xl p-5 shadow-2xl backdrop-blur-md flex flex-col gap-4 hud-corner-box">
     <!-- Top Telemetry Header -->
-    <div class="flex items-center justify-between pb-3 border-b border-[#141e33]">
-      <div class="flex items-center gap-2.5">
-        <div class="w-8 h-8 rounded-lg bg-cyan-950/80 border border-cyan-500/60 flex items-center justify-center text-cyan-400 shadow-sm shadow-cyan-500/30">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-[#141e33]">
+      <div class="flex items-center gap-3 min-w-0">
+        <div class="w-8 h-8 rounded-lg bg-cyan-950/80 border border-cyan-500/60 flex items-center justify-center text-cyan-400 shadow-sm shadow-cyan-500/30 shrink-0">
           <Swords class="w-4 h-4" />
         </div>
-        <div>
-          <div class="flex items-center gap-2">
-            <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase whitespace-nowrap">
-              Active Team Composition
-            </h2>
-            <span class="text-[10px] font-freq px-2 py-0.5 rounded bg-[#0f172a] text-cyan-400 border border-cyan-800/60 font-normal whitespace-nowrap shrink-0">
-              TRI-RESONANCE LINK
-            </span>
-          </div>
-          <p class="text-[11px] font-tactical text-slate-400 tracking-wider">
+        <div class="flex flex-wrap items-center gap-x-3 gap-y-1 min-w-0">
+          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase whitespace-nowrap">
+            Active Team Composition
+          </h2>
+          <span class="text-[10px] font-freq px-2 py-0.5 rounded bg-[#0f172a] text-cyan-400 border border-cyan-800/60 font-normal whitespace-nowrap shrink-0">
+            TRI-RESONANCE LINK
+          </span>
+          <span class="hidden md:inline-block text-[#1e2c44]">|</span>
+          <p class="text-[11px] font-tactical text-slate-400 tracking-wider whitespace-nowrap">
             CONCERTO SEQUENCE DEPLOYMENT // HARMONIC NODES
           </p>
         </div>
       </div>
 
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2.5 shrink-0 self-end sm:self-auto">
+        <span class="px-2.5 py-0.5 rounded-full text-xs font-freq font-semibold bg-[#0c1424] text-cyan-300 border border-cyan-800/60 shadow-xs shadow-cyan-950 whitespace-nowrap shrink-0">
+          {{ activeSlotCount }} / 3 Deployed
+        </span>
         <button
           @click="teamStore.clearSlots()"
           class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-tactical font-semibold bg-[#0f1626] hover:bg-[#162138] text-slate-300 hover:text-cyan-300 border border-[#1f2d47] hover:border-cyan-500/50 transition-all shadow-sm"
