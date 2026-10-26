@@ -20,6 +20,16 @@ describe('Data invariants', () => {
       team.slots.forEach((s) => expect(ids.has(s)).toBe(true));
     }
   );
+
+  const nameMap = new Map(resonators.map((r) => [r.id, r.name]));
+  it.each(metaTeams.map((t) => [t.id, t] as const))(
+    'meta team %s rotationOrder matches the names of its member resonators',
+    (_id, team) => {
+      expect(team.rotationOrder).toHaveLength(3);
+      const expectedNames = new Set(team.slots.map((s) => nameMap.get(s)));
+      expect(new Set(team.rotationOrder)).toEqual(expectedNames);
+    }
+  );
 });
 
 describe('Owned roster persistence', () => {
