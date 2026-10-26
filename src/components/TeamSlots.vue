@@ -106,13 +106,15 @@ const getAttributeColor = (attr: Attribute) => {
         <div class="w-8 h-8 rounded-lg bg-cyan-950/80 border border-cyan-500/60 flex items-center justify-center text-cyan-400 shadow-sm shadow-cyan-500/30">
           <Swords class="w-4 h-4" />
         </div>
-        <div class="min-w-0">
-          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase flex flex-wrap items-center gap-2">
-            <span class="whitespace-nowrap">Active Team Composition</span>
+        <div>
+          <div class="flex items-center gap-2">
+            <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase whitespace-nowrap">
+              Active Team Composition
+            </h2>
             <span class="text-[10px] font-freq px-2 py-0.5 rounded bg-[#0f172a] text-cyan-400 border border-cyan-800/60 font-normal whitespace-nowrap shrink-0">
               TRI-RESONANCE LINK
             </span>
-          </h2>
+          </div>
           <p class="text-[11px] font-tactical text-slate-400 tracking-wider">
             CONCERTO SEQUENCE DEPLOYMENT // HARMONIC NODES
           </p>
