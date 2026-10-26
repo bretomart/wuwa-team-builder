@@ -16,17 +16,13 @@
     --amber-tachyon: #f59e0b;
     --text-primary: #f1f5f9;
     --text-muted: #8494ab;
-    --font-orbitron: 'Orbitron', monospace;
-    --font-rajdhani: 'Rajdhani', sans-serif;
-    --font-space: 'Space Grotesk', sans-serif;
-    --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-unified: 'Space Grotesk', system-ui, -apple-system, sans-serif;
   }
 
   body {
     background-color: var(--bg-terminal);
     color: var(--text-primary);
-    font-family: var(--font-body);
-    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    font-family: var(--font-unified);
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -63,26 +59,33 @@
   }
 }
 
-/* Typography Utility Classes */
+/* Typography Utility Classes - Unified across the entire page */
+.font-sans,
+.font-hud,
+.font-tactical,
+.font-freq,
+.font-code,
+.font-mono {
+  font-family: var(--font-unified);
+}
+
 .font-hud {
-  font-family: 'Rajdhani', sans-serif;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   font-weight: 700;
 }
 
 .font-tactical {
-  font-family: 'Rajdhani', sans-serif;
-  letter-spacing: 0.03em;
-}
-
-.font-freq {
-  font-family: 'Space Grotesk', sans-serif;
   letter-spacing: 0.02em;
 }
 
+.font-freq {
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
 .font-code {
-  font-family: 'Orbitron', monospace;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Wuthering Waves Acoustic & Holographic Visualizer Decors */

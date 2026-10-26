@@ -106,9 +106,9 @@ const getAttributeColor = (attr: Attribute) => {
         <div class="w-8 h-8 rounded-lg bg-cyan-950/80 border border-cyan-500/60 flex items-center justify-center text-cyan-400 shadow-sm shadow-cyan-500/30">
           <Swords class="w-4 h-4" />
         </div>
-        <div>
-          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase flex items-center gap-2">
-            Active Team Composition
+        <div class="min-w-0">
+          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase flex flex-wrap items-center gap-2">
+            <span class="whitespace-nowrap">Active Team Composition</span>
             <span class="text-[10px] font-freq px-2 py-0.5 rounded bg-[#0f172a] text-cyan-400 border border-cyan-800/60 font-normal whitespace-nowrap shrink-0">
               TRI-RESONANCE LINK
             </span>
