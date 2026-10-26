@@ -58,7 +58,7 @@ const currentActiveMetaTeam = computed(() => {
           <Award class="w-4 h-4" />
         </div>
         <div>
-          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase">
+          <h2 class="text-base sm:text-lg font-hud font-bold text-slate-100 tracking-wide">
             Verified Meta Teams
           </h2>
           <p class="text-[11px] font-tactical text-slate-400 tracking-wider">

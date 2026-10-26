@@ -25,8 +25,10 @@ describe('Component Integration', () => {
     expect(wrapper.text()).not.toContain('Jiyan');
   });
 
-  it('renders TeamSlots and opens selection modal when empty slot clicked', async () => {
-    const wrapper = mount(TeamSlots);
+  it('renders TeamSlots and teleports selection modal to body when empty slot clicked', async () => {
+    const wrapper = mount(TeamSlots, {
+      attachTo: document.body
+    });
     expect(wrapper.text()).toContain('Active Team Composition');
     expect(wrapper.text()).toContain('Slot 1: Main DPS');
 
@@ -34,7 +36,9 @@ describe('Component Integration', () => {
     expect(emptySlots.length).toBeGreaterThan(0);
     await emptySlots[0].trigger('click');
 
-    expect(wrapper.text()).toContain('Select Resonator for Slot 1: Main DPS');
+    expect(wrapper.element.querySelector('.fixed.inset-0')).toBeNull();
+    expect(document.body.textContent).toContain('Select Resonator for Slot 1: Main DPS');
+    wrapper.unmount();
   });
 
   it('displays empty state in SynergyAnalysis when no slots are filled', () => {

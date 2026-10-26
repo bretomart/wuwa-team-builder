@@ -107,7 +107,7 @@ const getAttributeColor = (attr: Attribute) => {
           <Swords class="w-4 h-4" />
         </div>
         <div>
-          <h2 class="text-base sm:text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase flex items-center gap-2">
+          <h2 class="text-base sm:text-lg font-hud font-bold text-slate-100 tracking-wide flex items-center gap-2">
             Active Team Composition
             <span class="text-[10px] font-freq px-2 py-0.5 rounded bg-[#0f172a] text-cyan-400 border border-cyan-800/60 font-normal">
               TRI-RESONANCE LINK
@@ -142,7 +142,7 @@ const getAttributeColor = (attr: Attribute) => {
           <div>
             <div class="flex items-center gap-1.5">
               <span class="text-[10px] font-freq text-cyan-400 font-bold tracking-wider">{{ slotLabel.code }}</span>
-              <h3 class="text-sm font-tactical font-bold text-slate-200 tracking-wide uppercase">{{ slotLabel.title }}</h3>
+              <h3 class="text-sm font-hud font-bold text-slate-200 tracking-wide">{{ slotLabel.title }}</h3>
             </div>
             <p class="text-[11px] font-tactical text-slate-400 mt-0.5 leading-snug">{{ slotLabel.desc }}</p>
           </div>
@@ -300,7 +300,7 @@ const getAttributeColor = (attr: Attribute) => {
             <Plus class="w-5 h-5 transition-transform group-hover:scale-110" />
           </div>
           <div class="text-center">
-            <span class="text-xs font-tactical font-bold text-slate-300 group-hover:text-cyan-300 tracking-wide block uppercase">
+            <span class="text-xs font-hud font-bold text-slate-300 group-hover:text-cyan-300 tracking-wide block">
               Assign Resonator
             </span>
             <p class="text-[10px] font-tactical text-slate-500 tracking-wider mt-0.5">
@@ -326,17 +326,19 @@ const getAttributeColor = (attr: Attribute) => {
     </div>
 
     <!-- Character Picker Modal -->
-    <div
-      v-if="activeModalSlot !== null"
-      class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm"
-    >
+    <Teleport to="body">
+      <div
+        v-if="activeModalSlot !== null"
+        @click.self="closePicker"
+        class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm"
+      >
       <div class="bg-[#080d18] border border-cyan-500/40 rounded-xl max-w-4xl w-full max-h-[85vh] flex flex-col shadow-2xl shadow-cyan-950/40 overflow-hidden hud-corner-box animate-in fade-in zoom-in-95 duration-150">
         <!-- Modal Header -->
         <div class="flex items-center justify-between px-5 py-4 border-b border-[#142036] bg-[#060a12]">
           <div>
             <div class="flex items-center gap-2">
               <Target class="w-4 h-4 text-cyan-400" />
-              <h3 class="text-base font-tactical font-bold text-slate-100 tracking-wide uppercase">
+              <h3 class="text-base font-hud font-bold text-slate-100 tracking-wide">
                 Select Resonator for {{ slotLabels[activeModalSlot].title }}
               </h3>
             </div>
@@ -441,13 +443,16 @@ const getAttributeColor = (attr: Attribute) => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </Teleport>
 
     <!-- Full MinMax Inspector Modal (Acoustic specification view) -->
-    <div
-      v-if="inspectingResonator !== null"
-      class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm"
-    >
+    <Teleport to="body">
+      <div
+        v-if="inspectingResonator !== null"
+        @click.self="closeInspector"
+        class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm"
+      >
       <div class="bg-[#080d18] border border-cyan-500/50 rounded-xl max-w-3xl w-full max-h-[90vh] flex flex-col shadow-2xl shadow-cyan-950/60 overflow-hidden hud-corner-box animate-in fade-in zoom-in-95 duration-150">
         <!-- Inspector Header -->
         <div class="flex items-center justify-between px-6 py-4 border-b border-[#142036] bg-[#060a12]">
@@ -455,7 +460,7 @@ const getAttributeColor = (attr: Attribute) => {
             <ResonatorIcon :resonator="inspectingResonator" size="lg" />
             <div>
               <div class="flex items-center gap-2">
-                <h3 class="text-lg font-tactical font-bold text-slate-100 tracking-wide uppercase">{{ inspectingResonator.name }}</h3>
+                <h3 class="text-lg font-hud font-bold text-slate-100 tracking-wide">{{ inspectingResonator.name }}</h3>
                 <span :class="['px-2 py-0.5 rounded text-xs font-tactical font-bold border', getAttributeColor(inspectingResonator.attribute)]">
                   {{ inspectingResonator.attribute }}
                 </span>
@@ -728,6 +733,7 @@ const getAttributeColor = (attr: Attribute) => {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </Teleport>
   </div>
 </template>
