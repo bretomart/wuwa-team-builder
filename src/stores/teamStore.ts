@@ -46,17 +46,13 @@ export interface SynergyAnalysisResult {
 
 export const useTeamStore = defineStore('team', {
   state: () => {
-    let saved: string[] = [];
+    // Default to all resonators owned if no storage exists or it is unreadable
+    let saved: string[] = (resonatorsData as Resonator[]).map((r) => r.id);
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        saved = JSON.parse(raw);
-      } else {
-        // Default to all resonators owned if no storage exists
-        saved = (resonatorsData as Resonator[]).map((r) => r.id);
-      }
+      if (raw) saved = JSON.parse(raw);
     } catch {
-      saved = (resonatorsData as Resonator[]).map((r) => r.id);
+      // keep default
     }
 
     return {
@@ -90,11 +86,7 @@ export const useTeamStore = defineStore('team', {
       const handoffs: OutroHandoff[] = [];
 
       const sustainIds = ['verina', 'shorekeeper', 'baizhi', 'taoqi', 'chisa', 'suisui'];
-      const hasSustain = Boolean(
-        (s1 && sustainIds.includes(s1.id)) ||
-        (s2 && sustainIds.includes(s2.id)) ||
-        (s3 && sustainIds.includes(s3.id))
-      );
+      const hasSustain = [s1, s2, s3].some((r) => r && sustainIds.includes(r.id));
 
       // Analyze Slot 2 Outro Buff targeting Slot 1
       let slot2MatchesDmg = false;
