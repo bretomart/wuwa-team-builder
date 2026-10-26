@@ -100,4 +100,15 @@ describe('Team Store & Synergy Engine', () => {
     expect(synergy.cons.some((c) => c.includes('Mismatched Outro'))).toBe(false);
     expect(synergy.pros.some((p) => p.includes('Iuno provides +50% Heavy DMG for Augusta'))).toBe(true);
   });
+
+  it('evaluates Moonlit Clouds handoff and active echo buffs for Jiyan Hypercarry', () => {
+    const store = useTeamStore();
+    store.loadMetaTeam(metaTeamsData[0]); // Jiyan + Mortefi + Verina
+
+    const synergy = store.synergyAnalysis;
+    expect(synergy.pros.some((p) => p.includes('Moonlit Clouds sonata handoff'))).toBe(true);
+    expect(synergy.pros.some((p) => p.includes('Impermanence Heron active'))).toBe(true);
+    expect(synergy.pros.some((p) => p.includes('Rejuvenating Glow synergy'))).toBe(true);
+    expect(synergy.pros.some((p) => p.includes('Rotational energy loop'))).toBe(true);
+  });
 });

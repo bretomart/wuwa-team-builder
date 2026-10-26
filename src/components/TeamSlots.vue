@@ -250,48 +250,55 @@ const getAttributeColor = (attr: Attribute) => {
               v-if="isSlotDetailsExpanded[idx] && getResonator(teamStore.selectedSlots[idx])?.echoBuild"
               class="pt-2 flex flex-col gap-2 border-t border-[#182744] text-[11px] animate-in fade-in duration-150"
             >
-              <div class="bg-[#060912] p-2 rounded border border-[#16233a] flex flex-col gap-1">
-                <div class="text-amber-300 font-tactical font-semibold flex items-center gap-1">
-                  <Disc class="w-3 h-3" />
-                  Echo Sonata:
+              <div class="bg-[#060912] p-2.5 rounded-lg border border-[#16233a] flex flex-col gap-1.5">
+                <div class="text-amber-300 font-semibold flex items-center justify-between text-[11px]">
+                  <span class="flex items-center gap-1.5 whitespace-nowrap">
+                    <Disc class="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                    Echo Sonata
+                  </span>
+                  <span v-if="getResonator(teamStore.selectedSlots[idx])?.echoBuild?.benchmarks?.energyRecharge" class="text-[9px] px-2 py-0.5 rounded bg-cyan-950 text-cyan-300 border border-cyan-800/80 font-bold whitespace-nowrap shrink-0">
+                    ER: {{ getResonator(teamStore.selectedSlots[idx])?.echoBuild?.benchmarks?.energyRecharge }}
+                  </span>
                 </div>
-                <div class="text-slate-300 font-freq text-[10px]">
+                <div class="text-slate-200 text-[11px] font-medium leading-tight">
                   {{ getResonator(teamStore.selectedSlots[idx])?.echoBuild?.sonataSet }}
                 </div>
-                <div class="text-slate-400 text-[10px]">
-                  Main: {{ getResonator(teamStore.selectedSlots[idx])?.echoBuild?.mainEcho }}
+                <div class="text-slate-400 text-[10px] leading-tight">
+                  Main: <span class="text-slate-300">{{ getResonator(teamStore.selectedSlots[idx])?.echoBuild?.mainEcho }}</span>
                 </div>
               </div>
 
-              <div class="bg-[#060912] p-2 rounded border border-[#16233a] flex flex-col gap-1">
-                <div class="text-cyan-300 font-tactical font-semibold flex items-center gap-1">
-                  <Swords class="w-3 h-3" />
-                  Optimal 5★ / 4★ Weapon:
+              <div class="bg-[#060912] p-2.5 rounded-lg border border-[#16233a] flex flex-col gap-1.5">
+                <div class="text-cyan-300 font-semibold flex items-center gap-1.5 text-[11px] whitespace-nowrap">
+                  <Swords class="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+                  Optimal 5★ / 4★ Weapon
                 </div>
-                <div class="text-slate-300 font-freq text-[10px]">
-                  5★: {{ getResonator(teamStore.selectedSlots[idx])?.optimalWeapons?.fiveStar[0].name }}
+                <div class="text-slate-300 text-[10px] flex items-center gap-1.5 min-w-0">
+                  <span class="text-amber-400 font-bold shrink-0">5★:</span>
+                  <span class="truncate">{{ getResonator(teamStore.selectedSlots[idx])?.optimalWeapons?.fiveStar[0].name }}</span>
                 </div>
-                <div class="text-slate-400 font-freq text-[10px]">
-                  4★: {{ getResonator(teamStore.selectedSlots[idx])?.optimalWeapons?.fourStar[0].name }}
+                <div class="text-slate-400 text-[10px] flex items-center gap-1.5 min-w-0">
+                  <span class="text-violet-400 font-bold shrink-0">4★:</span>
+                  <span class="truncate">{{ getResonator(teamStore.selectedSlots[idx])?.optimalWeapons?.fourStar[0].name }}</span>
                 </div>
               </div>
 
               <!-- Sequence Investment Quick Badge -->
               <div
                 v-if="getResonator(teamStore.selectedSlots[idx])?.sequenceInvestment"
-                class="bg-[#060912] p-2 rounded border border-amber-900/50 flex flex-col gap-1"
+                class="bg-[#060912] p-2.5 rounded-lg border border-amber-900/40 flex flex-col gap-1.5"
               >
-                <div class="text-amber-300 font-tactical font-semibold flex items-center justify-between text-[11px]">
-                  <span class="flex items-center gap-1">
-                    <Sparkles class="w-3 h-3 text-amber-400" />
-                    Target Sequence:
+                <div class="flex items-center justify-between text-[11px] font-semibold text-amber-300">
+                  <span class="flex items-center gap-1.5 whitespace-nowrap">
+                    <Sparkles class="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                    Target Sequence
                   </span>
-                  <span class="text-[10px] px-1.5 py-0.2 rounded bg-amber-950/80 text-amber-200 border border-amber-800/80 font-freq font-bold">
-                    {{ getResonator(teamStore.selectedSlots[idx])?.sequenceInvestment?.recommendedStop }}
+                  <span class="text-slate-400 text-[10px] whitespace-nowrap">
+                    Priority: <strong class="text-slate-200">{{ getResonator(teamStore.selectedSlots[idx])?.sequenceInvestment?.priorityRank }}</strong>
                   </span>
                 </div>
-                <div class="text-slate-400 text-[10px] leading-tight">
-                  Priority: <strong class="text-slate-200">{{ getResonator(teamStore.selectedSlots[idx])?.sequenceInvestment?.priorityRank }}</strong>
+                <div class="text-[10px] px-2 py-1 rounded bg-[#0d1424] text-amber-200 border border-amber-800/60 font-semibold tracking-wide leading-snug">
+                  {{ getResonator(teamStore.selectedSlots[idx])?.sequenceInvestment?.recommendedStop }}
                 </div>
               </div>
             </div>
@@ -510,8 +517,14 @@ const getAttributeColor = (attr: Attribute) => {
                     class="p-2 rounded-lg bg-[#0d1424] border border-[#1b2b48] flex flex-col gap-0.5"
                   >
                     <div class="flex items-center justify-between text-xs font-tactical">
-                      <span class="font-bold text-slate-200">#{{ wIdx + 1 }} {{ w.name }}</span>
-                      <span class="text-amber-400 text-[10px] text-glow-amber">★★★★★</span>
+                      <div class="flex items-center gap-1.5 min-w-0">
+                        <span class="font-bold text-slate-200 truncate">#{{ wIdx + 1 }} {{ w.name }}</span>
+                        <span v-if="w.isF2p" class="px-1.5 py-0.5 rounded text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-700/60 font-semibold shrink-0">F2P</span>
+                      </div>
+                      <div class="flex items-center gap-1 shrink-0">
+                        <span v-if="w.subStat" class="text-[10px] text-cyan-300 px-1.5 py-0.5 rounded bg-[#09101d] border border-cyan-800/60">{{ w.subStat }}</span>
+                        <span class="text-amber-400 text-[10px] text-glow-amber">★★★★★</span>
+                      </div>
                     </div>
                     <span class="text-[11px] text-slate-400 leading-tight font-sans">{{ w.description }}</span>
                   </div>
@@ -531,10 +544,15 @@ const getAttributeColor = (attr: Attribute) => {
                     class="p-2 rounded-lg bg-[#0d1424] border border-[#1b2b48] flex flex-col gap-0.5"
                   >
                     <div class="flex items-center justify-between text-xs font-tactical">
-                      <span class="font-bold text-slate-200">#{{ wIdx + 1 }} {{ w.name }}</span>
-                      <span class="text-violet-400 text-[10px] text-glow-violet">★★★★</span>
+                      <div class="flex items-center gap-1.5 min-w-0">
+                        <span class="font-bold text-slate-200 truncate">#{{ wIdx + 1 }} {{ w.name }}</span>
+                        <span v-if="w.isF2p" class="px-1.5 py-0.5 rounded text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-700/60 font-semibold shrink-0">F2P</span>
+                      </div>
+                      <div class="flex items-center gap-1 shrink-0">
+                        <span v-if="w.subStat" class="text-[10px] text-cyan-300 px-1.5 py-0.5 rounded bg-[#09101d] border border-cyan-800/60">{{ w.subStat }}</span>
+                        <span class="text-violet-400 text-[10px] text-glow-violet">★★★★</span>
+                      </div>
                     </div>
-                    <span class="text-[11px] text-slate-400 leading-tight font-sans">{{ w.description }}</span>
                   </div>
                 </div>
               </div>
@@ -552,10 +570,15 @@ const getAttributeColor = (attr: Attribute) => {
                     class="p-2 rounded-lg bg-[#0d1424] border border-[#1b2b48] flex flex-col gap-0.5"
                   >
                     <div class="flex items-center justify-between text-xs font-tactical">
-                      <span class="font-bold text-slate-200">#{{ wIdx + 1 }} {{ w.name }}</span>
-                      <span class="text-cyan-400 text-[10px] text-glow-cyan">★★★</span>
+                      <div class="flex items-center gap-1.5 min-w-0">
+                        <span class="font-bold text-slate-200 truncate">#{{ wIdx + 1 }} {{ w.name }}</span>
+                        <span v-if="w.isF2p" class="px-1.5 py-0.5 rounded text-[9px] bg-emerald-950 text-emerald-300 border border-emerald-700/60 font-semibold shrink-0">F2P</span>
+                      </div>
+                      <div class="flex items-center gap-1 shrink-0">
+                        <span v-if="w.subStat" class="text-[10px] text-cyan-300 px-1.5 py-0.5 rounded bg-[#09101d] border border-cyan-800/60">{{ w.subStat }}</span>
+                        <span class="text-cyan-400 text-[10px] text-glow-cyan">★★★</span>
+                      </div>
                     </div>
-                    <span class="text-[11px] text-slate-400 leading-tight font-sans">{{ w.description }}</span>
                   </div>
                 </div>
               </div>
@@ -575,14 +598,19 @@ const getAttributeColor = (attr: Attribute) => {
                 <div class="text-xs text-slate-200 font-freq">
                   Set: <strong class="text-cyan-200">{{ inspectingResonator.echoBuild?.sonataSet }}</strong>
                 </div>
+                <div v-if="inspectingResonator.echoBuild?.alternativeSonataSet" class="text-xs text-slate-400 font-freq">
+                  Alt Set: <strong class="text-slate-300">{{ inspectingResonator.echoBuild?.alternativeSonataSet }}</strong>
+                </div>
                 <div class="text-xs text-slate-300">
                   Recommended Boss Echo: <strong class="text-slate-100">{{ inspectingResonator.echoBuild?.mainEcho }}</strong>
+                </div>
+                <div v-if="inspectingResonator.echoBuild?.alternativeEcho" class="text-xs text-slate-400">
+                  Alt Echo: <strong class="text-slate-300">{{ inspectingResonator.echoBuild?.alternativeEcho }}</strong>
                 </div>
                 <div class="text-xs text-slate-400 font-freq">
                   Cost Distribution: <strong class="text-slate-200">{{ inspectingResonator.echoBuild?.costDistribution }}</strong>
                 </div>
               </div>
-
               <div class="bg-[#090f1c] border border-[#17253d] rounded-xl p-3 flex flex-col gap-2">
                 <span class="text-xs font-tactical font-bold text-cyan-300">Optimal Primary Stats</span>
                 <div class="text-xs text-slate-300 flex flex-col gap-1 font-freq">
@@ -607,6 +635,33 @@ const getAttributeColor = (attr: Attribute) => {
               </div>
             </div>
           </div>
+
+            <!-- Statutory Benchmarks (Game8 Targets) -->
+            <div v-if="inspectingResonator.echoBuild?.benchmarks" class="bg-[#090f1c] border border-cyan-500/40 rounded-xl p-3 flex flex-col gap-2">
+              <div class="flex items-center justify-between text-xs font-tactical">
+                <span class="font-bold text-cyan-300 uppercase tracking-wide flex items-center gap-1.5">
+                  <Target class="w-3.5 h-3.5 text-cyan-400" />
+                  Stat Benchmarks (Game8 Endgame Targets)
+                </span>
+                <span class="text-[10px] font-freq px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-200 border border-cyan-600/70 font-semibold">
+                  Tuned Targets
+                </span>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-1 font-freq text-xs">
+                <div class="p-2 rounded bg-[#0d1424] border border-[#1b2b48] flex flex-col gap-0.5">
+                  <span class="text-slate-400 text-[10px] uppercase font-tactical">Energy Recharge</span>
+                  <span class="text-cyan-300 font-bold">{{ inspectingResonator.echoBuild?.benchmarks?.energyRecharge || '120% min' }}</span>
+                </div>
+                <div class="p-2 rounded bg-[#0d1424] border border-[#1b2b48] flex flex-col gap-0.5">
+                  <span class="text-slate-400 text-[10px] uppercase font-tactical">Crit Rate Target</span>
+                  <span class="text-amber-300 font-bold">{{ inspectingResonator.echoBuild?.benchmarks?.critRate || '70%+' }}</span>
+                </div>
+                <div class="p-2 rounded bg-[#0d1424] border border-[#1b2b48] flex flex-col gap-0.5">
+                  <span class="text-slate-400 text-[10px] uppercase font-tactical">Crit DMG Target</span>
+                  <span class="text-emerald-300 font-bold">{{ inspectingResonator.echoBuild?.benchmarks?.critDmg || '240%+' }}</span>
+                </div>
+              </div>
+            </div>
 
           <!-- Section 3: Optimal Skill Priority at Specific Levels -->
           <div class="flex flex-col gap-3">
@@ -720,7 +775,7 @@ const getAttributeColor = (attr: Attribute) => {
                   </div>
                   <span
                     :class="[
-                      'text-[10px] px-1.5 py-0.2 rounded border font-semibold font-freq',
+                      'text-[10px] px-2 py-0.5 rounded border font-semibold',
                       node.tier === 'Core Spike'
                         ? 'bg-amber-950/80 text-amber-300 border-amber-600'
                         : node.tier === 'High Value'

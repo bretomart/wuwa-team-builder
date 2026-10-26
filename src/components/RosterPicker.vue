@@ -230,7 +230,7 @@ const getRoleColor = (role: string) => {
             </div>
             <div class="flex items-center gap-1 flex-wrap min-w-0">
               <span
-                :class="['px-1 py-0.2 rounded text-[9px] font-tactical font-bold border shrink-0', getAttributeColor(res.attribute)]"
+                :class="['px-1.5 py-0.5 rounded text-[9px] font-bold border shrink-0', getAttributeColor(res.attribute)]"
               >
                 {{ res.attribute }}
               </span>

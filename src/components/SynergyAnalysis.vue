@@ -204,7 +204,7 @@ const getViabilityBadge = (status: string) => {
             >
               <div class="flex items-center justify-between">
                 <span class="text-xs font-tactical font-bold text-slate-100 tracking-wide">{{ rec.resonatorName }}</span>
-                <span class="text-[10px] px-1.5 py-0.2 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-700/70 font-freq">
+                <span class="text-[10px] px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-700/70">
                   {{ rec.role }}
                 </span>
               </div>

@@ -133,6 +133,15 @@ export const useTeamStore = defineStore('team', {
           synergyDetails: slot2Desc,
           percentage: outro.value
         });
+        // Evaluate Moonlit Clouds Sonata handoff & Impermanence Heron
+        const s2Sonata = s2.echoBuild?.sonataSet || '';
+        const s2MainEcho = s2.echoBuild?.mainEcho || '';
+        if (s2Sonata.includes('Moonlit Clouds')) {
+          pros.push(`Moonlit Clouds sonata handoff: ${s2.name} grants +22.5% ATK to ${s1.name} upon Outro exit.`);
+        }
+        if (s2MainEcho.includes('Impermanence Heron')) {
+          pros.push(`Impermanence Heron active: ${s2.name} injects +12% All-Damage Deepen into ${s1.name}'s burst window.`);
+        }
       }
 
       // Analyze Slot 3 Sustain or Universal Amplification
@@ -177,7 +186,29 @@ export const useTeamStore = defineStore('team', {
             percentage: s3.outroSkill.value
           });
         }
+
+        // Evaluate Support Echo actives & Rejuvenating Glow set bonus
+        const s3Sonata = s3.echoBuild?.sonataSet || '';
+        const s3MainEcho = s3.echoBuild?.mainEcho || '';
+        if (s3Sonata.includes('Rejuvenating Glow')) {
+          pros.push(`Rejuvenating Glow synergy: ${s3.name}'s healing triggers a +15% team-wide ATK buff for 30s.`);
+        }
+        if (s3MainEcho.includes('Fallacy of No Return')) {
+          pros.push(`Fallacy of No Return domain: ${s3.name} grants +10% team ATK and restores 10 Liberation Energy.`);
+        } else if (s3MainEcho.includes('Bell-Borne Geochelone')) {
+          pros.push(`Bell-Borne Geochelone defense: ${s3.name} shields the party with 50% damage reduction and +10% Damage Boost.`);
+        }
       }
+
+        // Energy Recharge and battery synergy check
+        const highCostCarries = ['jiyan', 'xiangli-yao', 'calcharo', 'augusta'];
+        if (s1 && highCostCarries.includes(s1.id)) {
+          const hasBattery = (s2 && (s2.echoBuild?.mainEcho?.includes('Heron') || s2.id === 'yangyang')) ||
+            (s3 && (s3.echoBuild?.mainEcho?.includes('Fallacy') || s3.id === 'shorekeeper' || s3.id === 'verina'));
+          if (hasBattery) {
+            pros.push(`Rotational energy loop: Support battery mechanics sustain ${s1.name}'s ${s1.echoBuild?.benchmarks?.energyRecharge || '130%+ ER'} Liberation requirement.`);
+          }
+        }
 
       // Field Time & Quickswap Analysis
       const activeMembers = [s1, s2, s3].filter((r): r is Resonator => Boolean(r));

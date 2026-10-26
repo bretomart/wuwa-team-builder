@@ -21,57 +21,75 @@
         {
           "name": "Verdant Summit",
           "rarity": 5,
-          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Ages of Harvest",
           "rarity": 5,
-          "description": "High Crit Rate with Resonance Skill boost."
+          "description": "High Crit Rate with Resonance Skill boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Autumntrace",
           "rarity": 4,
-          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Helios Cleaver",
           "rarity": 4,
-          "description": "High ATK scaling upon casting Resonance Skill."
+          "description": "High ATK scaling upon casting Resonance Skill.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Broadblade#41",
           "rarity": 4,
-          "description": "Craftable option with Energy Recharge and self healing."
+          "description": "Craftable option with Energy Recharge and self healing.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Broadblade of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Broadblade",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type I",
           "rarity": 3,
-          "description": "Restores HP upon landing Basic Attacks."
+          "description": "Restores HP upon landing Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
     "echoBuild": {
       "sonataSet": "Sierra Gale (5pc)",
-      "mainEcho": "Feilian Beringal",
+      "mainEcho": "Nightmare: Feilian Beringal",
       "costDistribution": "4-3-3-1-1",
       "primaryStats": {
         "cost4": "Crit Rate% or Crit DMG%",
@@ -84,7 +102,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Heavy DMG%"
-      ]
+      ],
+      "alternativeEcho": "Feilian Beringal",
+      "alternativeSonataSet": "Sierra Gale (2pc) + Lingering Tunes (2pc)",
+      "benchmarks": {
+        "energyRecharge": "130% min",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -175,51 +200,67 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally."
+          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "The Legend of The White Stallion",
           "rarity": 5,
-          "description": "Burst stat stick."
+          "description": "Burst stat stick.",
+          "subStat": "ATK%"
         },
         {
           "name": "Ranger of the Hollow",
           "rarity": 5,
-          "description": "Crit Rate scaling."
+          "description": "Crit Rate scaling.",
+          "subStat": "Crit Rate%"
         }
       ],
       "fourStar": [
         {
           "name": "Cadenza",
           "rarity": 4,
-          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill."
+          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Undying Flame",
           "rarity": 4,
-          "description": "Liberation damage amplification."
+          "description": "Liberation damage amplification.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Novaburst",
           "rarity": 4,
-          "description": "Consistent ATK% increase."
+          "description": "Consistent ATK% increase.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Pistols of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Pistols of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Pistols",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -238,7 +279,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Liberation DMG%"
-      ]
+      ],
+      "alternativeEcho": "Inferno Rider",
+      "alternativeSonataSet": "Molten Rift (5pc)",
+      "benchmarks": {
+        "energyRecharge": "130-140%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -327,57 +375,75 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "High base stats and Energy Recharge."
+          "description": "High base stats and Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill boost."
+          "description": "Skill boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "The undisputed #1 support rectifier: fast Concerto battery."
+          "description": "The undisputed #1 support rectifier: fast Concerto battery.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Comet Flare",
           "rarity": 4,
-          "description": "Increases Healing Bonus by 12% upon hitting targets."
+          "description": "Increases Healing Bonus by 12% upon hitting targets.",
+          "subStat": "HP%",
+          "isF2p": false
         },
         {
           "name": "Rectifier#25",
           "rarity": 4,
-          "description": "Craftable Energy Recharge."
+          "description": "Craftable Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Originite: Type V",
           "rarity": 3,
-          "description": "Heals character upon landing Basic Attacks."
+          "description": "Heals character upon landing Basic Attacks.",
+          "subStat": "HP%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Energy generation."
+          "description": "Energy generation.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage bonus."
+          "description": "Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
     "echoBuild": {
       "sonataSet": "Rejuvenating Glow (5pc)",
-      "mainEcho": "Bell-Borne Geochelone / Fallacy of No Return",
+      "mainEcho": "Bell-Borne Geochelone",
       "costDistribution": "4-3-3-1-1",
       "primaryStats": {
         "cost4": "Healing Bonus% or HP%",
@@ -389,7 +455,14 @@
         "HP% / DEF%",
         "ATK%",
         "Flat HP"
-      ]
+      ],
+      "alternativeEcho": "Fallacy of No Return",
+      "alternativeSonataSet": "Moonlit Clouds (5pc)",
+      "benchmarks": {
+        "energyRecharge": "160-180%",
+        "critRate": "50%+",
+        "critDmg": "180%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -478,57 +551,75 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "High base stats and Energy Recharge."
+          "description": "High base stats and Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill boost."
+          "description": "Skill boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "The undisputed #1 support rectifier: fast Concerto battery."
+          "description": "The undisputed #1 support rectifier: fast Concerto battery.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Comet Flare",
           "rarity": 4,
-          "description": "Increases Healing Bonus by 12% upon hitting targets."
+          "description": "Increases Healing Bonus by 12% upon hitting targets.",
+          "subStat": "HP%",
+          "isF2p": false
         },
         {
           "name": "Rectifier#25",
           "rarity": 4,
-          "description": "Craftable Energy Recharge."
+          "description": "Craftable Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Originite: Type V",
           "rarity": 3,
-          "description": "Heals character upon landing Basic Attacks."
+          "description": "Heals character upon landing Basic Attacks.",
+          "subStat": "HP%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Energy generation."
+          "description": "Energy generation.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage bonus."
+          "description": "Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
     "echoBuild": {
       "sonataSet": "Rejuvenating Glow (5pc)",
-      "mainEcho": "Bell-Borne Geochelone / Fallacy of No Return",
+      "mainEcho": "Fallacy of No Return",
       "costDistribution": "4-3-3-1-1",
       "primaryStats": {
         "cost4": "Healing Bonus% or HP%",
@@ -540,7 +631,14 @@
         "HP% / DEF%",
         "ATK%",
         "Flat HP"
-      ]
+      ],
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "alternativeSonataSet": "Moonlit Clouds (5pc)",
+      "benchmarks": {
+        "energyRecharge": "250% (Max Crit Rate/DMG Domain Cap)",
+        "critRate": "Guaranteed in Domain",
+        "critDmg": "200%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -630,57 +728,75 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "High Crit DMG and Skill bonuses."
+          "description": "High Crit DMG and Skill bonuses.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Top-tier Basic and Heavy attack amplification."
+          "description": "Top-tier Basic and Heavy attack amplification.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "High ATK with Concerto acceleration."
+          "description": "High ATK with Concerto acceleration.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Craftable sword boosting ATK when above 80% HP."
+          "description": "Craftable sword boosting ATK when above 80% HP.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 3,
-          "description": "Restores HP on Basic Attacks."
+          "description": "Restores HP on Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
     "echoBuild": {
       "sonataSet": "Sun-sinking Eclipse (5pc)",
-      "mainEcho": "Crownless / Dreamless",
+      "mainEcho": "Nightmare: Crownless",
       "costDistribution": "4-3-3-1-1",
       "primaryStats": {
         "cost4": "Crit Rate% or Crit DMG%",
@@ -693,7 +809,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Basic DMG%"
-      ]
+      ],
+      "alternativeEcho": "Crownless / Dreamless",
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115%",
+        "critRate": "70%+",
+        "critDmg": "250%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -783,51 +906,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "Skill amplify and high base stat."
+          "description": "Skill amplify and high base stat.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "Concerto Energy restoration on Outro trigger."
+          "description": "Concerto Energy restoration on Outro trigger.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lunar Cutter",
           "rarity": 4,
-          "description": "High burst ATK stacking on switch-in."
+          "description": "High burst ATK stacking on switch-in.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Consistent normal/heavy boost."
+          "description": "Consistent normal/heavy boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Sword of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon skill cast."
+          "description": "Restores Resonance Energy upon skill cast.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -846,7 +987,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Basic DMG%"
-      ]
+      ],
+      "alternativeEcho": "Lampylumen Myriad",
+      "alternativeSonataSet": "Freezing Frost (5pc)",
+      "benchmarks": {
+        "energyRecharge": "120-130%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -937,51 +1085,69 @@
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill deepen and Electro RES shred."
+          "description": "Skill deepen and Electro RES shred.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Energy Recharge sustain."
+          "description": "Energy Recharge sustain.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Augment",
           "rarity": 4,
-          "description": "Crit Rate provider."
+          "description": "Crit Rate provider.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Jinzhou Keeper",
           "rarity": 4,
-          "description": "ATK boost."
+          "description": "ATK boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Rectifier of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage boost."
+          "description": "Skill damage boost.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -1000,7 +1166,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Liberation DMG%"
-      ]
+      ],
+      "alternativeEcho": "Thundering Mephis",
+      "alternativeSonataSet": "Void Thunder (5pc)",
+      "benchmarks": {
+        "energyRecharge": "120-130%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -1090,57 +1263,75 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Verity's Handle",
           "rarity": 5,
-          "description": "Crit Rate and Liberation bonus."
+          "description": "Crit Rate and Liberation bonus.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Iron Mountain Fist",
           "rarity": 5,
-          "description": "Heavy attack and crit damage scaling."
+          "description": "Heavy attack and crit damage scaling.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Stonard",
           "rarity": 4,
-          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost."
+          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Hollow Mirage",
           "rarity": 4,
-          "description": "Stacking ATK and DEF bonus up to 24%."
+          "description": "Stacking ATK and DEF bonus up to 24%.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Gauntlets#21D",
           "rarity": 4,
-          "description": "Craftable gauntlets boosting Basic/Heavy DMG."
+          "description": "Craftable gauntlets boosting Basic/Heavy DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Gauntlets of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Gauntlets",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type IV",
           "rarity": 3,
-          "description": "Restores HP on normal hits."
+          "description": "Restores HP on normal hits.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
     "echoBuild": {
       "sonataSet": "Void Thunder (5pc)",
-      "mainEcho": "Thundering Mephis / Tempest Mephis",
+      "mainEcho": "Thundering Mephis",
       "costDistribution": "4-3-3-1-1",
       "primaryStats": {
         "cost4": "Crit Rate% or Crit DMG%",
@@ -1153,7 +1344,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Liberation DMG%"
-      ]
+      ],
+      "alternativeEcho": "Tempest Mephis",
+      "alternativeSonataSet": "Void Thunder (2pc) + Lingering Tunes (2pc)",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "70%+",
+        "critDmg": "250%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -1243,57 +1441,75 @@
         {
           "name": "Verdant Summit",
           "rarity": 5,
-          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Ages of Harvest",
           "rarity": 5,
-          "description": "High Crit Rate with Resonance Skill boost."
+          "description": "High Crit Rate with Resonance Skill boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Autumntrace",
           "rarity": 4,
-          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Helios Cleaver",
           "rarity": 4,
-          "description": "High ATK scaling upon casting Resonance Skill."
+          "description": "High ATK scaling upon casting Resonance Skill.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Broadblade#41",
           "rarity": 4,
-          "description": "Craftable option with Energy Recharge and self healing."
+          "description": "Craftable option with Energy Recharge and self healing.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Broadblade of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Broadblade",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type I",
           "rarity": 3,
-          "description": "Restores HP upon landing Basic Attacks."
+          "description": "Restores HP upon landing Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
     "echoBuild": {
       "sonataSet": "Void Thunder (5pc)",
-      "mainEcho": "Thundering Mephis / Tempest Mephis",
+      "mainEcho": "Thundering Mephis",
       "costDistribution": "4-3-3-1-1",
       "primaryStats": {
         "cost4": "Crit Rate% or Crit DMG%",
@@ -1306,7 +1522,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Liberation DMG%"
-      ]
+      ],
+      "alternativeEcho": "Tempest Mephis",
+      "alternativeSonataSet": "Void Thunder (2pc) + Lingering Tunes (2pc)",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -1398,57 +1621,75 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "Skill amplify and high base stat."
+          "description": "Skill amplify and high base stat.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "Concerto Energy restoration on Outro trigger."
+          "description": "Concerto Energy restoration on Outro trigger.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lunar Cutter",
           "rarity": 4,
-          "description": "High burst ATK stacking on switch-in."
+          "description": "High burst ATK stacking on switch-in.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Consistent normal/heavy boost."
+          "description": "Consistent normal/heavy boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Sword of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon skill cast."
+          "description": "Restores Resonance Energy upon skill cast.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
     "echoBuild": {
       "sonataSet": "Moonlit Clouds (5pc)",
-      "mainEcho": "Impermanence Heron",
+      "mainEcho": "Nightmare: Inferno Rider",
       "costDistribution": "4-3-3-1-1",
       "primaryStats": {
         "cost4": "Crit Rate% or Crit DMG%",
@@ -1461,7 +1702,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeEcho": "Inferno Rider",
+      "alternativeSonataSet": "Moonlit Clouds (5pc)",
+      "benchmarks": {
+        "energyRecharge": "120% min",
+        "critRate": "70%+",
+        "critDmg": "250%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -1551,51 +1799,69 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG."
+          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Crit Rate and team elemental DMG."
+          "description": "Crit Rate and team elemental DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Crit Rate and massive Resonance Skill DMG."
+          "description": "Crit Rate and massive Resonance Skill DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Augment",
           "rarity": 4,
-          "description": "Battle Pass rectifier with Crit Rate and ATK boost upon Liberation."
+          "description": "Battle Pass rectifier with Crit Rate and ATK boost upon Liberation.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Jinzhou Keeper",
           "rarity": 4,
-          "description": "High ATK% and HP synergy."
+          "description": "High ATK% and HP synergy.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Rectifier#25",
           "rarity": 4,
-          "description": "Craftable rectifier with Energy Recharge."
+          "description": "Craftable rectifier with Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Rectifier of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type V",
           "rarity": 3,
-          "description": "Restores HP on normal hits."
+          "description": "Restores HP on normal hits.",
+          "subStat": "HP%",
+          "isF2p": true
         }
       ]
     },
@@ -1614,7 +1880,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Basic DMG%"
-      ]
+      ],
+      "alternativeEcho": "Nightmare: Inferno Rider",
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -1705,51 +1978,69 @@
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill deepen and Electro RES shred."
+          "description": "Skill deepen and Electro RES shred.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Energy Recharge sustain."
+          "description": "Energy Recharge sustain.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Augment",
           "rarity": 4,
-          "description": "Crit Rate provider."
+          "description": "Crit Rate provider.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Jinzhou Keeper",
           "rarity": 4,
-          "description": "ATK boost."
+          "description": "ATK boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Rectifier of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage boost."
+          "description": "Skill damage boost.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -1768,7 +2059,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeEcho": "Lampylumen Myriad",
+      "alternativeSonataSet": "Freezing Frost (5pc)",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -1858,57 +2156,75 @@
         {
           "name": "Verdant Summit",
           "rarity": 5,
-          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Ages of Harvest",
           "rarity": 5,
-          "description": "High Crit Rate with Resonance Skill boost."
+          "description": "High Crit Rate with Resonance Skill boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Autumntrace",
           "rarity": 4,
-          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Helios Cleaver",
           "rarity": 4,
-          "description": "High ATK scaling upon casting Resonance Skill."
+          "description": "High ATK scaling upon casting Resonance Skill.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Broadblade#41",
           "rarity": 4,
-          "description": "Craftable option with Energy Recharge and self healing."
+          "description": "Craftable option with Energy Recharge and self healing.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Broadblade of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Broadblade",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type I",
           "rarity": 3,
-          "description": "Restores HP upon landing Basic Attacks."
+          "description": "Restores HP upon landing Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
     "echoBuild": {
       "sonataSet": "Celestial Light (5pc)",
-      "mainEcho": "Jue / Mourning Aix",
+      "mainEcho": "Jue",
       "costDistribution": "4-3-3-1-1",
       "primaryStats": {
         "cost4": "Crit Rate% or Crit DMG%",
@@ -1921,7 +2237,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeEcho": "Mourning Aix",
+      "alternativeSonataSet": "Celestial Light (2pc) + Golden Shadow (2pc)",
+      "benchmarks": {
+        "energyRecharge": "120% min",
+        "critRate": "70%+",
+        "critDmg": "250%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -2010,51 +2333,69 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "High base stats and Energy Recharge."
+          "description": "High base stats and Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill boost."
+          "description": "Skill boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "The undisputed #1 support rectifier: fast Concerto battery."
+          "description": "The undisputed #1 support rectifier: fast Concerto battery.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Comet Flare",
           "rarity": 4,
-          "description": "Increases Healing Bonus by 12% upon hitting targets."
+          "description": "Increases Healing Bonus by 12% upon hitting targets.",
+          "subStat": "HP%",
+          "isF2p": false
         },
         {
           "name": "Rectifier#25",
           "rarity": 4,
-          "description": "Craftable Energy Recharge."
+          "description": "Craftable Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Originite: Type V",
           "rarity": 3,
-          "description": "Heals character upon landing Basic Attacks."
+          "description": "Heals character upon landing Basic Attacks.",
+          "subStat": "HP%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Energy generation."
+          "description": "Energy generation.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage bonus."
+          "description": "Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -2072,7 +2413,14 @@
         "HP% / DEF%",
         "ATK%",
         "Flat HP"
-      ]
+      ],
+      "alternativeSonataSet": "Moonlit Clouds (5pc)",
+      "alternativeEcho": "Fallacy of No Return",
+      "benchmarks": {
+        "energyRecharge": "160-180%",
+        "critRate": "50%+",
+        "critDmg": "180%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -2162,51 +2510,69 @@
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "High stat stick for team scaling."
+          "description": "High stat stick for team scaling.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Verdant Summit",
           "rarity": 5,
-          "description": "Universal base attack."
+          "description": "Universal base attack.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Ages of Harvest",
           "rarity": 5,
-          "description": "Crit utility."
+          "description": "Crit utility.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Discord",
           "rarity": 4,
-          "description": "Top support broadblade. Generates 16 Concerto Energy."
+          "description": "Top support broadblade. Generates 16 Concerto Energy.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Dauntless Evernight",
           "rarity": 4,
-          "description": "Provides DEF and team survivability scaling."
+          "description": "Provides DEF and team survivability scaling.",
+          "subStat": "DEF%",
+          "isF2p": false
         },
         {
           "name": "Broadblade#41",
           "rarity": 4,
-          "description": "Energy Recharge sustain."
+          "description": "Energy Recharge sustain.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Originite: Type IV",
           "rarity": 3,
-          "description": "Healing sustain on attack."
+          "description": "Healing sustain on attack.",
+          "subStat": "DEF%",
+          "isF2p": true
         },
         {
           "name": "Guardian Broadblade",
           "rarity": 3,
-          "description": "Defensive utility."
+          "description": "Defensive utility.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Broadblade of Voyager",
           "rarity": 3,
-          "description": "Energy generation."
+          "description": "Energy generation.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ]
     },
@@ -2224,7 +2590,14 @@
         "HP% / DEF%",
         "ATK%",
         "Flat HP"
-      ]
+      ],
+      "alternativeSonataSet": "Moonlit Clouds (5pc)",
+      "alternativeEcho": "Fallacy of No Return",
+      "benchmarks": {
+        "energyRecharge": "160-180%",
+        "critRate": "50%+",
+        "critDmg": "180%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -2314,51 +2687,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "Skill amplify and high base stat."
+          "description": "Skill amplify and high base stat.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "Concerto Energy restoration on Outro trigger."
+          "description": "Concerto Energy restoration on Outro trigger.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lunar Cutter",
           "rarity": 4,
-          "description": "High burst ATK stacking on switch-in."
+          "description": "High burst ATK stacking on switch-in.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Consistent normal/heavy boost."
+          "description": "Consistent normal/heavy boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Sword of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon skill cast."
+          "description": "Restores Resonance Energy upon skill cast.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -2377,7 +2768,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Heavy DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -2467,51 +2865,67 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally."
+          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "The Legend of The White Stallion",
           "rarity": 5,
-          "description": "Burst stat stick."
+          "description": "Burst stat stick.",
+          "subStat": "ATK%"
         },
         {
           "name": "Ranger of the Hollow",
           "rarity": 5,
-          "description": "Crit Rate scaling."
+          "description": "Crit Rate scaling.",
+          "subStat": "Crit Rate%"
         }
       ],
       "fourStar": [
         {
           "name": "Cadenza",
           "rarity": 4,
-          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill."
+          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Undying Flame",
           "rarity": 4,
-          "description": "Liberation damage amplification."
+          "description": "Liberation damage amplification.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Novaburst",
           "rarity": 4,
-          "description": "Consistent ATK% increase."
+          "description": "Consistent ATK% increase.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Pistols of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Pistols of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Pistols",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -2530,7 +2944,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Basic DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -2619,51 +3040,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Energy Recharge support."
+          "description": "Energy Recharge support.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "Base stat stick."
+          "description": "Base stat stick.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Universal stats."
+          "description": "Universal stats.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "Concerto speedup."
+          "description": "Concerto speedup.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 4,
-          "description": "Healing sustain."
+          "description": "Healing sustain.",
+          "subStat": "DEF%",
+          "isF2p": true
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Safe craftable."
+          "description": "Safe craftable.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Voyager",
           "rarity": 3,
-          "description": "Energy recharge for support bursts."
+          "description": "Energy recharge for support bursts.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "ATK support buff."
+          "description": "ATK support buff.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Skill boost."
+          "description": "Skill boost.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -2681,7 +3120,14 @@
         "HP% / DEF%",
         "ATK%",
         "Flat HP"
-      ]
+      ],
+      "alternativeSonataSet": "Moonlit Clouds (5pc)",
+      "alternativeEcho": "Fallacy of No Return",
+      "benchmarks": {
+        "energyRecharge": "160-180%",
+        "critRate": "50%+",
+        "critDmg": "180%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -2771,51 +3217,67 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff."
+          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "The Legend of The White Stallion",
           "rarity": 5,
-          "description": "High shotgun burst amplify."
+          "description": "High shotgun burst amplify.",
+          "subStat": "ATK%"
         },
         {
           "name": "Ranger of the Hollow",
           "rarity": 5,
-          "description": "High Crit DMG and basic attack multiplier."
+          "description": "High Crit DMG and basic attack multiplier.",
+          "subStat": "Crit DMG%"
         }
       ],
       "fourStar": [
         {
           "name": "Novaburst",
           "rarity": 4,
-          "description": "Battle Pass pistols with dodge and sprint ATK stacking."
+          "description": "Battle Pass pistols with dodge and sprint ATK stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Undying Flame",
           "rarity": 4,
-          "description": "Resonance Skill triggers 20% Liberation DMG."
+          "description": "Resonance Skill triggers 20% Liberation DMG.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Pistols#26",
           "rarity": 4,
-          "description": "Craftable pistols providing ATK and DEF."
+          "description": "Craftable pistols providing ATK and DEF.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Pistols of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Pistols",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type III",
           "rarity": 3,
-          "description": "Restores HP on normal hits."
+          "description": "Restores HP on normal hits.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -2834,7 +3296,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -2923,51 +3391,69 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "High Energy Recharge and consistent skill boosts."
+          "description": "High Energy Recharge and consistent skill boosts.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Verity's Handle",
           "rarity": 5,
-          "description": "Crit Rate stat stick with liberation deepen."
+          "description": "Crit Rate stat stick with liberation deepen.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Iron Mountain Fist",
           "rarity": 5,
-          "description": "Base stat utility."
+          "description": "Base stat utility.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Marcato",
           "rarity": 4,
-          "description": "Top sub-DPS gauntlet: generates 16 Concerto Energy on Skill."
+          "description": "Top sub-DPS gauntlet: generates 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Stonard",
           "rarity": 4,
-          "description": "Crit Rate consistency."
+          "description": "Crit Rate consistency.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Hollow Mirage",
           "rarity": 4,
-          "description": "ATK boost."
+          "description": "ATK boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Gauntlets of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Gauntlets of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Gauntlets",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -2986,7 +3472,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -3076,51 +3569,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "High Crit DMG and Skill bonuses."
+          "description": "High Crit DMG and Skill bonuses.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Top-tier Basic and Heavy attack amplification."
+          "description": "Top-tier Basic and Heavy attack amplification.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "High ATK with Concerto acceleration."
+          "description": "High ATK with Concerto acceleration.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Craftable sword boosting ATK when above 80% HP."
+          "description": "Craftable sword boosting ATK when above 80% HP.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 3,
-          "description": "Restores HP on Basic Attacks."
+          "description": "Restores HP on Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -3139,7 +3650,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Liberation DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -3228,51 +3745,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "Skill amplify and high base stat."
+          "description": "Skill amplify and high base stat.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "Concerto Energy restoration on Outro trigger."
+          "description": "Concerto Energy restoration on Outro trigger.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lunar Cutter",
           "rarity": 4,
-          "description": "High burst ATK stacking on switch-in."
+          "description": "High burst ATK stacking on switch-in.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Consistent normal/heavy boost."
+          "description": "Consistent normal/heavy boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Sword of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon skill cast."
+          "description": "Restores Resonance Energy upon skill cast.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -3291,7 +3826,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -3381,57 +3923,75 @@
         {
           "name": "Verdant Summit",
           "rarity": 5,
-          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Ages of Harvest",
           "rarity": 5,
-          "description": "High Crit Rate with Resonance Skill boost."
+          "description": "High Crit Rate with Resonance Skill boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Autumntrace",
           "rarity": 4,
-          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Helios Cleaver",
           "rarity": 4,
-          "description": "High ATK scaling upon casting Resonance Skill."
+          "description": "High ATK scaling upon casting Resonance Skill.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Broadblade#41",
           "rarity": 4,
-          "description": "Craftable option with Energy Recharge and self healing."
+          "description": "Craftable option with Energy Recharge and self healing.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Broadblade of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Broadblade",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type I",
           "rarity": 3,
-          "description": "Restores HP upon landing Basic Attacks."
+          "description": "Restores HP upon landing Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
     "echoBuild": {
       "sonataSet": "Void Thunder (5pc)",
-      "mainEcho": "Thundering Mephis / Tempest Mephis",
+      "mainEcho": "Thundering Mephis",
       "costDistribution": "4-3-3-1-1",
       "primaryStats": {
         "cost4": "Crit Rate% or Crit DMG%",
@@ -3444,7 +4004,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Heavy DMG%"
-      ]
+      ],
+      "alternativeEcho": "Tempest Mephis",
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "125% min",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -3534,51 +4101,69 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "High Energy Recharge and consistent skill boosts."
+          "description": "High Energy Recharge and consistent skill boosts.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Verity's Handle",
           "rarity": 5,
-          "description": "Crit Rate stat stick with liberation deepen."
+          "description": "Crit Rate stat stick with liberation deepen.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Iron Mountain Fist",
           "rarity": 5,
-          "description": "Base stat utility."
+          "description": "Base stat utility.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Marcato",
           "rarity": 4,
-          "description": "Top sub-DPS gauntlet: generates 16 Concerto Energy on Skill."
+          "description": "Top sub-DPS gauntlet: generates 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Stonard",
           "rarity": 4,
-          "description": "Crit Rate consistency."
+          "description": "Crit Rate consistency.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Hollow Mirage",
           "rarity": 4,
-          "description": "ATK boost."
+          "description": "ATK boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Gauntlets of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Gauntlets of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Gauntlets",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -3597,7 +4182,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeEcho": "Nightmare: Feilian Beringal",
+      "alternativeSonataSet": "Sierra Gale (5pc)",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -3687,51 +4279,69 @@
         {
           "name": "Ages of Harvest",
           "rarity": 5,
-          "description": "Skill DMG and Crit Rate utility."
+          "description": "Skill DMG and Crit Rate utility.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Verdant Summit",
           "rarity": 5,
-          "description": "High base stats with heavy multiplier."
+          "description": "High base stats with heavy multiplier.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Liberation and energy battery."
+          "description": "Liberation and energy battery.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Discord",
           "rarity": 4,
-          "description": "Fast Concerto energy generation on Resonance Skill."
+          "description": "Fast Concerto energy generation on Resonance Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Autumntrace",
           "rarity": 4,
-          "description": "Crit Rate consistency."
+          "description": "Crit Rate consistency.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Helios Cleaver",
           "rarity": 4,
-          "description": "ATK boost on skill cast."
+          "description": "ATK boost on skill cast.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Broadblade of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Broadblade",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Broadblade of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting enemies."
+          "description": "Restores Resonance Energy upon hitting enemies.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ]
     },
@@ -3750,7 +4360,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Basic DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -3839,51 +4456,69 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Energy Recharge for quick team burst."
+          "description": "Energy Recharge for quick team burst.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Verity's Handle",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Iron Mountain Fist",
           "rarity": 5,
-          "description": "Universal base."
+          "description": "Universal base.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Marcato",
           "rarity": 4,
-          "description": "Essential support pick. Fast Concerto generation."
+          "description": "Essential support pick. Fast Concerto generation.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Amity Accord",
           "rarity": 4,
-          "description": "DEF scaling and shield amplification."
+          "description": "DEF scaling and shield amplification.",
+          "subStat": "DEF%",
+          "isF2p": false
         },
         {
           "name": "Gauntlets#21D",
           "rarity": 4,
-          "description": "Craftable option."
+          "description": "Craftable option.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Originite: Type IV",
           "rarity": 3,
-          "description": "Heals wearer on basic attacks."
+          "description": "Heals wearer on basic attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         },
         {
           "name": "Gauntlets of Voyager",
           "rarity": 3,
-          "description": "Energy generation."
+          "description": "Energy generation.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Gauntlets",
           "rarity": 3,
-          "description": "Skill boost."
+          "description": "Skill boost.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -3901,7 +4536,14 @@
         "HP% / DEF%",
         "ATK%",
         "Flat HP"
-      ]
+      ],
+      "alternativeSonataSet": "Moonlit Clouds (5pc)",
+      "alternativeEcho": "Fallacy of No Return",
+      "benchmarks": {
+        "energyRecharge": "160-180%",
+        "critRate": "50%+",
+        "critDmg": "180%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -3991,51 +4633,69 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Verity's Handle",
           "rarity": 5,
-          "description": "Crit Rate and Liberation bonus."
+          "description": "Crit Rate and Liberation bonus.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Iron Mountain Fist",
           "rarity": 5,
-          "description": "Heavy attack and crit damage scaling."
+          "description": "Heavy attack and crit damage scaling.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Stonard",
           "rarity": 4,
-          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost."
+          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Hollow Mirage",
           "rarity": 4,
-          "description": "Stacking ATK and DEF bonus up to 24%."
+          "description": "Stacking ATK and DEF bonus up to 24%.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Gauntlets#21D",
           "rarity": 4,
-          "description": "Craftable gauntlets boosting Basic/Heavy DMG."
+          "description": "Craftable gauntlets boosting Basic/Heavy DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Gauntlets of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Gauntlets",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type IV",
           "rarity": 3,
-          "description": "Restores HP on normal hits."
+          "description": "Restores HP on normal hits.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -4054,7 +4714,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Heavy DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -4144,51 +4810,69 @@
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill deepen and Electro RES shred."
+          "description": "Skill deepen and Electro RES shred.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Energy Recharge sustain."
+          "description": "Energy Recharge sustain.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Augment",
           "rarity": 4,
-          "description": "Crit Rate provider."
+          "description": "Crit Rate provider.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Jinzhou Keeper",
           "rarity": 4,
-          "description": "ATK boost."
+          "description": "ATK boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Rectifier of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage boost."
+          "description": "Skill damage boost.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -4207,7 +4891,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -4297,51 +4988,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "High Crit DMG and Skill bonuses."
+          "description": "High Crit DMG and Skill bonuses.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Top-tier Basic and Heavy attack amplification."
+          "description": "Top-tier Basic and Heavy attack amplification.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "High ATK with Concerto acceleration."
+          "description": "High ATK with Concerto acceleration.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Craftable sword boosting ATK when above 80% HP."
+          "description": "Craftable sword boosting ATK when above 80% HP.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 3,
-          "description": "Restores HP on Basic Attacks."
+          "description": "Restores HP on Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -4360,7 +5069,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Heavy DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -4450,51 +5165,67 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff."
+          "description": "Premier 5★ Pistols with Crit Rate and outgoing ATK buff.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "The Legend of The White Stallion",
           "rarity": 5,
-          "description": "High shotgun burst amplify."
+          "description": "High shotgun burst amplify.",
+          "subStat": "ATK%"
         },
         {
           "name": "Ranger of the Hollow",
           "rarity": 5,
-          "description": "High Crit DMG and basic attack multiplier."
+          "description": "High Crit DMG and basic attack multiplier.",
+          "subStat": "Crit DMG%"
         }
       ],
       "fourStar": [
         {
           "name": "Novaburst",
           "rarity": 4,
-          "description": "Battle Pass pistols with dodge and sprint ATK stacking."
+          "description": "Battle Pass pistols with dodge and sprint ATK stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Undying Flame",
           "rarity": 4,
-          "description": "Resonance Skill triggers 20% Liberation DMG."
+          "description": "Resonance Skill triggers 20% Liberation DMG.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Pistols#26",
           "rarity": 4,
-          "description": "Craftable pistols providing ATK and DEF."
+          "description": "Craftable pistols providing ATK and DEF.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Pistols of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Pistols",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type III",
           "rarity": 3,
-          "description": "Restores HP on normal hits."
+          "description": "Restores HP on normal hits.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -4513,7 +5244,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -4604,51 +5341,69 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "High Energy Recharge and consistent skill boosts."
+          "description": "High Energy Recharge and consistent skill boosts.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Verity's Handle",
           "rarity": 5,
-          "description": "Crit Rate stat stick with liberation deepen."
+          "description": "Crit Rate stat stick with liberation deepen.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Iron Mountain Fist",
           "rarity": 5,
-          "description": "Base stat utility."
+          "description": "Base stat utility.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Marcato",
           "rarity": 4,
-          "description": "Top sub-DPS gauntlet: generates 16 Concerto Energy on Skill."
+          "description": "Top sub-DPS gauntlet: generates 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Stonard",
           "rarity": 4,
-          "description": "Crit Rate consistency."
+          "description": "Crit Rate consistency.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Hollow Mirage",
           "rarity": 4,
-          "description": "ATK boost."
+          "description": "ATK boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Gauntlets of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Gauntlets of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Gauntlets",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -4667,7 +5422,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Basic DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -4757,51 +5519,69 @@
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill deepen and Electro RES shred."
+          "description": "Skill deepen and Electro RES shred.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Energy Recharge sustain."
+          "description": "Energy Recharge sustain.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Augment",
           "rarity": 4,
-          "description": "Crit Rate provider."
+          "description": "Crit Rate provider.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Jinzhou Keeper",
           "rarity": 4,
-          "description": "ATK boost."
+          "description": "ATK boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Rectifier of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage boost."
+          "description": "Skill damage boost.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -4820,7 +5600,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -4911,51 +5698,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations."
+          "description": "Exceptional Energy Recharge and Crit Rate for quick rotations.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "Skill amplify and high base stat."
+          "description": "Skill amplify and high base stat.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "Concerto Energy restoration on Outro trigger."
+          "description": "Concerto Energy restoration on Outro trigger.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lunar Cutter",
           "rarity": 4,
-          "description": "High burst ATK stacking on switch-in."
+          "description": "High burst ATK stacking on switch-in.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Consistent normal/heavy boost."
+          "description": "Consistent normal/heavy boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Sword of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon skill cast."
+          "description": "Restores Resonance Energy upon skill cast.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -4974,7 +5779,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -5065,51 +5877,69 @@
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill deepen and Electro RES shred."
+          "description": "Skill deepen and Electro RES shred.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Energy Recharge sustain."
+          "description": "Energy Recharge sustain.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Augment",
           "rarity": 4,
-          "description": "Crit Rate provider."
+          "description": "Crit Rate provider.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Jinzhou Keeper",
           "rarity": 4,
-          "description": "ATK boost."
+          "description": "ATK boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Rectifier of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage boost."
+          "description": "Skill damage boost.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -5128,7 +5958,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -5218,51 +6055,69 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Verity's Handle",
           "rarity": 5,
-          "description": "Crit Rate and Liberation bonus."
+          "description": "Crit Rate and Liberation bonus.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Iron Mountain Fist",
           "rarity": 5,
-          "description": "Heavy attack and crit damage scaling."
+          "description": "Heavy attack and crit damage scaling.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Stonard",
           "rarity": 4,
-          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost."
+          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Hollow Mirage",
           "rarity": 4,
-          "description": "Stacking ATK and DEF bonus up to 24%."
+          "description": "Stacking ATK and DEF bonus up to 24%.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Gauntlets#21D",
           "rarity": 4,
-          "description": "Craftable gauntlets boosting Basic/Heavy DMG."
+          "description": "Craftable gauntlets boosting Basic/Heavy DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Gauntlets of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Gauntlets",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type IV",
           "rarity": 3,
-          "description": "Restores HP on normal hits."
+          "description": "Restores HP on normal hits.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -5281,7 +6136,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Basic DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -5371,51 +6232,67 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally."
+          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "The Legend of The White Stallion",
           "rarity": 5,
-          "description": "Burst stat stick."
+          "description": "Burst stat stick.",
+          "subStat": "ATK%"
         },
         {
           "name": "Ranger of the Hollow",
           "rarity": 5,
-          "description": "Crit Rate scaling."
+          "description": "Crit Rate scaling.",
+          "subStat": "Crit Rate%"
         }
       ],
       "fourStar": [
         {
           "name": "Cadenza",
           "rarity": 4,
-          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill."
+          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Undying Flame",
           "rarity": 4,
-          "description": "Liberation damage amplification."
+          "description": "Liberation damage amplification.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Novaburst",
           "rarity": 4,
-          "description": "Consistent ATK% increase."
+          "description": "Consistent ATK% increase.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Pistols of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Pistols of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Pistols",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -5434,7 +6311,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -5524,51 +6408,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "High Crit DMG and Skill bonuses."
+          "description": "High Crit DMG and Skill bonuses.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Top-tier Basic and Heavy attack amplification."
+          "description": "Top-tier Basic and Heavy attack amplification.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "High ATK with Concerto acceleration."
+          "description": "High ATK with Concerto acceleration.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Craftable sword boosting ATK when above 80% HP."
+          "description": "Craftable sword boosting ATK when above 80% HP.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 3,
-          "description": "Restores HP on Basic Attacks."
+          "description": "Restores HP on Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -5587,7 +6489,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -5678,51 +6586,69 @@
         {
           "name": "Ages of Harvest",
           "rarity": 5,
-          "description": "Skill DMG and Crit Rate utility."
+          "description": "Skill DMG and Crit Rate utility.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Verdant Summit",
           "rarity": 5,
-          "description": "High base stats with heavy multiplier."
+          "description": "High base stats with heavy multiplier.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Liberation and energy battery."
+          "description": "Liberation and energy battery.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Discord",
           "rarity": 4,
-          "description": "Fast Concerto energy generation on Resonance Skill."
+          "description": "Fast Concerto energy generation on Resonance Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Autumntrace",
           "rarity": 4,
-          "description": "Crit Rate consistency."
+          "description": "Crit Rate consistency.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Helios Cleaver",
           "rarity": 4,
-          "description": "ATK boost on skill cast."
+          "description": "ATK boost on skill cast.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Broadblade of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Broadblade",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Broadblade of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting enemies."
+          "description": "Restores Resonance Energy upon hitting enemies.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ]
     },
@@ -5741,7 +6667,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Basic DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -5832,51 +6765,69 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG."
+          "description": "Standard 5★ Rectifier with Energy Recharge and Basic DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Crit Rate and team elemental DMG."
+          "description": "Crit Rate and team elemental DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Crit Rate and massive Resonance Skill DMG."
+          "description": "Crit Rate and massive Resonance Skill DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Augment",
           "rarity": 4,
-          "description": "Battle Pass rectifier with Crit Rate and ATK boost upon Liberation."
+          "description": "Battle Pass rectifier with Crit Rate and ATK boost upon Liberation.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Jinzhou Keeper",
           "rarity": 4,
-          "description": "High ATK% and HP synergy."
+          "description": "High ATK% and HP synergy.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Rectifier#25",
           "rarity": 4,
-          "description": "Craftable rectifier with Energy Recharge."
+          "description": "Craftable rectifier with Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Rectifier of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type V",
           "rarity": 3,
-          "description": "Restores HP on normal hits."
+          "description": "Restores HP on normal hits.",
+          "subStat": "HP%",
+          "isF2p": true
         }
       ]
     },
@@ -5895,7 +6846,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -5986,51 +6943,67 @@
         {
           "name": "Static Mist",
           "rarity": 5,
-          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally."
+          "description": "BiS sub-DPS pistol: gives +10% outgoing ATK to next ally.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "The Legend of The White Stallion",
           "rarity": 5,
-          "description": "Burst stat stick."
+          "description": "Burst stat stick.",
+          "subStat": "ATK%"
         },
         {
           "name": "Ranger of the Hollow",
           "rarity": 5,
-          "description": "Crit Rate scaling."
+          "description": "Crit Rate scaling.",
+          "subStat": "Crit Rate%"
         }
       ],
       "fourStar": [
         {
           "name": "Cadenza",
           "rarity": 4,
-          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill."
+          "description": "Premier sub-DPS pistol: generates 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Undying Flame",
           "rarity": 4,
-          "description": "Liberation damage amplification."
+          "description": "Liberation damage amplification.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Novaburst",
           "rarity": 4,
-          "description": "Consistent ATK% increase."
+          "description": "Consistent ATK% increase.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Pistols of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Pistols of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Pistols",
           "rarity": 3,
-          "description": "Resonance Skill damage bonus."
+          "description": "Resonance Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -6049,7 +7022,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Basic DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -6139,51 +7119,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "High Crit DMG and Skill bonuses."
+          "description": "High Crit DMG and Skill bonuses.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Top-tier Basic and Heavy attack amplification."
+          "description": "Top-tier Basic and Heavy attack amplification.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "High ATK with Concerto acceleration."
+          "description": "High ATK with Concerto acceleration.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Craftable sword boosting ATK when above 80% HP."
+          "description": "Craftable sword boosting ATK when above 80% HP.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 3,
-          "description": "Restores HP on Basic Attacks."
+          "description": "Restores HP on Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -6202,7 +7200,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Liberation DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -6292,51 +7296,69 @@
         {
           "name": "Abyss Surges",
           "rarity": 5,
-          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG."
+          "description": "Standard 5★ Gauntlets with Energy Recharge and Basic/Skill DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Verity's Handle",
           "rarity": 5,
-          "description": "Crit Rate and Liberation bonus."
+          "description": "Crit Rate and Liberation bonus.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Iron Mountain Fist",
           "rarity": 5,
-          "description": "Heavy attack and crit damage scaling."
+          "description": "Heavy attack and crit damage scaling.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Stonard",
           "rarity": 4,
-          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost."
+          "description": "Battle Pass gauntlets with Crit Rate and Liberation boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Hollow Mirage",
           "rarity": 4,
-          "description": "Stacking ATK and DEF bonus up to 24%."
+          "description": "Stacking ATK and DEF bonus up to 24%.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Gauntlets#21D",
           "rarity": 4,
-          "description": "Craftable gauntlets boosting Basic/Heavy DMG."
+          "description": "Craftable gauntlets boosting Basic/Heavy DMG.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Gauntlets of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Gauntlets",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type IV",
           "rarity": 3,
-          "description": "Restores HP on normal hits."
+          "description": "Restores HP on normal hits.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -6355,7 +7377,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Heavy DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -6445,51 +7473,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "High Crit DMG and Skill bonuses."
+          "description": "High Crit DMG and Skill bonuses.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Top-tier Basic and Heavy attack amplification."
+          "description": "Top-tier Basic and Heavy attack amplification.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "High ATK with Concerto acceleration."
+          "description": "High ATK with Concerto acceleration.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Craftable sword boosting ATK when above 80% HP."
+          "description": "Craftable sword boosting ATK when above 80% HP.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 3,
-          "description": "Restores HP on Basic Attacks."
+          "description": "Restores HP on Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -6508,7 +7554,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -6599,51 +7651,69 @@
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG."
+          "description": "Premier sub-DPS rectifier with Crit Rate and off-field DMG.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill deepen and Electro RES shred."
+          "description": "Skill deepen and Electro RES shred.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "Energy Recharge sustain."
+          "description": "Energy Recharge sustain.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill."
+          "description": "Best in Slot sub-DPS rectifier: gives 16 Concerto Energy on Skill.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Augment",
           "rarity": 4,
-          "description": "Crit Rate provider."
+          "description": "Crit Rate provider.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Jinzhou Keeper",
           "rarity": 4,
-          "description": "ATK boost."
+          "description": "ATK boost.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "threeStar": [
         {
           "name": "Rectifier of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Restores Resonance Energy upon hitting targets."
+          "description": "Restores Resonance Energy upon hitting targets.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage boost."
+          "description": "Skill damage boost.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -6662,7 +7732,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -6751,51 +7828,69 @@
         {
           "name": "Cosmic Ripples",
           "rarity": 5,
-          "description": "High base stats and Energy Recharge."
+          "description": "High base stats and Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Stringmaster",
           "rarity": 5,
-          "description": "Stat stick."
+          "description": "Stat stick.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blooming Jadehaven",
           "rarity": 5,
-          "description": "Skill boost."
+          "description": "Skill boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Variation",
           "rarity": 4,
-          "description": "The undisputed #1 support rectifier: fast Concerto battery."
+          "description": "The undisputed #1 support rectifier: fast Concerto battery.",
+          "subStat": "Energy Recharge%",
+          "isF2p": false
         },
         {
           "name": "Comet Flare",
           "rarity": 4,
-          "description": "Increases Healing Bonus by 12% upon hitting targets."
+          "description": "Increases Healing Bonus by 12% upon hitting targets.",
+          "subStat": "HP%",
+          "isF2p": false
         },
         {
           "name": "Rectifier#25",
           "rarity": 4,
-          "description": "Craftable Energy Recharge."
+          "description": "Craftable Energy Recharge.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Originite: Type V",
           "rarity": 3,
-          "description": "Heals character upon landing Basic Attacks."
+          "description": "Heals character upon landing Basic Attacks.",
+          "subStat": "HP%",
+          "isF2p": true
         },
         {
           "name": "Rectifier of Voyager",
           "rarity": 3,
-          "description": "Energy generation."
+          "description": "Energy generation.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         },
         {
           "name": "Guardian Rectifier",
           "rarity": 3,
-          "description": "Skill damage bonus."
+          "description": "Skill damage bonus.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ]
     },
@@ -6813,7 +7908,14 @@
         "HP% / DEF%",
         "ATK%",
         "Flat HP"
-      ]
+      ],
+      "alternativeSonataSet": "Moonlit Clouds (5pc)",
+      "alternativeEcho": "Fallacy of No Return",
+      "benchmarks": {
+        "energyRecharge": "160-180%",
+        "critRate": "50%+",
+        "critDmg": "180%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -6903,51 +8005,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "High Crit DMG and Skill bonuses."
+          "description": "High Crit DMG and Skill bonuses.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Top-tier Basic and Heavy attack amplification."
+          "description": "Top-tier Basic and Heavy attack amplification.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "High ATK with Concerto acceleration."
+          "description": "High ATK with Concerto acceleration.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Craftable sword boosting ATK when above 80% HP."
+          "description": "Craftable sword boosting ATK when above 80% HP.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 3,
-          "description": "Restores HP on Basic Attacks."
+          "description": "Restores HP on Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -6966,7 +8086,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Heavy DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -7056,51 +8182,69 @@
         {
           "name": "Verdant Summit",
           "rarity": 5,
-          "description": "Best in Slot. Massive Heavy DMG and Energy scaling."
+          "description": "Best in Slot. Massive Heavy DMG and Energy scaling.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Ages of Harvest",
           "rarity": 5,
-          "description": "High Crit Rate with Resonance Skill boost."
+          "description": "High Crit Rate with Resonance Skill boost.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Lustrous Razor",
           "rarity": 5,
-          "description": "Standard 5★ with ATK% and Liberation DMG."
+          "description": "Standard 5★ with ATK% and Liberation DMG.",
+          "subStat": "ATK%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Autumntrace",
           "rarity": 4,
-          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking."
+          "description": "Battle Pass Broadblade with Crit Rate and ATK stacking.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Helios Cleaver",
           "rarity": 4,
-          "description": "High ATK scaling upon casting Resonance Skill."
+          "description": "High ATK scaling upon casting Resonance Skill.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Broadblade#41",
           "rarity": 4,
-          "description": "Craftable option with Energy Recharge and self healing."
+          "description": "Craftable option with Energy Recharge and self healing.",
+          "subStat": "Energy Recharge%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Broadblade of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Broadblade",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type I",
           "rarity": 3,
-          "description": "Restores HP upon landing Basic Attacks."
+          "description": "Restores HP upon landing Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -7119,7 +8263,13 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Heavy DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "benchmarks": {
+        "energyRecharge": "115-125%",
+        "critRate": "70%+",
+        "critDmg": "240%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -7209,51 +8359,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "High Crit DMG and Skill bonuses."
+          "description": "High Crit DMG and Skill bonuses.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Top-tier Basic and Heavy attack amplification."
+          "description": "Top-tier Basic and Heavy attack amplification.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "High ATK with Concerto acceleration."
+          "description": "High ATK with Concerto acceleration.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Craftable sword boosting ATK when above 80% HP."
+          "description": "Craftable sword boosting ATK when above 80% HP.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 3,
-          "description": "Restores HP on Basic Attacks."
+          "description": "Restores HP on Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -7272,7 +8440,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Liberation DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [
@@ -7362,51 +8537,69 @@
         {
           "name": "Emerald of Genesis",
           "rarity": 5,
-          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge."
+          "description": "Universal BiS standard 5★ with Crit Rate & Energy Recharge.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         },
         {
           "name": "Blazing Brilliance",
           "rarity": 5,
-          "description": "High Crit DMG and Skill bonuses."
+          "description": "High Crit DMG and Skill bonuses.",
+          "subStat": "Crit DMG%",
+          "isF2p": false
         },
         {
           "name": "Red Spring",
           "rarity": 5,
-          "description": "Top-tier Basic and Heavy attack amplification."
+          "description": "Top-tier Basic and Heavy attack amplification.",
+          "subStat": "Crit Rate%",
+          "isF2p": false
         }
       ],
       "fourStar": [
         {
           "name": "Commando Blade",
           "rarity": 4,
-          "description": "High ATK with Concerto acceleration."
+          "description": "High ATK with Concerto acceleration.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Lumingloss",
           "rarity": 4,
-          "description": "Battle Pass sword with Basic and Heavy DMG stacking."
+          "description": "Battle Pass sword with Basic and Heavy DMG stacking.",
+          "subStat": "ATK%",
+          "isF2p": false
         },
         {
           "name": "Sword#18",
           "rarity": 4,
-          "description": "Craftable sword boosting ATK when above 80% HP."
+          "description": "Craftable sword boosting ATK when above 80% HP.",
+          "subStat": "ATK%",
+          "isF2p": true
         }
       ],
       "threeStar": [
         {
           "name": "Sword of Night",
           "rarity": 3,
-          "description": "Intro Skill grants +16% ATK for 10s."
+          "description": "Intro Skill grants +16% ATK for 10s.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Guardian Sword",
           "rarity": 3,
-          "description": "Resonance Skill damage increased by 12%."
+          "description": "Resonance Skill damage increased by 12%.",
+          "subStat": "ATK%",
+          "isF2p": true
         },
         {
           "name": "Originite: Type II",
           "rarity": 3,
-          "description": "Restores HP on Basic Attacks."
+          "description": "Restores HP on Basic Attacks.",
+          "subStat": "DEF%",
+          "isF2p": true
         }
       ]
     },
@@ -7425,7 +8618,14 @@
         "ATK%",
         "Energy Recharge (120-130%)",
         "Resonance Skill DMG%"
-      ]
+      ],
+      "alternativeSonataSet": "Lingering Tunes (5pc)",
+      "alternativeEcho": "Bell-Borne Geochelone",
+      "benchmarks": {
+        "energyRecharge": "125-135%",
+        "critRate": "65%+",
+        "critDmg": "220%+"
+      }
     },
     "skillPriority": {
       "order": [

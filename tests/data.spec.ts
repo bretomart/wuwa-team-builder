@@ -30,6 +30,17 @@ describe('Data invariants', () => {
       expect(new Set(team.rotationOrder)).toEqual(expectedNames);
     }
   );
+
+  it('all resonators have tuned stat benchmarks and weapon substat metadata', () => {
+    for (const r of resonators) {
+      expect(r.echoBuild).toBeDefined();
+      expect(r.echoBuild.benchmarks).toBeDefined();
+      expect(r.echoBuild.benchmarks.energyRecharge).toBeTruthy();
+      expect(r.echoBuild.benchmarks.critRate).toBeTruthy();
+      expect(r.echoBuild.benchmarks.critDmg).toBeTruthy();
+      expect(r.optimalWeapons.fiveStar.every((w) => Boolean(w.subStat))).toBe(true);
+    }
+  });
 });
 
 describe('Owned roster persistence', () => {

@@ -19,6 +19,8 @@ export interface WeaponOption {
   name: string;
   rarity: 3 | 4 | 5;
   description: string;
+  subStat?: string;
+  isF2p?: boolean;
 }
 
 export interface OptimalWeapons {
@@ -27,9 +29,17 @@ export interface OptimalWeapons {
   threeStar: WeaponOption[];
 }
 
+export interface EchoBenchmarks {
+  energyRecharge?: string;
+  critRate?: string;
+  critDmg?: string;
+}
+
 export interface EchoBuild {
   sonataSet: string;
+  alternativeSonataSet?: string;
   mainEcho: string;
+  alternativeEcho?: string;
   costDistribution: string; // e.g. "4-3-3-1-1"
   primaryStats: {
     cost4: string;
@@ -37,6 +47,7 @@ export interface EchoBuild {
     cost1: string;
   };
   substatsPriority: string[];
+  benchmarks?: EchoBenchmarks;
 }
 
 export interface SkillPriority {

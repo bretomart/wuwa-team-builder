@@ -105,7 +105,7 @@ const currentActiveMetaTeam = computed(() => {
               </span>
               <span
                 v-if="currentActiveMetaTeam"
-                class="px-2 py-0.2 rounded text-[10px] font-freq font-bold bg-cyan-950 text-cyan-300 border border-cyan-500/70 shrink-0"
+                class="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-950 text-cyan-300 border border-cyan-500/70 shrink-0"
               >
                 ACTIVE
               </span>
@@ -166,13 +166,13 @@ const currentActiveMetaTeam = computed(() => {
                 <h3 class="text-sm font-tactical font-bold text-slate-100 tracking-wide uppercase">{{ team.name }}</h3>
                 <span
                   v-if="isTeamCompleteInRoster(team)"
-                  class="px-2 py-0.2 rounded text-[10px] font-tactical font-bold bg-cyan-950/80 text-cyan-300 border border-cyan-500/60 shadow-xs shadow-cyan-500/20"
+                  class="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-950/80 text-cyan-300 border border-cyan-500/60 shadow-xs shadow-cyan-500/20"
                 >
                   ROSTER READY
                 </span>
                 <span
                   v-else
-                  class="px-2 py-0.2 rounded text-[10px] font-tactical font-semibold bg-slate-900 text-slate-400 border border-slate-700 flex items-center gap-1"
+                  class="px-2 py-0.5 rounded text-[10px] font-semibold bg-slate-900 text-slate-400 border border-slate-700 flex items-center gap-1"
                 >
                   <Lock class="w-3 h-3" />
                   MISSING
@@ -242,7 +242,7 @@ const currentActiveMetaTeam = computed(() => {
                 <span>✦</span>
                 Sequence Node Pull Priority:
               </span>
-              <span class="text-[10px] px-1.5 py-0.2 rounded bg-amber-950 text-amber-300 border border-amber-600/70 font-freq font-semibold">
+              <span class="text-[10px] px-2 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-600/70 font-semibold">
                 Efficacy Path
               </span>
             </div>
